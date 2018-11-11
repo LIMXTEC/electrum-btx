@@ -11,7 +11,7 @@ from electrum.synchronizer import SynchronizerBase
 try:
     addr = sys.argv[1]
 except Exception:
-    print("usage: watch_address <bitcoin_address>")
+    print("usage: watch_address <bitcore_address>")
     sys.exit(1)
 
 # start network

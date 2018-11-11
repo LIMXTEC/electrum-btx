@@ -714,7 +714,7 @@ class AddressSynchronizer(Logger):
 
     @with_local_height_cached
     def get_addr_balance(self, address, *, excluded_coins: Set[str] = None):
-        """Return the balance of a bitcoin address:
+        """Return the balance of a bitcore address:
         confirmed and matured, unconfirmed, unmatured
         """
         if not excluded_coins:  # cache is only used if there are no excluded_coins

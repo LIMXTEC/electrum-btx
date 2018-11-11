@@ -11,7 +11,7 @@ from electrum.util import json_encode, print_msg, create_and_start_event_loop, l
 try:
     addr = sys.argv[1]
 except Exception:
-    print("usage: get_history <bitcoin_address>")
+    print("usage: get_history <bitcore_address>")
     sys.exit(1)
 
 loop, stopping_fut, loop_thread = create_and_start_event_loop()

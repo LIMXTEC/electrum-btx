@@ -6,23 +6,26 @@
 ;--------------------------------
 ;Variables
 
-  !define PRODUCT_NAME "Electrum"
-  !define PRODUCT_WEB_SITE "https://github.com/spesmilo/electrum"
-  !define PRODUCT_PUBLISHER "Electrum Technologies GmbH"
-  !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
+  !define PRODUCT_NAME "electrum-btx"
+  !define PRODUCT_VER "3.3.6"
+  !define PRODUCT_WEB_SITE "https://github.com/LIMXTEC/electrum-btx"
+  !define PRODUCT_PUBLISHER "bitcore.cc"
+  !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}-${PRODUCT_VER}"
+  !define HOME "C:\electrum"
+  !define LICENSE_TXT "LICENSE"
 
 ;--------------------------------
 ;General
 
   ;Name and file
-  Name "${PRODUCT_NAME}"
-  OutFile "dist/electrum-setup.exe"
+  Name "${PRODUCT_NAME}-${PRODUCT_VER}"
+  OutFile "dist/${PRODUCT_NAME}-${PRODUCT_VER}-setup.exe"
 
   ;Default installation folder
-  InstallDir "$PROGRAMFILES\${PRODUCT_NAME}"
+  InstallDir "$PROGRAMFILES\${PRODUCT_NAME}-${PRODUCT_VER}"
 
   ;Get installation folder from registry if available
-  InstallDirRegKey HKCU "Software\${PRODUCT_NAME}" ""
+  InstallDirRegKey HKCU "Software\${PRODUCT_NAME}-${PRODUCT_VER}" ""
 
   ;Request application privileges for Windows Vista
   RequestExecutionLevel admin
@@ -46,10 +49,10 @@
   SetCompressorDictSize 64
   
   ;Sets the text that is shown (by default it is 'Nullsoft Install System vX.XX') in the bottom of the install window. Setting this to an empty string ("") uses the default; to set the string to blank, use " " (a space).
-  BrandingText "${PRODUCT_NAME} Installer v${PRODUCT_VERSION}" 
+  BrandingText "${PRODUCT_NAME} Installer v${PRODUCT_VER}" 
   
   ;Sets what the titlebars of the installer will display. By default, it is 'Name Setup', where Name is specified with the Name command. You can, however, override it with 'MyApp Installer' or whatever. If you specify an empty string (""), the default will be used (you can however specify " " to achieve a blank string)
-  Caption "${PRODUCT_NAME}"
+  Caption "${PRODUCT_NAME}-${PRODUCT_VER}"
 
   ;Adds the Product Version on top of the Version Tab in the Properties of the file.
   VIProductVersion 1.0.0.0
@@ -57,26 +60,26 @@
   ;VIAddVersionKey - Adds a field in the Version Tab of the File Properties. This can either be a field provided by the system or a user defined field.
   VIAddVersionKey ProductName "${PRODUCT_NAME} Installer"
   VIAddVersionKey Comments "The installer for ${PRODUCT_NAME}"
-  VIAddVersionKey CompanyName "${PRODUCT_NAME}"
-  VIAddVersionKey LegalCopyright "2013-2018 ${PRODUCT_PUBLISHER}"
+  VIAddVersionKey CompanyName "${PRODUCT_PUBLISHER}"
+  VIAddVersionKey LegalCopyright "2017-2019 ${PRODUCT_PUBLISHER}"
   VIAddVersionKey FileDescription "${PRODUCT_NAME} Installer"
-  VIAddVersionKey FileVersion ${PRODUCT_VERSION}
-  VIAddVersionKey ProductVersion ${PRODUCT_VERSION}
+  VIAddVersionKey FileVersion ${PRODUCT_VER}
+  VIAddVersionKey ProductVersion ${PRODUCT_VER}
   VIAddVersionKey InternalName "${PRODUCT_NAME} Installer"
   VIAddVersionKey LegalTrademarks "${PRODUCT_NAME} is a trademark of ${PRODUCT_PUBLISHER}" 
-  VIAddVersionKey OriginalFilename "${PRODUCT_NAME}.exe"
+  VIAddVersionKey OriginalFilename "${PRODUCT_NAME}-${PRODUCT_VER}-setup.exe"
 
 ;--------------------------------
 ;Interface Settings
 
   !define MUI_ABORTWARNING
   !define MUI_ABORTWARNING_TEXT "Are you sure you wish to abort the installation of ${PRODUCT_NAME}?"
-  
-  !define MUI_ICON "c:\electrum\electrum\gui\icons\electrum.ico"
+  !define MUI_ICON "${HOME}\icons\electrum.ico"
   
 ;--------------------------------
 ;Pages
 
+  !insertmacro MUI_PAGE_LICENSE "${LICENSE_TXT}"
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
   !insertmacro MUI_UNPAGE_CONFIRM
@@ -103,18 +106,13 @@ FunctionEnd
 
 Section
   SetOutPath $INSTDIR
-
-  ;Uninstall previous version files
-  RMDir /r "$INSTDIR\*.*"
-  Delete "$DESKTOP\${PRODUCT_NAME}.lnk"
-  Delete "$SMPROGRAMS\${PRODUCT_NAME}\*.*"
   
   ;Files to pack into the installer
-  File /r "dist\electrum\*.*"
-  File "c:\electrum\electrum\gui\icons\electrum.ico"
+  File "dist\${PRODUCT_NAME}-${PRODUCT_VER}.exe"
+  File "${HOME}\icons\electrum.ico"
 
   ;Store installation folder
-  WriteRegStr HKCU "Software\${PRODUCT_NAME}" "" $INSTDIR
+  WriteRegStr HKCU "Software\${PRODUCT_NAME}-${PRODUCT_VER}" "" $INSTDIR
 
   ;Create uninstaller
   DetailPrint "Creating uninstaller..."
@@ -122,26 +120,24 @@ Section
 
   ;Create desktop shortcut
   DetailPrint "Creating desktop shortcut..."
-  CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-${PRODUCT_VERSION}.exe" ""
+  CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe" ""
 
   ;Create start-menu items
   DetailPrint "Creating start-menu items..."
-  CreateDirectory "$SMPROGRAMS\${PRODUCT_NAME}"
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall.lnk" "$INSTDIR\Uninstall.exe" "" "$INSTDIR\Uninstall.exe" 0
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-${PRODUCT_VERSION}.exe" "" "$INSTDIR\electrum-${PRODUCT_VERSION}.exe" 0
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME} Testnet.lnk" "$INSTDIR\electrum-${PRODUCT_VERSION}.exe" "--testnet" "$INSTDIR\electrum-${PRODUCT_VERSION}.exe" 0
-
+  CreateDirectory "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\Uninstall.lnk" "$INSTDIR\Uninstall.exe" "" "$INSTDIR\Uninstall.exe" 0
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\${PRODUCT_NAME}-${PRODUCT_VER}.lnk" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe" "" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe" 0
 
   ;Links bitcoin: URI's to Electrum
-  WriteRegStr HKCU "Software\Classes\bitcoin" "" "URL:bitcoin Protocol"
-  WriteRegStr HKCU "Software\Classes\bitcoin" "URL Protocol" ""
-  WriteRegStr HKCU "Software\Classes\bitcoin" "DefaultIcon" "$\"$INSTDIR\electrum.ico, 0$\""
-  WriteRegStr HKCU "Software\Classes\bitcoin\shell\open\command" "" "$\"$INSTDIR\electrum-${PRODUCT_VERSION}.exe$\" $\"%1$\""
+  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "" "URL:bitcore Protocol"
+  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "URL Protocol" ""
+  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "DefaultIcon" "$\"$INSTDIR\electrum.ico, 0$\""
+  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}\shell\open\command" "" "$\"$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe$\" $\"%1$\""
 
   ;Adds an uninstaller possibility to Windows Uninstall or change a program section
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\Uninstall.exe"
-  WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
+  WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VER}"
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\electrum.ico"
@@ -163,11 +159,11 @@ Section "Uninstall"
 
   RMDir "$INSTDIR"
 
-  Delete "$DESKTOP\${PRODUCT_NAME}.lnk"
-  Delete "$SMPROGRAMS\${PRODUCT_NAME}\*.*"
-  RMDir  "$SMPROGRAMS\${PRODUCT_NAME}"
+  Delete "$DESKTOP\${PRODUCT_NAME}-${PRODUCT_VER}.lnk"
+  Delete "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\*.*"
+  RMDir  "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}"
   
-  DeleteRegKey HKCU "Software\Classes\bitcoin"
-  DeleteRegKey HKCU "Software\${PRODUCT_NAME}"
+  DeleteRegKey HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}"
+  DeleteRegKey HKCU "Software\${PRODUCT_NAME}-${PRODUCT_VER}"
   DeleteRegKey HKCU "${PRODUCT_UNINST_KEY}"
 SectionEnd

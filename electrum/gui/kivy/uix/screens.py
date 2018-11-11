@@ -259,10 +259,10 @@ class SendScreen(CScreen):
         else:
             address = str(self.screen.address)
             if not address:
-                self.app.show_error(_('Recipient not specified.') + ' ' + _('Please scan a Bitcoin address or a payment request'))
+                self.app.show_error(_('Recipient not specified.') + ' ' + _('Please scan a Bitcore address or a payment request'))
                 return
             if not bitcoin.is_address(address):
-                self.app.show_error(_('Invalid Bitcoin Address') + ':\n' + address)
+                self.app.show_error(_('Invalid Bitcore Address') + ':\n' + address)
                 return
             try:
                 amount = self.app.get_amount(self.screen.amount)
@@ -391,7 +391,7 @@ class ReceiveScreen(CScreen):
 
     def do_share(self):
         uri = self.get_URI()
-        self.app.do_share(uri, _("Share Bitcoin Request"))
+        self.app.do_share(uri, _("Share Bitcore Request"))
 
     def do_copy(self):
         uri = self.get_URI()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Electrum - lightweight Bitcoin client
+# Electrum - lightweight Bitcore client
 # Copyright (C) 2012 thomasv@gitorious
 #
 # Permission is hereby granted, free of charge, to any person
@@ -464,8 +464,9 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         if self.wallet.is_watching_only():
             msg = ' '.join([
                 _("This wallet is watching-only."),
-                _("This means you will not be able to spend Bitcoins with it."),
-                _("Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet.")
+                _("This means you will not be able to spend Bitcores with it."),
+                _("Make sure you own the seed phrase or the private keys, before you request Bitcores to be sent to this wallet.")
+
             ])
             self.show_warning(msg, title=_('Watch-only wallet'))
 
@@ -633,7 +634,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         help_menu = menubar.addMenu(_("&Help"))
         help_menu.addAction(_("&About"), self.show_about)
         help_menu.addAction(_("&Check for updates"), self.show_update_check)
-        help_menu.addAction(_("&Official website"), lambda: webbrowser.open("https://electrum.org"))
+        help_menu.addAction(_("&Official website"), lambda: webbrowser.open("https://bitcore.cc"))
         help_menu.addSeparator()
         help_menu.addAction(_("&Documentation"), lambda: webbrowser.open("http://docs.electrum.org/")).setShortcut(QKeySequence.HelpContents)
         help_menu.addAction(_("&Report Bug"), self.show_report_bug)
@@ -646,18 +647,18 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         d = self.network.get_donation_address()
         if d:
             host = self.network.get_parameters().host
-            self.pay_to_URI('bitcoin:%s?message=donation for %s'%(d, host))
+            self.pay_to_URI('bitcore:%s?message=donation for %s'%(d, host))
         else:
             self.show_error(_('No donation address for this server'))
 
     def show_about(self):
         QMessageBox.about(self, "Electrum",
                           (_("Version")+" %s" % ELECTRUM_VERSION + "\n\n" +
-                           _("Electrum's focus is speed, with low resource usage and simplifying Bitcoin.") + " " +
+                           _("Electrum's focus is speed, with low resource usage and simplifying Bitcore.") + " " +
                            _("You do not need to perform regular backups, because your wallet can be "
                               "recovered from a secret phrase that you can memorize or write on paper.") + " " +
                            _("Startup times are instant because it operates in conjunction with high-performance "
-                              "servers that handle the most complicated parts of the Bitcoin system.") + "\n\n" +
+                              "servers that handle the most complicated parts of the Bitcore system.") + "\n\n" +
                            _("Uses icons from the Icons8 icon pack (icons8.com).")))
 
     def show_update_check(self, version=None):
@@ -903,7 +904,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         self.receive_address_e = ButtonsLineEdit()
         self.receive_address_e.addCopyButton(self.app)
         self.receive_address_e.setReadOnly(True)
-        msg = _('Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address.')
+        msg = _('Bitcore address where the payment should be received. Note that each payment request uses a different Bitcore address.')
         self.receive_address_label = HelpLabel(_('Receiving address'), msg)
         self.receive_address_e.textChanged.connect(self.update_receive_qr)
         self.receive_address_e.textChanged.connect(self.update_receive_address_styling)
@@ -934,8 +935,8 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         msg = ' '.join([
             _('Expiration date of your request.'),
             _('This information is seen by the recipient if you send them a signed payment request.'),
-            _('Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses.'),
-            _('The bitcoin address never expires and will always be part of this electrum wallet.'),
+            _('Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcore addresses.'),
+            _('The bitcore address never expires and will always be part of this electrum wallet.'),
         ])
         grid.addWidget(HelpLabel(_('Request expires'), msg), 3, 0)
         grid.addWidget(self.expires_combo, 3, 1)
@@ -1177,7 +1178,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         self.amount_e = BTCAmountEdit(self.get_decimal_point)
         self.payto_e = PayToEdit(self)
         msg = _('Recipient of the funds.') + '\n\n'\
-              + _('You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)')
+              + _('You may enter a Bitcore address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcore address)')
         payto_label = HelpLabel(_('Pay to'), msg)
         grid.addWidget(payto_label, 1, 0)
         grid.addWidget(self.payto_e, 1, 1, 1, -1)
@@ -1223,7 +1224,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         hbox.addStretch(1)
         grid.addLayout(hbox, 4, 4)
 
-        msg = _('Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds.') + '\n\n'\
+        msg = _('Bitcore transactions are in general not free. A transaction fee is paid by the sender of the funds.') + '\n\n'\
               + _('The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed.') + '\n\n'\
               + _('A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction.')
         self.fee_e_label = HelpLabel(_('Fee'), msg)
@@ -1627,10 +1628,10 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
 
         for o in outputs:
             if o.address is None:
-                self.show_error(_('Bitcoin Address is None'))
+                self.show_error(_('Bitcore Address is None'))
                 return True
             if o.type == TYPE_ADDRESS and not bitcoin.is_address(o.address):
-                self.show_error(_('Invalid Bitcoin Address'))
+                self.show_error(_('Invalid Bitcore Address'))
                 return True
             if o.value is None:
                 self.show_error(_('Invalid Amount'))
@@ -1666,7 +1667,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         amount = tx.output_value() if self.max_button.isChecked() else sum(map(lambda x:x[2], outputs))
         fee = tx.get_fee()
 
-        use_rbf = self.config.get('use_rbf', True)
+        use_rbf = self.config.get('use_rbf', False)
         if use_rbf:
             tx.set_rbf(True)
 
@@ -2082,7 +2083,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
             'electrum': electrum,
             'daemon': self.gui_object.daemon,
             'util': util,
-            'bitcoin': bitcoin,
+            'bitcore': bitcoin,
         })
 
         c = commands.Commands(self.config, self.wallet, self.network, lambda: self.console.set_json(True))
@@ -2340,7 +2341,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         address  = address.text().strip()
         message = message.toPlainText().strip()
         if not bitcoin.is_address(address):
-            self.show_message(_('Invalid Bitcoin address.'))
+            self.show_message(_('Invalid Bitcore address.'))
             return
         if self.wallet.is_watching_only():
             self.show_message(_('This is a watching-only wallet.'))
@@ -2368,7 +2369,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
         address  = address.text().strip()
         message = message.toPlainText().strip().encode('utf-8')
         if not bitcoin.is_address(address):
-            self.show_message(_('Invalid Bitcoin address.'))
+            self.show_message(_('Invalid Bitcore address.'))
             return
         try:
             # This can throw on invalid base64
@@ -2514,8 +2515,8 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
             return
         if not data:
             return
-        # if the user scanned a bitcoin URI
-        if str(data).startswith("bitcoin:"):
+        # if the user scanned a bitcore URI
+        if str(data).startswith("bitcore:"):
             self.pay_to_URI(data)
             return
         # else if the user scanned an offline signed tx
@@ -2960,7 +2961,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, Logger):
 
         units = base_units_list
         msg = (_('Base unit of your wallet.')
-               + '\n1 BTC = 1000 mBTC. 1 mBTC = 1000 bits. 1 bit = 100 sat.\n'
+               + '\n1 BTX = 1000 mBTX. 1 mBTX = 1000 bits. 1 bit = 100 sat.\n'
                + _('This setting affects the Send tab, and all balance related fields.'))
         unit_label = HelpLabel(_('Base unit') + ':', msg)
         unit_combo = QComboBox()

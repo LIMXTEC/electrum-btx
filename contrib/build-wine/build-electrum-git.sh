@@ -15,19 +15,7 @@ PYTHON="wine $PYHOME/python.exe -OO -B"
 cd `dirname $0`
 set -e
 
-mkdir -p tmp
-cd tmp
-
-pushd $WINEPREFIX/drive_c/electrum
-
-# Load electrum-locale for this release
-git submodule init
-git submodule update
-
-VERSION=`git describe --tags --dirty --always`
-echo "Last commit: $VERSION"
-
-pushd ./contrib/deterministic-build/electrum-locale
+pushd ../../electrum
 if ! which msgfmt > /dev/null 2>&1; then
     echo "Please install gettext"
     exit 1
@@ -39,39 +27,28 @@ for i in ./locale/*; do
 done
 popd
 
-find -exec touch -d '2000-11-11T11:11:11+00:00' {} +
-popd
-
-cp $WINEPREFIX/drive_c/electrum/LICENCE .
+cp -f ../../LICENSE .
 
 # Install frozen dependencies
-$PYTHON -m pip install -r ../../deterministic-build/requirements.txt
+$PYTHON -m pip install -r ../deterministic-build/requirements.txt
+$PYTHON -m pip install -r ../deterministic-build/requirements-hw.txt
 
-$PYTHON -m pip install -r ../../deterministic-build/requirements-hw.txt
+pushd $WINEPREFIX/drive_c/electrum
+find -exec touch -d '2000-11-11T11:11:11+00:00' {} +
+popd
 
 pushd $WINEPREFIX/drive_c/electrum
 $PYTHON -m pip install .
 popd
 
-cd ..
-
-rm -rf dist/
+#rm -rf dist/
 
 # build standalone and portable versions
-wine "$PYHOME/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name $NAME_ROOT-$VERSION -w deterministic.spec
-
-# set timestamps in dist, in order to make the installer reproducible
-pushd dist
-find -exec touch -d '2000-11-11T11:11:11+00:00' {} +
-popd
+wine "C:/python$PYTHON_VERSION/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name electrum-btx-3.3.6 -w deterministic.spec
 
 # build NSIS installer
 # $VERSION could be passed to the electrum.nsi script, but this would require some rewriting in the script itself.
 wine "$WINEPREFIX/drive_c/Program Files (x86)/NSIS/makensis.exe" /DPRODUCT_VERSION=$VERSION electrum.nsi
-
-cd dist
-mv electrum-setup.exe $NAME_ROOT-$VERSION-setup.exe
-cd ..
 
 echo "Done."
 sha256sum dist/electrum*exe

@@ -368,6 +368,10 @@ class TheRockTrading(ExchangeBase):
                              '/v1/funds/BTCEUR/ticker')
         return {'EUR': Decimal(json['last'])}
 
+class CoinMarketCap(ExchangeBase):
+    def get_rates(self, ccy):
+        json = self.get_json("api.coinmarketcap.com", "/v1/ticker/bitcore/?convert=" + ccy)
+        return {ccy: Decimal(json[0]["price_" + ccy.lower()])}
 
 class Winkdex(ExchangeBase):
 

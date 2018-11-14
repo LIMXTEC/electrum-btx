@@ -6,7 +6,7 @@ Comment=Lightweight Bitcore Client
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum %u"
 GenericName[en_US]=Bitcore Wallet
 GenericName=Bitcore Wallet
-Icon=electrum
+Icon=electrumBTX
 Name[en_US]=Electrum Bitcore Wallet
 Name=Electrum Bitcore Wallet
 Categories=Finance;Network;

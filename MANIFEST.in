@@ -1,0 +1,18 @@
+include LICENSE RELEASE-NOTES AUTHORS
+include README.rst
+include electrum.conf.sample
+include electrum.desktop
+include *.py
+include run_electrum
+include contrib/requirements/requirements.txt
+include contrib/requirements/requirements-hw.txt
+recursive-include packages *.py
+recursive-include packages cacert.pem
+include icons.qrc
+graft icons
+
+graft electrum
+prune electrum/tests
+
+global-exclude __pycache__
+global-exclude *.py[co]

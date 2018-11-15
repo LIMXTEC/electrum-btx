@@ -6,6 +6,7 @@ dist/
 *.egg/
 Electrum.egg-info/
 electrum/locale/
+contrib/build-wine/LICENSE
 .devlocaltmp/
 *_trial_temp
 packages

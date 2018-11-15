@@ -4,8 +4,8 @@ from PyInstaller.utils.hooks import collect_data_files, collect_submodules, coll
 
 import sys, os
 
-PACKAGE='Electrum'
-PYPKG='electrum'
+PACKAGE='electrum-btx'
+PYPKG='electrum-btx'
 MAIN_SCRIPT='run_electrum'
 ICONS_FILE=PYPKG + '/gui/icons/electrum.icns'
 APP_SIGN = os.environ.get('APP_SIGN', '')
@@ -45,7 +45,6 @@ def monkey_patch_pyinstaller_for_codesigning(identity):
             codesign(identity, fn)
             _signed.add((fn,distname)) # remember we signed it so we don't sign again
     PyInstaller.depend.dylib.mac_set_relative_dylib_deps = my_func
-
 
 for i, x in enumerate(sys.argv):
     if x == '--name':

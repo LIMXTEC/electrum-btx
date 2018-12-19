@@ -1,5 +1,5 @@
 # If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
-# sudo desktop-file-install electrum.desktop
+# sudo desktop-file-install electrum-btx.desktop
 
 [Desktop Entry]
 Comment=Lightweight Bitcore Client

@@ -6,19 +6,7 @@ Electrum - Lightweight Bitcore client
   Licence: MIT Licence
   Author: Thomas Voegtlin
   Language: Python
-  Homepage: https://electrum.org/
-
-
-.. image:: https://travis-ci.org/spesmilo/electrum.svg?branch=master
-    :target: https://travis-ci.org/spesmilo/electrum
-    :alt: Build Status
-.. image:: https://coveralls.io/repos/github/spesmilo/electrum/badge.svg?branch=master
-    :target: https://coveralls.io/github/spesmilo/electrum?branch=master
-    :alt: Test coverage statistics
-.. image:: https://d322cqt584bo4o.cloudfront.net/electrum/localized.svg
-    :target: https://crowdin.com/project/electrum
-    :alt: Help translate Electrum online
-
+  Homepage: https://github.com/LIMXTEC/electrum-btx/releases 
 
 
 
@@ -36,7 +24,7 @@ Electrum from its root directory, without installing it on your
 system; all the python dependencies are included in the 'packages'
 directory. To run Electrum from its root directory, just do::
 
-    ./run_electrum
+    ./run_electrum-btx
 
 You can also install Electrum on your system, by running this command::
 
@@ -59,8 +47,8 @@ Development version
 
 Check out the code from GitHub::
 
-    git clone git://github.com/spesmilo/electrum.git
-    cd electrum
+    git clone git://github.com/LIMXTEC/electrum-btx.git
+    cd electrum-btx
 
 Run install (this should install dependencies)::
 
@@ -73,12 +61,12 @@ Render the SVG icons to PNGs (optional)::
 Compile the icons file for Qt::
 
     sudo apt-get install pyqt5-dev-tools
-    pyrcc5 icons.qrc -o electrum/gui/qt/icons_rc.py
+    pyrcc5 icons.qrc -o gui/qt/icons_rc.py
 
 Compile the protobuf description file::
 
     sudo apt-get install protobuf-compiler
-    protoc --proto_path=electrum --python_out=electrum electrum/paymentrequest.proto
+    protoc --proto_path=lib/ --python_out=lib/ lib/paymentrequest.proto
 
 Create translations (optional)::
 
@@ -112,4 +100,4 @@ See `contrib/build-wine/`.
 Android
 -------
 
-See `electrum/gui/kivy/Readme.md` file.
+See `electrum-btx/gui/kivy/Readme.md` file.

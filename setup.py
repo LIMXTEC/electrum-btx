@@ -18,7 +18,7 @@ with open('contrib/requirements/requirements.txt') as f:
 with open('contrib/requirements/requirements-hw.txt') as f:
     requirements_hw = f.read().splitlines()
 
-version = imp.load_source('version', 'electrum/version.py')
+version = imp.load_source('version', 'electrum-btx/version.py')
 
 if sys.version_info[:3] < (3, 4, 0):
     sys.exit("Error: Electrum requires Python version >= 3.4.0...")
@@ -39,7 +39,7 @@ if platform.system() in ['Linux', 'FreeBSD', 'DragonFly']:
         else:
             usr_share = os.path.expanduser('~/.local/share')
     data_files += [
-        (os.path.join(usr_share, 'applications/'), ['electrum.desktop']),
+        (os.path.join(usr_share, 'applications/'), ['electrum-btx.desktop']),
         (os.path.join(usr_share, icons_dirname), ['icons/electrumBTX.png'])
     ]
 
@@ -61,7 +61,7 @@ class CustomInstallCommand(install):
             pass
         else:
             try:
-                path = os.path.join(self.install_lib, "electrum/gui/qt/icons_rc.py")
+                path = os.path.join(self.install_lib, "electrum-btx/gui/qt/icons_rc.py")
                 if not os.path.exists(path):
                     subprocess.call(["pyrcc5", "icons.qrc", "-o", path])
             except Exception as e:
@@ -69,27 +69,27 @@ class CustomInstallCommand(install):
 
 
 setup(
-    name="Electrum",
+    name="Electrum-BTX",
     version=version.ELECTRUM_VERSION,
     install_requires=requirements,
     extras_require=extras_require,
     packages=[
-        'electrum',
-        'electrum.gui',
-        'electrum.gui.qt',
-        'electrum.plugins',
-    ] + [('electrum.plugins.'+pkg) for pkg in find_packages('electrum/plugins')],
+        'electrum-btx',
+        'electrum-btx.gui',
+        'electrum-btx.gui.qt',
+        'electrum-btx.plugins',
+    ] + [('electrum-btx.plugins.'+pkg) for pkg in find_packages('electrum-btx/plugins')],
     package_dir={
-        'electrum': 'electrum'
+        'electrum-btx': 'electrum-btx'
     },
     package_data={
         '': ['*.txt', '*.json', '*.ttf', '*.otf'],
-        'electrum': [
+        'electrum-btx': [
             'wordlist/*.txt',
             'locale/*/LC_MESSAGES/electrum.mo',
         ],
     },
-    scripts=['electrum/electrum'],
+    scripts=['electrum-btx/electrum-btx'],
     data_files=data_files,
     description="Lightweight Bitcore Wallet",
     author="Thomas Voegtlin",

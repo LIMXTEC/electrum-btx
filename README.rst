@@ -100,4 +100,4 @@ See `contrib/build-wine/`.
 Android
 -------
 
-See `electrum-btx/gui/kivy/Readme.md` file.
+See `electrum/gui/kivy/Readme.md` file.

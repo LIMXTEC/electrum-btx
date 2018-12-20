@@ -7,7 +7,7 @@ import os
 
 PACKAGE='electrum-btx'
 PYPKG='electrum-btx'
-MAIN_SCRIPT='run_electrum'
+MAIN_SCRIPT='run_electrum-btx'
 ICONS_FILE='icons/electrumBTX.icns'
 
 for i, x in enumerate(sys.argv):

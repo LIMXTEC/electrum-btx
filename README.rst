@@ -100,9 +100,9 @@ Linux
 -----
 
 Clone the electrum-git repo and change VERSION with the right one:
-```sh
-tar --exclude=./electrum-btx/.* --exclude=./electrum-btx/contrib -cvz -f electrum-btx_linux_VERSION-btx.tar.gz ./electrum-btx
-```
+
+    tar --exclude=./electrum-btx/.* --exclude=./electrum-btx/contrib -cvz -f electrum-btx_linux_VERSION-btx.tar.gz ./electrum-btx
+
 
 Android
 -------

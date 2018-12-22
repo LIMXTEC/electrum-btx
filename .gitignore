@@ -5,10 +5,11 @@ build/
 dist/
 *.egg/
 contrib/pyinstaller/
-Electrum.egg-info/
+Electrum_BTX.egg-info/
 contrib/build-wine/LICENSE
 #electrum/gui/qt/icons_rc.py
-locale/
+#locale/
+LC_MESSAGES/
 .devlocaltmp/
 *_trial_temp
 packages

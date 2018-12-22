@@ -8,18 +8,20 @@ RUN dpkg --add-architecture i386 && \
         wget=1.19.4-1ubuntu2.1 \
         gnupg2=2.2.4-1ubuntu1.1 \
         dirmngr=2.2.4-1ubuntu1.1 \
-        software-properties-common=0.96.24.32.4 \
+        software-properties-common=0.96.24.32.6 \
         && \
     wget -nc https://dl.winehq.org/wine-builds/Release.key && \
+    wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
     apt-key add Release.key && \
-    apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/ && \
+    apt-key add winehq.key && \
+    apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' && \
     apt-get update -q && \
     apt-get install -qy \
-        wine-stable-amd64:amd64=3.0.1~bionic \
-        wine-stable-i386:i386=3.0.1~bionic \
-        wine-stable:amd64=3.0.1~bionic \
-        winehq-stable:amd64=3.0.1~bionic \
-        git=1:2.17.1-1ubuntu0.1 \
+        wine-stable-amd64:amd64=3.0.4~bionic \
+        wine-stable-i386:i386=3.0.4~bionic \
+        wine-stable:amd64=3.0.4~bionic \
+        winehq-stable:amd64=3.0.4~bionic \
+        git=1:2.17.1-1ubuntu0.4 \
         p7zip-full=16.02+dfsg-6 \
         make=4.1-9.1ubuntu1 \
         mingw-w64=5.0.3-1 \

@@ -39,7 +39,7 @@ if platform.system() in ['Linux', 'FreeBSD', 'DragonFly']:
         else:
             usr_share = os.path.expanduser('~/.local/share')
     data_files += [
-        (os.path.join(usr_share, 'applications/'), ['electrum.desktop']),
+        (os.path.join(usr_share, 'applications/'), ['electrum-btx.desktop']),
         (os.path.join(usr_share, icons_dirname), ['icons/electrumBTX.png'])
     ]
 
@@ -69,7 +69,7 @@ class CustomInstallCommand(install):
 
 
 setup(
-    name="Electrum",
+    name="Electrum-BTX",
     version=version.ELECTRUM_VERSION,
     install_requires=requirements,
     extras_require=extras_require,
@@ -89,7 +89,7 @@ setup(
             'locale/*/LC_MESSAGES/electrum.mo',
         ],
     },
-    scripts=['electrum/electrum'],
+    scripts=['electrum/electrum-btx'],
     data_files=data_files,
     description="Lightweight Bitcore Wallet",
     author="Thomas Voegtlin",

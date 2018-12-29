@@ -525,7 +525,7 @@ def minikey_to_private_key(text):
 
 ###################################### BIP32 ##############################
 
-BIP32_PRIME = 0x800000a0
+BIP32_PRIME = 0x80000000
 
 
 def protect_against_invalid_ecpoint(func):

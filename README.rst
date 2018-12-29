@@ -1,55 +1,40 @@
-Electrum - Lightweight Bitcore client
-=====================================
+Electrum-BTX - Lightweight Bitcore client
+=========================================
 
 ::
 
   Licence: MIT Licence
-  Author: Thomas Voegtlin
+  Author: Thomas Voegtlin, LIMXTEC developers
   Language: Python (>= 3.6)
-  Homepage: https://electrum.org/
-
-
-.. image:: https://travis-ci.org/spesmilo/electrum.svg?branch=master
-    :target: https://travis-ci.org/spesmilo/electrum
-    :alt: Build Status
-.. image:: https://coveralls.io/repos/github/spesmilo/electrum/badge.svg?branch=master
-    :target: https://coveralls.io/github/spesmilo/electrum?branch=master
-    :alt: Test coverage statistics
-.. image:: https://d322cqt584bo4o.cloudfront.net/electrum/localized.svg
-    :target: https://crowdin.com/project/electrum
-    :alt: Help translate Electrum online
-
-
-
-
+  Homepage: https://github.com/LIMXTEC/electrum-btx/releases
 
 Getting started
 ===============
 
-Electrum is a pure python application. If you want to use the
+Electrum-BTX is a pure python application. If you want to use the
 Qt interface, install the Qt dependencies::
 
     sudo apt-get install python3-pyqt5
 
 If you downloaded the official package (tar.gz), you can run
-Electrum from its root directory without installing it on your
+Electrum-BTX from its root directory, without installing it on your
 system; all the python dependencies are included in the 'packages'
 directory. To run Electrum from its root directory, just do::
 
-    ./run_electrum
+    ./run_electrum-btx
 
-You can also install Electrum on your system, by running this command::
+You can also install Electrum-BTX on your system, by running this command::
 
     sudo apt-get install python3-setuptools
     python3 -m pip install .[fast]
 
 This will download and install the Python dependencies used by
-Electrum instead of using the 'packages' directory.
+Electrum-BTX, instead of using the 'packages' directory.
 The 'fast' extra contains some optional dependencies that we think
 are often useful but they are not strictly needed.
 
 If you cloned the git repository, you need to compile extra files
-before you can run Electrum. Read the next section, "Development
+before you can run Electrum-BTX. Read the next section, "Development
 Version".
 
 
@@ -59,24 +44,22 @@ Development version
 
 Check out the code from GitHub::
 
-    git clone git://github.com/spesmilo/electrum.git
-    cd electrum
+    git clone git://github.com/LIMXTEC/electrum-btx.git
+    cd electrum-btx
 
 Run install (this should install dependencies)::
 
     python3 -m pip install .[fast]
 
-
 Compile the protobuf description file::
 
     sudo apt-get install protobuf-compiler
-    protoc --proto_path=electrum --python_out=electrum electrum/paymentrequest.proto
+    protoc --proto_path=lib/ --python_out=lib/ lib/paymentrequest.proto
 
 Create translations (optional)::
 
     sudo apt-get install python-requests gettext
     ./contrib/make_locale
-
 
 
 

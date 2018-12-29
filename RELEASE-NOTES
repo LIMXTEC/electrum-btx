@@ -38,6 +38,9 @@
    A workaround is to run as Admin, or for Trezor to install the Bridge.
  * Several other minor bugfixes and usability improvements.
 
+# Release 3.3.6-btx - (June 05, 2019)
+
+ * add Bitcore BTX support for version 3.3.6
 
 # Release 3.3.6 - (May 16, 2019)
 
@@ -162,6 +165,9 @@
    QStandardItemModel. Performance should be better for large wallets.
  * Several other minor bugfixes and usability improvements.
 
+# Release 3.2.3-btx - (November 16, 2018)
+
+ * add Bitcore BTX support
 
 # Release 3.2.3 - (September 3, 2018)
 

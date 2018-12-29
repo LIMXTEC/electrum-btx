@@ -6,7 +6,7 @@ import sys, os
 
 PACKAGE='electrum-btx'
 PYPKG='electrum-btx'
-MAIN_SCRIPT='run_electrum'
+MAIN_SCRIPT='run_electrum-btx'
 ICONS_FILE=PYPKG + '/gui/icons/electrum.icns'
 APP_SIGN = os.environ.get('APP_SIGN', '')
 

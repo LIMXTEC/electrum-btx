@@ -1,6 +1,8 @@
 #!/bin/bash
 
-NAME_ROOT=electrum
+NAME_ROOT=electrum-btx
+VERSION=3.3.6
+PYTHON_VERSION=3.6.6
 
 # These settings probably don't need any change
 export WINEPREFIX=/opt/wine64
@@ -44,11 +46,15 @@ popd
 #rm -rf dist/
 
 # build standalone and portable versions
-wine "C:/python$PYTHON_VERSION/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name electrum-btx-3.3.6 -w deterministic.spec
+wine "C:/python$PYTHON_VERSION/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name $NAME_ROOT-$VERSION -w deterministic.spec
 
 # build NSIS installer
 # $VERSION could be passed to the electrum.nsi script, but this would require some rewriting in the script itself.
-wine "$WINEPREFIX/drive_c/Program Files (x86)/NSIS/makensis.exe" /D electrum.nsi
+wine "$WINEPREFIX/drive_c/Program Files (x86)/NSIS/makensis.exe" /DPRODUCT_VERSION=$VERSION electrum.nsi
+
+cd dist
+mv $NAME_ROOT-setup.exe $NAME_ROOT-$VERSION--setup.exe
+cd ..
 
 echo "Done."
 sha256sum dist/electrum*exe

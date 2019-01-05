@@ -74,7 +74,7 @@
   !define MUI_ABORTWARNING
   !define MUI_ABORTWARNING_TEXT "Are you sure you wish to abort the installation of ${PRODUCT_NAME}?"
   
-  !define MUI_ICON "c:\${PRODUCT_NAME}\icons\electrum.ico"
+  !define MUI_ICON "c:\electrum\icons\electrum.ico"
   
 ;--------------------------------
 ;Pages
@@ -107,8 +107,8 @@ Section
   SetOutPath $INSTDIR
   
   ;Files to pack into the installer
-  File /r "dist\${PRODUCT_NAME}\*.*"
-  File "c:\${PRODUCT_NAME}\icons\electrum.ico"
+  File /r "dist\electrum\*.*"
+  File "c:\electrum\icons\electrum.ico"
   
   ;Store installation folder
   WriteRegStr HKCU "Software\${PRODUCT_NAME}" "" $INSTDIR
@@ -129,10 +129,10 @@ Section
   CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME} Testnet.lnk" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VERSION}.exe" "--testnet" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VERSION}.exe" 0
 
   ;Links bitcoin: URI's to Electrum
-  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VERSION}" "" "URL:bitcore Protocol"
-  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VERSION}" "URL Protocol" ""
-  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VERSION}" "DefaultIcon" "$\"$INSTDIR\electrum.ico, 0$\""
-  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VERSION}\shell\open\command" "" "$\"$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VERSION}.exe$\" $\"%1$\""
+  WriteRegStr HKCU "Software\Classes\bitcore" "" "URL:bitcore Protocol"
+  WriteRegStr HKCU "Software\Classes\bitcore" "URL Protocol" ""
+  WriteRegStr HKCU "Software\Classes\bitcore" "DefaultIcon" "$\"$INSTDIR\electrum.ico, 0$\""
+  WriteRegStr HKCU "Software\Classes\bitcore\shell\open\command" "" "$\"$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VERSION}.exe$\" $\"%1$\""
 
   ;Adds an uninstaller possibility to Windows Uninstall or change a program section
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
@@ -159,11 +159,11 @@ Section "Uninstall"
 
   RMDir "$INSTDIR"
 
-  Delete "$DESKTOP\${PRODUCT_NAME}-${PRODUCT_VER}.lnk"
-  Delete "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\*.*"
-  RMDir  "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}"
+  Delete "$DESKTOP\${PRODUCT_NAME}-${PRODUCT_VERSION}.lnk"
+  Delete "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VERSION}\*.*"
+  RMDir  "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VERSION}"
   
-  DeleteRegKey HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}"
-  DeleteRegKey HKCU "Software\${PRODUCT_NAME}-${PRODUCT_VER}"
+  DeleteRegKey HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VERSION}"
+  DeleteRegKey HKCU "Software\${PRODUCT_NAME}-${PRODUCT_VERSION}"
   DeleteRegKey HKCU "${PRODUCT_UNINST_KEY}"
 SectionEnd

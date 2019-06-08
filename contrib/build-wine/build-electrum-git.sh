@@ -42,8 +42,7 @@ popd
 find -exec touch -d '2000-11-11T11:11:11+00:00' {} +
 popd
 
-ls ../LICENSE
-cp -f ../LICENSE .
+cp -f ../../../LICENSE .
 
 # Install frozen dependencies
 $PYTHON -m pip install -r ../../deterministic-build/requirements.txt

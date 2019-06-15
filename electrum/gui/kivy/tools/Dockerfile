@@ -141,6 +141,8 @@ RUN cd /opt \
     && git checkout 678b1bf52cf63daa51b06e86a43ea4e2ea8a0b24 \
     && python3 -m pip install --user -e .
 
+RUN chown --recursive ${USER} /opt/buildozer
+
 # install python-for-android
 RUN cd /opt \
     && git clone https://github.com/kivy/python-for-android \
@@ -155,6 +157,8 @@ RUN cd /opt \
        # gradle: persist debug keystore:
     && git cherry-pick aaa0d5d0e7a334631df71e0a9bf127817e0ab9ab \
     && python3 -m pip install --user -e .
+
+RUN chown --recursive ${USER} /opt/python-for-android
 
 # build env vars
 ENV USE_SDK_WRAPPER=1

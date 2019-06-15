@@ -141,6 +141,8 @@ RUN cd /opt \
     && git checkout 678b1bf52cf63daa51b06e86a43ea4e2ea8a0b24 \
     && python3 -m pip install --user -e .
 
+RUN chown --recursive ${USER} /opt/buildozer
+
 # install python-for-android
 RUN cd /opt \
     && git clone https://github.com/kivy/python-for-android \
@@ -153,6 +155,8 @@ RUN cd /opt \
        # fix gradle "versionCode" overflow:
     && git cherry-pick ed20e196fbcdce718a180f88f23bb2d165c4c5d8 \
     && python3 -m pip install --user -e .
+
+RUN chown --recursive ${USER} /opt/python-for-android
 
 # build env vars
 ENV USE_SDK_WRAPPER=1

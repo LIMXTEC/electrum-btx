@@ -1,11 +1,14 @@
 #!/bin/bash
 
+set -x
 set -e
 
 CONTRIB="$(dirname "$(readlink -e "$0")")"
 ROOT_FOLDER="$CONTRIB"/..
 PACKAGES="$ROOT_FOLDER"/packages/
 LOCALE="$ROOT_FOLDER"/electrum/locale/
+
+sudo chown --recursive user .
 
 if [ ! -d "$LOCALE" ]; then
   echo "Run make_locale first!"

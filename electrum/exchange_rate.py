@@ -21,7 +21,7 @@ from .simple_config import SimpleConfig
 from .logging import Logger
 
 
-DEFAULT_ENABLED = False
+DEFAULT_ENABLED = True
 DEFAULT_CURRENCY = "USD"
 DEFAULT_EXCHANGE = "CoinMarketCap"  # default exchange should ideally provide historical rates
 

@@ -23,7 +23,7 @@ from .logging import Logger
 
 DEFAULT_ENABLED = True
 DEFAULT_CURRENCY = "USD"
-DEFAULT_EXCHANGE = "CoinMarketCap"  # default exchange should ideally provide historical rates
+DEFAULT_EXCHANGE = "CoinGecko"  # default exchange should ideally provide historical rates
 
 
 # See https://en.wikipedia.org/wiki/ISO_4217
@@ -302,9 +302,15 @@ class CoinDesk(ExchangeBase):
 class CoinGecko(ExchangeBase):
 
     async def get_rates(self, ccy):
-        json = await self.get_json('api.coingecko.com', '/api/v3/exchange_rates')
-        return dict([(ccy.upper(), Decimal(d['value']))
-                     for ccy, d in json['rates'].items()])
+        #json = await self.get_json('api.coingecko.com', '/api/v3/exchange_rates')
+        #return dict([(ccy.upper(), Decimal(d['value']))
+        #             for ccy, d in json['rates'].items()])
+        ccys = ["BTC", "ETH", "LTC", "BCH", "BNB", "EOS", "XRP", "XLM", "USD", "AED", "ARS", "AUD", "BDT", "BHD", "BMD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "KWD", "LKR", "MMK", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SAR", "SEK", "SGD", "THB", "TRY", "TWD", "UAH", "VEF", "VND", "ZAR", "XDR", "XAG", "XAU"]
+        json = await self.get_json('api.coingecko.com', '/api/v3/simple/price?ids=bitcore&vs_currencies=%s' % ccy)
+        result = dict.fromkeys(ccys)
+        if ccy in ccys:
+            result[ccy] = Decimal(json['bitcore'][ccy.lower()])
+        return result
 
     def history_ccys(self):
         # CoinGecko seems to have historical data for all ccys it supports
@@ -312,7 +318,7 @@ class CoinGecko(ExchangeBase):
 
     async def request_history(self, ccy):
         history = await self.get_json('api.coingecko.com',
-                                      '/api/v3/coins/bitcore/market_chart?vs_currency=%s&days=max' % ccy)
+                                      '/api/v3/coins/bitcoin/market_chart?vs_currency=%s&days=max' % ccy)
 
         return dict([(datetime.utcfromtimestamp(h[0]/1000).strftime('%Y-%m-%d'), h[1])
                      for h in history['prices']])

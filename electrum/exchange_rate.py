@@ -305,12 +305,15 @@ class CoinGecko(ExchangeBase):
         #json = await self.get_json('api.coingecko.com', '/api/v3/exchange_rates')
         #return dict([(ccy.upper(), Decimal(d['value']))
         #             for ccy, d in json['rates'].items()])
-        ccys = ["BTC", "ETH", "LTC", "BCH", "BNB", "EOS", "XRP", "XLM", "USD", "AED", "ARS", "AUD", "BDT", "BHD", "BMD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "KWD", "LKR", "MMK", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SAR", "SEK", "SGD", "THB", "TRY", "TWD", "UAH", "VEF", "VND", "ZAR", "XDR", "XAG", "XAU"]
-        json = await self.get_json('api.coingecko.com', '/api/v3/simple/price?ids=bitcore&vs_currencies=%s' % ccy)
-        result = dict.fromkeys(ccys)
-        if ccy in ccys:
-            result[ccy] = Decimal(json['bitcore'][ccy.lower()])
-        return result
+        #ccys = ["BTC", "ETH", "LTC", "BCH", "BNB", "EOS", "XRP", "XLM", "USD", "AED", "ARS", "AUD", "BDT", "BHD", "BMD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "KWD", "LKR", "MMK", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SAR", "SEK", "SGD", "THB", "TRY", "TWD", "UAH", "VEF", "VND", "ZAR", "XDR", "XAG", "XAU"]
+        #json = await self.get_json('api.coingecko.com', '/api/v3/simple/price?ids=bitcore&vs_currencies=%s' % ccy)
+        #result = dict.fromkeys(ccys)
+        #if ccy in ccys:
+        #    result[ccy] = Decimal(json['bitcore'][ccy.lower()])
+        #return result
+        json = await self.get_json('api.coingecko.com', '/api/v3/coins/bitcore?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=false')
+        return dict([(ccy.upper(), Decimal(d))
+                     for ccy, d in json['market_data']['current_price'].items()])
 
     def history_ccys(self):
         # CoinGecko seems to have historical data for all ccys it supports

@@ -1,0 +1,69 @@
+#:import partial functools.partial
+#:import _ electrum.gui.kivy.i18n._
+<SettingsDialog@Popup>
+    id: settings
+    title: _('Electrum Settings')
+    disable_pin: False
+    use_encryption: False
+    BoxLayout:
+        orientation: 'vertical'
+        ScrollView:
+            GridLayout:
+                id: scrollviewlayout
+                cols:1
+                size_hint: 1, None
+                height: self.minimum_height
+                padding: '10dp'
+                SettingsItem:
+                    lang: settings.get_language_name()
+                    title: 'Language' + ': ' + str(self.lang)
+                    description: _('Language')
+                    action: partial(root.language_dialog, self)
+                CardSeparator
+                SettingsItem:
+                    disabled: root.disable_pin
+                    title: _('PIN code')
+                    description: _("Change your PIN code.")
+                    action: partial(root.change_password, self)
+                CardSeparator
+                SettingsItem:
+                    bu: app.base_unit
+                    title: _('Denomination') + ': ' + self.bu
+                    description: _("Base unit for Bitcoin amounts.")
+                    action: partial(root.unit_dialog, self)
+                CardSeparator
+                SettingsItem:
+                    status: root.fx_status()
+                    title: _('Fiat Currency') + ': ' + self.status
+                    description: _("Display amounts in fiat currency.")
+                    action: partial(root.fx_dialog, self)
+                CardSeparator
+                SettingsItem:
+                    status: 'ON' if bool(app.plugins.get('labels')) else 'OFF'
+                    title: _('Labels Sync') + ': ' + self.status
+                    description: _("Save and synchronize your labels.")
+                    action: partial(root.plugin_dialog, 'labels', self)
+                CardSeparator
+                SettingsItem:
+                    status: 'ON' if app.use_rbf else 'OFF'
+                    title: _('Replace-by-fee') + ': ' + self.status
+                    description: _("Create replaceable transactions.")
+                    message:
+                        _('If you check this box, your transactions will be marked as non-final,') \
+                        + ' ' + _('and you will have the possibility, while they are unconfirmed, to replace them with transactions that pays higher fees.') \
+                        + ' ' + _('Note that some merchants do not accept non-final transactions until they are confirmed.')
+                    action: partial(root.boolean_dialog, 'use_rbf', _('Replace by fee'), self.message)
+                CardSeparator
+                SettingsItem:
+                    status: _('Yes') if app.use_unconfirmed else _('No')
+                    title: _('Spend unconfirmed') + ': ' + self.status
+                    description: _("Use unconfirmed coins in transactions.")
+                    message: _('Spend unconfirmed coins')
+                    action: partial(root.boolean_dialog, 'use_unconfirmed', _('Use unconfirmed'), self.message)
+                CardSeparator
+                SettingsItem:
+                    status: _('Yes') if app.use_change else _('No')
+                    title: _('Use change addresses') + ': ' + self.status
+                    description: _("Send your change to separate addresses.")
+                    message: _('Send excess coins to change addresses')
+                    action: partial(root.boolean_dialog, 'use_change', _('Use change addresses'), self.message)

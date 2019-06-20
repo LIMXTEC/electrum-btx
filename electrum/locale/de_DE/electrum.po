@@ -5520,3 +5520,30 @@ msgstr ""
 msgid "{} words"
 msgstr "{} Wörter"
 
+#: electrum/gui/kivy/uix/dialogs/settings.py:41
+msgid "Change your PIN code."
+msgstr "Änderung des PIN Codes"
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:47
+msgid "Base unit for Bitcore amounts."
+msgstr "Basiseinheit für Bitcore Beträge."
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:53
+msgid "Display amounts in fiat currency."
+msgstr "Auswahl Fiat Währung"
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:59
+msgid "Save and synchronize your labels."
+msgstr "Labels speichern und synchronisieren"
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:65
+msgid "Create replaceable transactions."
+msgstr "Erstelle RBF Transaktionen"
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:74
+msgid "Spend unconfirmed"
+msgstr "Unbestätigte Coins ausgeben"
+
+#: electrum/gui/kivy/uix/dialogs/settings.py:53
+msgid "Send your change to separate addresses."
+msgstr "Jede Transaktion erstellt eine neue Wechselgeld Addresse."

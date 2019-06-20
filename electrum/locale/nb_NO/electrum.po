@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 20:05+0000\n"
-"PO-Revision-Date: 2019-06-19 20:09\n"
+"POT-Creation-Date: 2019-06-20 15:36+0000\n"
+"PO-Revision-Date: 2019-06-20 15:38\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
@@ -1064,7 +1064,7 @@ msgstr ""
 msgid "Could not sign message."
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:106
+#: electrum/gui/qt/exception_window.py:108
 msgid "Crash report"
 msgstr ""
 
@@ -1271,6 +1271,10 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
 msgid "Distributed by Electrum Technologies GmbH"
+msgstr ""
+
+#: electrum/gui/qt/exception_window.py:72
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
@@ -2687,7 +2691,7 @@ msgstr "Nettverk"
 msgid "Network request timed out."
 msgstr ""
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:83
+#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2819,7 +2823,7 @@ msgstr "Ingen"
 msgid "Norwegian Bokmal"
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:87
+#: electrum/gui/qt/exception_window.py:89
 msgid "Not Now"
 msgstr ""
 
@@ -3194,7 +3198,7 @@ msgstr ""
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:106
 msgid "Please report this issue manually."
 msgstr ""
 
@@ -3780,7 +3784,7 @@ msgstr "Select your transaction file"
 msgid "Send"
 msgstr "Send"
 
-#: electrum/gui/qt/exception_window.py:78
+#: electrum/gui/qt/exception_window.py:80
 msgid "Send Bug Report"
 msgstr ""
 
@@ -4269,7 +4273,7 @@ msgstr ""
 msgid "There is a new update available"
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:102
+#: electrum/gui/qt/exception_window.py:104
 msgid "There was a problem with the automatic reporting:"
 msgstr ""
 

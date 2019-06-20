@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 20:05+0000\n"
-"PO-Revision-Date: 2019-06-19 20:08\n"
+"POT-Creation-Date: 2019-06-20 15:36+0000\n"
+"PO-Revision-Date: 2019-06-20 15:38\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -1067,7 +1067,7 @@ msgstr "Não foi possível assinar a mensagem"
 msgid "Could not sign message."
 msgstr "Não foi possível assinar a mensagem."
 
-#: electrum/gui/qt/exception_window.py:106
+#: electrum/gui/qt/exception_window.py:108
 msgid "Crash report"
 msgstr "Relatório de falhas"
 
@@ -1275,6 +1275,10 @@ msgstr "Mostra os detalhes da sua transação antes de assiná-la."
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "Distribuído por Electrum Technologies GmbH"
+
+#: electrum/gui/qt/exception_window.py:72
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -2692,7 +2696,7 @@ msgstr "Rede"
 msgid "Network request timed out."
 msgstr ""
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:83
+#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2824,7 +2828,7 @@ msgstr "Nenhum"
 msgid "Norwegian Bokmal"
 msgstr "Norueguês Bokmal"
 
-#: electrum/gui/qt/exception_window.py:87
+#: electrum/gui/qt/exception_window.py:89
 msgid "Not Now"
 msgstr "Agora Não"
 
@@ -3199,7 +3203,7 @@ msgstr "Cole a sua chave pública mestre dos fiadores, ou digitalize usando o bo
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Informe quaisquer erros como problemas no github: <br/>"
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:106
 msgid "Please report this issue manually."
 msgstr ""
 
@@ -3785,7 +3789,7 @@ msgstr "Selecione o seu ficheiro de transação"
 msgid "Send"
 msgstr "Enviar"
 
-#: electrum/gui/qt/exception_window.py:78
+#: electrum/gui/qt/exception_window.py:80
 msgid "Send Bug Report"
 msgstr ""
 
@@ -4275,7 +4279,7 @@ msgstr ""
 msgid "There is a new update available"
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:102
+#: electrum/gui/qt/exception_window.py:104
 msgid "There was a problem with the automatic reporting:"
 msgstr ""
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 20:05+0000\n"
-"PO-Revision-Date: 2019-06-19 20:07\n"
+"POT-Creation-Date: 2019-06-20 15:36+0000\n"
+"PO-Revision-Date: 2019-06-20 15:37\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
@@ -1067,7 +1067,7 @@ msgstr "Nie je možné podpísať správu"
 msgid "Could not sign message."
 msgstr "Nie je možné podpísať správu."
 
-#: electrum/gui/qt/exception_window.py:106
+#: electrum/gui/qt/exception_window.py:108
 msgid "Crash report"
 msgstr "Hlásenie o zlyhaní"
 
@@ -1275,6 +1275,10 @@ msgstr "Zobraziť podrobnosti o transakcii pred jej podpísaním."
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "Distribuuje Electrum Technologies GmbH"
+
+#: electrum/gui/qt/exception_window.py:72
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -2201,7 +2205,7 @@ msgstr "Ak vaša peňaženka obsahuje prostriedky, uistite sa, že ste si uloži
 
 #: electrum/plugins/hw_wallet/plugin.py:178
 msgid "Ignore and continue?"
-msgstr ""
+msgstr "Ignorovať a pokračovať?"
 
 #: electrum/gui/qt/main_window.py:592 electrum/gui/qt/main_window.py:595
 #: electrum/gui/qt/main_window.py:2768
@@ -2697,7 +2701,7 @@ msgstr "Sieť"
 msgid "Network request timed out."
 msgstr "Uplynul časový limit požiadavky siete."
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:83
+#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2829,7 +2833,7 @@ msgstr "Žiadny"
 msgid "Norwegian Bokmal"
 msgstr "Nórčina Bokmal"
 
-#: electrum/gui/qt/exception_window.py:87
+#: electrum/gui/qt/exception_window.py:89
 msgid "Not Now"
 msgstr "Nie teraz"
 
@@ -2973,7 +2977,7 @@ msgstr "Možnosti"
 
 #: electrum/plugins/hw_wallet/qt.py:225 electrum/base_wizard.py:340
 msgid "Outdated device firmware"
-msgstr ""
+msgstr "Zastaraný firmvér zariadenia"
 
 #: electrum/plugins/trezor/trezor.py:275
 #: electrum/plugins/keepkey/keepkey.py:155
@@ -3204,7 +3208,7 @@ msgstr "Vložte hlavný verejný kľúč vašich spolupodpisovateľov alebo ho n
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Akékoľvek chyby hláste na githube ako problémy:<br/>"
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:106
 msgid "Please report this issue manually."
 msgstr "Nahláste, prosím, tento problém manuálne."
 
@@ -3791,7 +3795,7 @@ msgstr "Zvoľte váš súbor transakcie"
 msgid "Send"
 msgstr "Odoslať"
 
-#: electrum/gui/qt/exception_window.py:78
+#: electrum/gui/qt/exception_window.py:80
 msgid "Send Bug Report"
 msgstr "Poslať správu o chybe"
 
@@ -4222,7 +4226,7 @@ msgstr "Súbor sa odstránil"
 
 #: electrum/plugins/hw_wallet/plugin.py:175
 msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
-msgstr ""
+msgstr "Firmvér vášho hárdverového zariadenia je príliš starý. Ak je to možné, mali by ste ho aktualizovať. Túto chybu môžete ignorovať a pokúsiť sa pokračovať, no pravdepodobne veci nebudú fungovať správne."
 
 #: electrum/gui/qt/main_window.py:2776
 msgid "The following addresses were added"
@@ -4283,7 +4287,7 @@ msgstr "Potom zadajte váš kód Google Authenticatora:"
 msgid "There is a new update available"
 msgstr "K dispozícii je nová aktualizácia"
 
-#: electrum/gui/qt/exception_window.py:102
+#: electrum/gui/qt/exception_window.py:104
 msgid "There was a problem with the automatic reporting:"
 msgstr "Vyskytol sa problém s automatickými hláseniami:"
 

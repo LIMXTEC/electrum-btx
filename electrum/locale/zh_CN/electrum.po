@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 20:05+0000\n"
-"PO-Revision-Date: 2019-06-19 20:08\n"
+"POT-Creation-Date: 2019-06-20 15:36+0000\n"
+"PO-Revision-Date: 2019-06-20 15:37\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1067,7 +1067,7 @@ msgstr "未能签名消息"
 msgid "Could not sign message."
 msgstr "未能签名消息。"
 
-#: electrum/gui/qt/exception_window.py:106
+#: electrum/gui/qt/exception_window.py:108
 msgid "Crash report"
 msgstr "崩溃报告"
 
@@ -1275,6 +1275,10 @@ msgstr "在进行签名之前显示您的交易信息。"
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "由Electrum Technologies GmbH分发"
+
+#: electrum/gui/qt/exception_window.py:72
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -2695,7 +2699,7 @@ msgstr "网络"
 msgid "Network request timed out."
 msgstr "网络请求超时。"
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:83
+#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2827,7 +2831,7 @@ msgstr "无"
 msgid "Norwegian Bokmal"
 msgstr "挪威书面语"
 
-#: electrum/gui/qt/exception_window.py:87
+#: electrum/gui/qt/exception_window.py:89
 msgid "Not Now"
 msgstr "现在不"
 
@@ -3202,7 +3206,7 @@ msgstr "请粘贴属于您联署人的主公钥(xpub)，或者按相机按钮扫
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "请在github上报告任何错误与问题:<br/>"
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:106
 msgid "Please report this issue manually."
 msgstr "请手动报告此问题。"
 
@@ -3789,7 +3793,7 @@ msgstr "选择您的交易文件"
 msgid "Send"
 msgstr "发送"
 
-#: electrum/gui/qt/exception_window.py:78
+#: electrum/gui/qt/exception_window.py:80
 msgid "Send Bug Report"
 msgstr "发送错误报告"
 
@@ -4281,7 +4285,7 @@ msgstr "然后，输入你的谷歌验证码："
 msgid "There is a new update available"
 msgstr "有新版本可用。"
 
-#: electrum/gui/qt/exception_window.py:102
+#: electrum/gui/qt/exception_window.py:104
 msgid "There was a problem with the automatic reporting:"
 msgstr "自动报告出现问题："
 

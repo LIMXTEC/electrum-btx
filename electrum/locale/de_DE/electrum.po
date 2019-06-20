@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 20:05+0000\n"
-"PO-Revision-Date: 2019-06-19 20:06\n"
+"POT-Creation-Date: 2019-06-20 15:36+0000\n"
+"PO-Revision-Date: 2019-06-20 15:37\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -1067,7 +1067,7 @@ msgstr "Nachricht konnte nicht signiert werden"
 msgid "Could not sign message."
 msgstr "Nachricht konnte nicht signiert werden."
 
-#: electrum/gui/qt/exception_window.py:106
+#: electrum/gui/qt/exception_window.py:108
 msgid "Crash report"
 msgstr "Absturzbericht"
 
@@ -1275,6 +1275,10 @@ msgstr "Vor dem Signieren die Details Ihrer Transaktions anzeigen."
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "Vertrieben von Electrum Technologies GmbH"
+
+#: electrum/gui/qt/exception_window.py:72
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -2695,7 +2699,7 @@ msgstr "Netzwerk"
 msgid "Network request timed out."
 msgstr "Zeitüberschreitung der Netzwerkanfrage."
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:83
+#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2827,7 +2831,7 @@ msgstr "Keine Angabe"
 msgid "Norwegian Bokmal"
 msgstr "Norwegisch (Bokmål)"
 
-#: electrum/gui/qt/exception_window.py:87
+#: electrum/gui/qt/exception_window.py:89
 msgid "Not Now"
 msgstr "Später"
 
@@ -3202,7 +3206,7 @@ msgstr "Bitte geben Sie den öffentlichen Generalschlüssel des Mitsignierers ei
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Bitte melden Sie Fehler oder Probleme bei GitHub:<br>"
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:106
 msgid "Please report this issue manually."
 msgstr "Bitte melden Sie den Fehler manuell."
 
@@ -3789,7 +3793,7 @@ msgstr "Transaktionsdatei auswählen"
 msgid "Send"
 msgstr "Senden"
 
-#: electrum/gui/qt/exception_window.py:78
+#: electrum/gui/qt/exception_window.py:80
 msgid "Send Bug Report"
 msgstr "Fehlerbericht senden"
 
@@ -4281,7 +4285,7 @@ msgstr "Danach ist der Google-Authenticator Code erforderlich:"
 msgid "There is a new update available"
 msgstr "Eine neue Aktualisierung ist verfügbar"
 
-#: electrum/gui/qt/exception_window.py:102
+#: electrum/gui/qt/exception_window.py:104
 msgid "There was a problem with the automatic reporting:"
 msgstr "Beim Senden des Berichts ist ein Fehler aufgetreten:"
 
@@ -5520,38 +5524,3 @@ msgstr ""
 msgid "{} words"
 msgstr "{} Wörter"
 
-#: electrum/gui/kivy/uix/dialogs/settings.py:41
-msgid "Change your PIN code."
-msgstr "Änderung des PIN Codes"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:47
-msgid "Base unit for Bitcore amounts."
-msgstr "Basiseinheit für Bitcore Beträge."
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:51
-msgid "Fiat Currency"
-msgstr "Fiat Währung"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:53
-msgid "Display amounts in fiat currency."
-msgstr "Auswahl Fiat Währung"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:59
-msgid "Save and synchronize your labels."
-msgstr "Labels speichern und synchronisieren"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:65
-msgid "Create replaceable transactions."
-msgstr "Erstelle RBF Transaktionen"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:74
-msgid "Spend unconfirmed"
-msgstr "Unbestätigte Coins ausgeben"
-
-#: electrum/gui/kivy/uix/dialogs/settings.py:82
-msgid "Send your change to separate addresses."
-msgstr "Jede Transaktion erstellt eine neue Wechselgeld Addresse."
-
-#: electrum/gui/kivy/uix/dialogs/wallets.py:47
-msgid "Open"
-msgstr "Öffnen"

@@ -5551,3 +5551,7 @@ msgstr "Unbestätigte Coins ausgeben"
 #: electrum/gui/kivy/uix/dialogs/settings.py:82
 msgid "Send your change to separate addresses."
 msgstr "Jede Transaktion erstellt eine neue Wechselgeld Addresse."
+
+#: electrum/gui/kivy/uix/dialogs/wallets.py:47
+msgid "Open"
+msgstr "Öffnen"

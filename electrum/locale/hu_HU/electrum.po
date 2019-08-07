@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 15:36+0000\n"
-"PO-Revision-Date: 2019-06-20 15:37\n"
+"POT-Creation-Date: 2019-08-06 03:25+0000\n"
+"PO-Revision-Date: 2019-08-06 03:26\n"
 "Last-Translator: Randy Brito (rdymac)\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -16,172 +16,172 @@ msgstr ""
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 
-#: electrum/exchange_rate.py:597
+#: electrum/exchange_rate.py:591
 msgid "  (No FX rate available)"
 msgstr "  (ismeretlen árfolyam)"
 
-#: electrum/gui/qt/history_list.py:170
+#: electrum/gui/qt/history_list.py:169
 msgid " confirmation"
 msgstr " megerősítés"
 
-#: electrum/gui/qt/main_window.py:634
+#: electrum/gui/qt/main_window.py:633
 msgid "&About"
 msgstr "&Névjegy"
 
-#: electrum/gui/qt/main_window.py:187 electrum/gui/qt/main_window.py:580
+#: electrum/gui/qt/main_window.py:186 electrum/gui/qt/main_window.py:579
 msgid "&Addresses"
 msgstr "&Címek"
 
-#: electrum/gui/qt/main_window.py:635
+#: electrum/gui/qt/main_window.py:634
 msgid "&Check for updates"
 msgstr "&Frissítések keresése"
 
-#: electrum/gui/qt/main_window.py:638
+#: electrum/gui/qt/main_window.py:637
 msgid "&Documentation"
 msgstr "&Dokumentáció"
 
-#: electrum/gui/qt/main_window.py:641
+#: electrum/gui/qt/main_window.py:640
 msgid "&Donate to server"
 msgstr "&Adomány a szervernek"
 
-#: electrum/gui/qt/main_window.py:620
+#: electrum/gui/qt/main_window.py:619
 msgid "&Encrypt/decrypt message"
 msgstr "Üzenet titkosítása/&dekódolása"
 
-#: electrum/gui/qt/main_window.py:576 electrum/gui/qt/main_window.py:584
-#: electrum/gui/qt/main_window.py:589
+#: electrum/gui/qt/main_window.py:575 electrum/gui/qt/main_window.py:583
+#: electrum/gui/qt/main_window.py:588
 msgid "&Export"
 msgstr "&Export"
 
-#: electrum/gui/qt/main_window.py:559
+#: electrum/gui/qt/main_window.py:558
 msgid "&File"
 msgstr "&Fájl"
 
-#: electrum/gui/qt/main_window.py:581 electrum/gui/qt/main_window.py:586
+#: electrum/gui/qt/main_window.py:580 electrum/gui/qt/main_window.py:585
 msgid "&Filter"
 msgstr "&Szűrés"
 
-#: electrum/gui/qt/main_window.py:629
+#: electrum/gui/qt/main_window.py:628
 msgid "&From QR code"
 msgstr "QR &kódból"
 
-#: electrum/gui/qt/main_window.py:626
+#: electrum/gui/qt/main_window.py:625
 msgid "&From file"
 msgstr "&Fájlból"
 
-#: electrum/gui/qt/main_window.py:627
+#: electrum/gui/qt/main_window.py:626
 msgid "&From text"
 msgstr "&Szövegből"
 
-#: electrum/gui/qt/main_window.py:628
+#: electrum/gui/qt/main_window.py:627
 msgid "&From the blockchain"
 msgstr "A &blokkláncból"
 
-#: electrum/gui/qt/main_window.py:633
+#: electrum/gui/qt/main_window.py:632
 msgid "&Help"
 msgstr "&Segítség"
 
-#: electrum/gui/qt/main_window.py:585
+#: electrum/gui/qt/main_window.py:584
 msgid "&History"
 msgstr "&Számlatörténet"
 
-#: electrum/gui/qt/main_window.py:575 electrum/gui/qt/main_window.py:583
+#: electrum/gui/qt/main_window.py:574 electrum/gui/qt/main_window.py:582
 msgid "&Import"
 msgstr "&Importálás"
 
-#: electrum/gui/qt/main_window.py:569
+#: electrum/gui/qt/main_window.py:568
 msgid "&Information"
 msgstr "&Információ"
 
-#: electrum/gui/qt/main_window.py:582
+#: electrum/gui/qt/main_window.py:581
 msgid "&Labels"
 msgstr "C&ímkék"
 
-#: electrum/gui/qt/main_window.py:625
+#: electrum/gui/qt/main_window.py:624
 msgid "&Load transaction"
 msgstr "&Tranzakció betöltése"
 
-#: electrum/gui/qt/main_window.py:616
+#: electrum/gui/qt/main_window.py:615
 msgid "&Network"
 msgstr "&Hálózat"
 
-#: electrum/gui/qt/main_window.py:591
+#: electrum/gui/qt/main_window.py:590
 msgid "&New"
 msgstr "Ú&j"
 
-#: electrum/gui/qt/main_window.py:562
+#: electrum/gui/qt/main_window.py:561
 msgid "&New/Restore"
 msgstr "&Új/visszaállítás"
 
-#: electrum/gui/qt/main_window.py:636
+#: electrum/gui/qt/main_window.py:635
 msgid "&Official website"
 msgstr "H&ivatalos weboldal"
 
-#: electrum/gui/qt/main_window.py:561
+#: electrum/gui/qt/main_window.py:560
 msgid "&Open"
 msgstr "&Megnyitás"
 
-#: electrum/gui/qt/main_window.py:571
+#: electrum/gui/qt/main_window.py:570
 msgid "&Password"
 msgstr "&Jelszó"
 
-#: electrum/gui/qt/main_window.py:623
+#: electrum/gui/qt/main_window.py:622
 msgid "&Pay to many"
 msgstr "&Küldés több címzettnek"
 
-#: electrum/gui/qt/main_window.py:588
+#: electrum/gui/qt/main_window.py:587
 msgid "&Plot"
 msgstr "&Grafikon"
 
-#: electrum/gui/qt/main_window.py:617
+#: electrum/gui/qt/main_window.py:616
 msgid "&Plugins"
 msgstr "Pl&uginek"
 
-#: electrum/gui/qt/main_window.py:573
+#: electrum/gui/qt/main_window.py:572
 msgid "&Private keys"
 msgstr "&Privát kulcsok"
 
-#: electrum/gui/qt/main_window.py:566
+#: electrum/gui/qt/main_window.py:565
 msgid "&Quit"
 msgstr "&Kilépés"
 
-#: electrum/gui/qt/main_window.py:560
+#: electrum/gui/qt/main_window.py:559
 msgid "&Recently open"
 msgstr "&Legutóbb megnyitott"
 
-#: electrum/gui/qt/main_window.py:639
+#: electrum/gui/qt/main_window.py:638
 msgid "&Report Bug"
 msgstr "&Hibajelentés"
 
-#: electrum/gui/qt/main_window.py:563
+#: electrum/gui/qt/main_window.py:562
 msgid "&Save Copy"
 msgstr "Má&solat elmentése"
 
-#: electrum/gui/qt/main_window.py:572
+#: electrum/gui/qt/main_window.py:571
 msgid "&Seed"
 msgstr "&Mag"
 
-#: electrum/gui/qt/main_window.py:619
+#: electrum/gui/qt/main_window.py:618
 msgid "&Sign/verify message"
 msgstr "Üzenet &aláírása/aláírás ellenőrzése"
 
-#: electrum/gui/qt/main_window.py:587
+#: electrum/gui/qt/main_window.py:586
 msgid "&Summary"
 msgstr "&Összefoglaló"
 
-#: electrum/gui/qt/main_window.py:574
+#: electrum/gui/qt/main_window.py:573
 msgid "&Sweep"
 msgstr "&Begyűjtés másik címről"
 
-#: electrum/gui/qt/main_window.py:612
+#: electrum/gui/qt/main_window.py:611
 msgid "&Tools"
 msgstr "&Eszközök"
 
-#: electrum/gui/qt/main_window.py:606
+#: electrum/gui/qt/main_window.py:605
 msgid "&View"
 msgstr "&Nézet"
 
-#: electrum/gui/qt/main_window.py:568
+#: electrum/gui/qt/main_window.py:567
 msgid "&Wallet"
 msgstr "&Pénztárca"
 
@@ -193,15 +193,15 @@ msgstr "(Érintes {}/{})"
 msgid "+"
 msgstr "+"
 
-#: electrum/gui/qt/util.py:56
+#: electrum/gui/qt/util.py:58
 msgid "1 day"
 msgstr "1 nap"
 
-#: electrum/gui/qt/util.py:55
+#: electrum/gui/qt/util.py:57
 msgid "1 hour"
 msgstr "1 óra"
 
-#: electrum/gui/qt/util.py:57
+#: electrum/gui/qt/util.py:59
 msgid "1 week"
 msgstr "1 hét"
 
@@ -225,7 +225,7 @@ msgstr "4. Írd be a számokat a programba"
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr "Egy biztonsági mentés automatikusan létrejön, amikor új tárcát készítesz."
 
-#: electrum/gui/qt/main_window.py:519
+#: electrum/gui/qt/main_window.py:518
 msgid "A copy of your wallet file was created in"
 msgstr "A tárcafájlod másolata létrehozva itt:"
 
@@ -241,7 +241,7 @@ msgstr "Valószínűleg hiányzik egy programkönyvtár."
 msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
 msgstr "A távoli kiszolgálót használó tranzakciók esetében kis összegű díj kerül felszámításra. A telepítés befejezése után ellenőrizheted és módosíthatod számlázási beállításokat."
 
-#: electrum/gui/qt/main_window.py:1228
+#: electrum/gui/qt/main_window.py:1227
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Az ajánlott tranzakciós díj automatikusan hozzáadódik ehhez a mezőhöz. Felülírhatod. A javasolt tranzakciós díj a tranzakció összegével arányosan növekszik."
 
@@ -261,12 +261,12 @@ msgstr "Elfogad"
 msgid "Accept Word"
 msgstr "Szó elfogadása"
 
-#: electrum/gui/qt/history_list.py:331
+#: electrum/gui/qt/history_list.py:330
 msgid "Acquisition price"
 msgstr "Beszerzési ár"
 
 #: electrum/gui/qt/installwizard.py:408
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1023
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1039
 msgid "Add Cosigner"
 msgstr "Társ-aláíró hozzáadása"
 
@@ -282,18 +282,18 @@ msgstr "Opcionális virtuális billentyűzet hozzáadása a jelszó párbeszéda
 msgid "Add cosigner"
 msgstr "Társ-aláíró hozzáadása"
 
-#: electrum/gui/qt/main_window.py:1697 electrum/gui/kivy/uix/screens.py:305
+#: electrum/gui/qt/main_window.py:1696 electrum/gui/kivy/uix/screens.py:305
 msgid "Additional fees"
 msgstr "További költségek"
 
-#: electrum/gui/qt/main_window.py:1166
+#: electrum/gui/qt/main_window.py:1165
 msgid "Additional {} satoshis are going to be added."
 msgstr "További {} satoshi hozzáadásra került."
 
-#: electrum/gui/qt/util.py:389 electrum/gui/qt/utxo_list.py:47
-#: electrum/gui/qt/address_list.py:90 electrum/gui/qt/contact_list.py:49
+#: electrum/gui/qt/util.py:392 electrum/gui/qt/utxo_list.py:47
+#: electrum/gui/qt/address_list.py:89 electrum/gui/qt/contact_list.py:48
 #: electrum/gui/qt/request_list.py:53 electrum/gui/qt/address_dialog.py:45
-#: electrum/gui/qt/main_window.py:2204 electrum/gui/qt/main_window.py:2317
+#: electrum/gui/qt/main_window.py:2203 electrum/gui/qt/main_window.py:2317
 #: electrum/gui/qt/main_window.py:2398
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:40
 msgid "Address"
@@ -307,7 +307,7 @@ msgstr "Cím vágólapra másolva"
 msgid "Address is frozen"
 msgstr "Cím lefagyasztva"
 
-#: electrum/wallet.py:353 electrum/wallet.py:1143
+#: electrum/wallet.py:365 electrum/wallet.py:1262
 #: electrum/plugins/hw_wallet/plugin.py:78 electrum/gui/qt/main_window.py:2349
 msgid "Address not in wallet."
 msgstr "A cím nem tartozik ehhez a pénztárcához."
@@ -320,7 +320,7 @@ msgstr "Cím:"
 msgid "Addresses"
 msgstr "Címek"
 
-#: electrum/wallet.py:827
+#: electrum/wallet.py:864
 msgid "Addresses generated:"
 msgstr "Generált címek:"
 
@@ -334,8 +334,8 @@ msgstr "Haladó"
 msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
 msgstr "A jelszavak letiltása után csak akkor párosíthatod az Electrum pénztárcádat, ha az üres jelszóval rendelkezett. Ha a jelszó nem volt üres, új pénztárcát kell létrehoznod a telepítő varázslóval. Ezt a tárcát bármikor, újra felhasználhatod a jelszavak újbóli engedélyezésével és a jelszó beírásával."
 
-#: electrum/gui/qt/address_list.py:62 electrum/gui/qt/address_list.py:66
-#: electrum/gui/qt/history_list.py:409 electrum/gui/qt/history_list.py:433
+#: electrum/gui/qt/address_list.py:61 electrum/gui/qt/address_list.py:65
+#: electrum/gui/qt/history_list.py:408 electrum/gui/qt/history_list.py:432
 msgid "All"
 msgstr "Összes"
 
@@ -347,11 +347,11 @@ msgstr "Engedélyezi a hitelesítést, ha a tranzakcióid a GreenAddress instant
 msgid "Already up to date"
 msgstr "Az Electrum naprakész"
 
-#: electrum/gui/qt/main_window.py:1291
+#: electrum/gui/qt/main_window.py:1290
 msgid "Also, dust is not kept as change, but added to the fee."
 msgstr "Továbbá, por nem lesz megtartva visszajáróként, hanem a tranzakciós díjba lesz beleszámolva."
 
-#: electrum/gui/qt/main_window.py:1292
+#: electrum/gui/qt/main_window.py:1291
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
 msgstr "Továbbá, kötegelt RBF tranzakcióknál a BIP 125 megszab egy alsó határt a tranzakciós díjra."
 
@@ -361,8 +361,8 @@ msgstr "Mindig ellenőrizd le a biztonsági mentéseket."
 
 #: electrum/gui/text.py:111 electrum/gui/text.py:182
 #: electrum/gui/qt/utxo_list.py:49 electrum/gui/qt/request_list.py:56
-#: electrum/gui/qt/history_list.py:337 electrum/gui/qt/invoice_list.py:52
-#: electrum/gui/qt/main_window.py:1207 electrum/gui/qt/main_window.py:2025
+#: electrum/gui/qt/history_list.py:336 electrum/gui/qt/invoice_list.py:52
+#: electrum/gui/qt/main_window.py:1206 electrum/gui/qt/main_window.py:2024
 #: electrum/gui/stdio.py:110 electrum/gui/kivy/uix/ui_screens/receive.kv:89
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:90
 #: electrum/gui/kivy/uix/ui_screens/send.kv:53
@@ -386,15 +386,15 @@ msgstr "Beérkezett összeg:"
 msgid "Amount sent:"
 msgstr "Küldött összeg:"
 
-#: electrum/gui/qt/main_window.py:1690 electrum/gui/kivy/uix/screens.py:299
+#: electrum/gui/qt/main_window.py:1689 electrum/gui/kivy/uix/screens.py:299
 msgid "Amount to be sent"
 msgstr "Küldendő összeg"
 
-#: electrum/gui/qt/main_window.py:1203
+#: electrum/gui/qt/main_window.py:1202
 msgid "Amount to be sent."
 msgstr "Küldendő összeg."
 
-#: electrum/gui/qt/exception_window.py:47
+#: electrum/gui/qt/exception_window.py:49
 msgid "An Error Occurred"
 msgstr "Hiba történt"
 
@@ -408,7 +408,7 @@ msgstr "Egy titkosított tranzakció lett letöltve a több-aláírós szerverr�
 msgid "An uninitialized Digital Bitbox is detected."
 msgstr "Egy nem inicializált digitális Bitbox észlelhető."
 
-#: electrum/base_wizard.py:317
+#: electrum/base_wizard.py:319
 msgid "An unnamed {}"
 msgstr "Egy névtelen {}"
 
@@ -437,13 +437,13 @@ msgstr "Biztosan törlöd a Digital Bitbox-ot?"
 msgid "Are you sure you want to proceed?"
 msgstr "Biztosan folytatod?"
 
-#: electrum/gui/qt/history_list.py:619
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:263
+#: electrum/gui/qt/history_list.py:618
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:262
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr "Biztosan törlöd ezt, és további {} ettől függő tranzakciót?"
 
-#: electrum/gui/qt/history_list.py:617
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:261
+#: electrum/gui/qt/history_list.py:616
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:260
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Biztosan eltávolítod ezt a tranzakciót?"
 
@@ -455,7 +455,7 @@ msgstr "Örmény"
 msgid "At block height: {}"
 msgstr "Blokk magassága: {}"
 
-#: electrum/gui/qt/main_window.py:1289
+#: electrum/gui/qt/main_window.py:1288
 msgid "At most 100 satoshis might be lost due to this rounding."
 msgstr "A kerekítés miatt legfeljebb 100 satoshi veszhet el."
 
@@ -501,8 +501,8 @@ msgid "Back"
 msgstr "Vissza"
 
 #: electrum/gui/text.py:111 electrum/gui/text.py:144
-#: electrum/gui/qt/address_list.py:92 electrum/gui/qt/address_list.py:93
-#: electrum/gui/qt/history_list.py:338 electrum/gui/qt/main_window.py:834
+#: electrum/gui/qt/address_list.py:91 electrum/gui/qt/address_list.py:92
+#: electrum/gui/qt/history_list.py:337 electrum/gui/qt/main_window.py:833
 #: electrum/gui/stdio.py:110 electrum/gui/stdio.py:122
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:52
 #: electrum/gui/kivy/uix/ui_screens/status.kv:33 electrum/gui/kivy/main.kv:392
@@ -525,7 +525,7 @@ msgstr "A pénztárca alapértelmezett egysége."
 msgid "Batch RBF transactions"
 msgstr "RBF tranzakciók kötegelése"
 
-#: electrum/gui/qt/main_window.py:670
+#: electrum/gui/qt/main_window.py:669
 msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
 msgstr "A hibajelentés előtt frissítsd az Electrumot a legfrissebb verzióra (legújabb kiadás vagy git HEAD), és írd bele a verziószámot is a jelentésbe."
 
@@ -537,19 +537,19 @@ msgstr "Bitráta [kbps]: "
 msgid "Bitcoin Address"
 msgstr "Bitcoin cím"
 
-#: electrum/gui/qt/main_window.py:1630
+#: electrum/gui/qt/main_window.py:1629
 msgid "Bitcoin Address is None"
 msgstr "Ez a cím nem létezik"
 
-#: electrum/gui/qt/main_window.py:906
+#: electrum/gui/qt/main_window.py:905
 msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
 msgstr "Bitcoin cím, ahova fogadni szeretnéd a fizetési kérelmet. Ne feledd, minden fizetési kérelem más Bitcoin-címet használ."
 
-#: electrum/gui/qt/main_window.py:1226
+#: electrum/gui/qt/main_window.py:1225
 msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "A Bitcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
 
-#: electrum/gui/qt/network_dialog.py:316
+#: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
 msgid "Blockchain"
 msgstr "Blokklánc"
@@ -572,11 +572,11 @@ msgid "Brasilian"
 msgstr "Brazil"
 
 #: electrum/gui/qt/transaction_dialog.py:122
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:171
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:172
 msgid "Broadcast"
 msgstr "Elküldés"
 
-#: electrum/gui/qt/main_window.py:1791
+#: electrum/gui/qt/main_window.py:1790
 msgid "Broadcasting transaction..."
 msgstr "Tranzakció kiküldése folyamatban..."
 
@@ -588,15 +588,15 @@ msgstr "Build dátuma"
 msgid "Bulgarian"
 msgstr "Bolgár"
 
-#: electrum/gui/qt/main_window.py:3428
+#: electrum/gui/qt/main_window.py:3429
 msgid "Bump Fee"
 msgstr "Tranzakciós díj megemelése"
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:172
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:173
 msgid "Bump fee"
 msgstr "Tranzakciós díj megemelése"
 
-#: electrum/gui/qt/util.py:402
+#: electrum/gui/qt/util.py:405
 msgid "CSV"
 msgstr "CSV"
 
@@ -613,16 +613,16 @@ msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "CPFP nem lehetséges: a szülő tranzakció díja ismeretlen."
 
 #: electrum/gui/qt/main_window.py:3424
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:209
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:210
 msgid "Can't bump fee: unknown fee for original transaction."
 msgstr "Nem lehet növelni a díjat: az eredeti tranzakció díja ismeretlen."
 
-#: electrum/gui/qt/history_list.py:517
+#: electrum/gui/qt/history_list.py:516
 msgid "Can't plot history."
 msgstr "Nem lehet ábrázolni az előzményeket."
 
 #: electrum/plugins/trezor/qt.py:71 electrum/plugins/keepkey/qt.py:83
-#: electrum/plugins/trustedcoin/qt.py:221 electrum/gui/qt/util.py:189
+#: electrum/plugins/trustedcoin/qt.py:221 electrum/gui/qt/util.py:192
 #: electrum/gui/qt/installwizard.py:91 electrum/gui/qt/installwizard.py:129
 #: electrum/gui/qt/installwizard.py:605
 msgid "Cancel"
@@ -633,7 +633,7 @@ msgstr "Mégse"
 msgid "Cancelled by user"
 msgstr "Felhasználó által megszakítva"
 
-#: electrum/base_wizard.py:506
+#: electrum/base_wizard.py:508
 msgid "Cannot add this cosigner:"
 msgstr "Nem adható hozzá ez az aláíró:"
 
@@ -641,7 +641,8 @@ msgstr "Nem adható hozzá ez az aláíró:"
 msgid "Cannot broadcast transaction"
 msgstr "Nem sikerült kiküldeni a tranzakciót"
 
-#: electrum/wallet.py:864 electrum/wallet.py:895
+#: electrum/wallet.py:904 electrum/wallet.py:909 electrum/wallet.py:912
+#: electrum/wallet.py:957 electrum/wallet.py:994 electrum/wallet.py:1014
 msgid "Cannot bump fee"
 msgstr "Tranzakciós költség nem növelhető"
 
@@ -661,20 +662,20 @@ msgstr "A fájl nem olvasható"
 msgid "Cannot sign messages with this type of address:"
 msgstr "Nem lehet aláírni az ilyen típusú címeket tartalmazó üzeneteket:"
 
-#: electrum/gui/qt/history_list.py:332
+#: electrum/gui/qt/history_list.py:331
 msgid "Capital Gains"
 msgstr "Tőkenyereség"
 
-#: electrum/gui/qt/history_list.py:505
+#: electrum/gui/qt/history_list.py:504
 msgid "Capital gains"
 msgstr "Tőkenyereség"
 
-#: electrum/gui/qt/network_dialog.py:380
+#: electrum/gui/qt/network_dialog.py:386
 #, python-brace-format
 msgid "Chain split detected at block {0}"
 msgstr "A blokklánc kettévált a(z) {0}-s blokknál"
 
-#: electrum/gui/qt/address_list.py:62
+#: electrum/gui/qt/address_list.py:61
 msgid "Change"
 msgstr "Visszajáró"
 
@@ -713,7 +714,7 @@ msgstr "Frissítések keresése..."
 msgid "Child Pays for Parent"
 msgstr "Tranzakció felgyorsítása (gyermek fizet a szülőnek)"
 
-#: electrum/gui/qt/history_list.py:607
+#: electrum/gui/qt/history_list.py:606
 msgid "Child pays for parent"
 msgstr "Tranzakció felgyorsítása (gyermek fizet a szülőnek)"
 
@@ -729,11 +730,11 @@ msgstr "Kínai (hagyományos)"
 msgid "Choose Homescreen"
 msgstr "Kezdőképernyő kiválasztása"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1048
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1064
 msgid "Choose PIN code"
 msgstr "PIN kód megadása"
 
-#: electrum/base_wizard.py:598
+#: electrum/base_wizard.py:600
 msgid "Choose Seed type"
 msgstr "Mag típusának kiválasztása"
 
@@ -761,7 +762,7 @@ msgstr "Szerver választása"
 msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "Válaszd ki a Digital Bitbox inicializálásának módját:"
 
-#: electrum/plugins/trezor/trezor.py:180
+#: electrum/plugins/trezor/trezor.py:190
 #: electrum/plugins/keepkey/keepkey.py:182
 #: electrum/plugins/safe_t/safe_t.py:166
 msgid "Choose how you want to initialize your {}.\n\n"
@@ -780,7 +781,7 @@ msgstr "Válaszd ki az eszközön ({}), hogy hol szeretnéd megadni a jelszót"
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "Válaszd ki a pénztárcában lévő pénz feloldásához szükséges aláírások számát:"
 
-#: electrum/base_wizard.py:377
+#: electrum/base_wizard.py:379
 msgid "Choose the type of addresses in your wallet."
 msgstr "Válaszd ki a pénztárcához tartozó címek típusát."
 
@@ -796,7 +797,7 @@ msgstr "Válassz egy blokkláncot"
 msgid "Choose..."
 msgstr "Válassz..."
 
-#: electrum/gui/qt/main_window.py:1329
+#: electrum/gui/qt/main_window.py:1328
 #: electrum/gui/kivy/uix/ui_screens/send.kv:116
 msgid "Clear"
 msgstr "Törlés"
@@ -818,7 +819,7 @@ msgstr "Kattints ide az üzenet elrejtéséhez."
 msgid "Clipboard is empty"
 msgstr "A vágólap üres"
 
-#: electrum/gui/qt/util.py:165 electrum/gui/qt/transaction_dialog.py:137
+#: electrum/gui/qt/util.py:168 electrum/gui/qt/transaction_dialog.py:137
 #: electrum/gui/qt/qrcodewidget.py:127 electrum/gui/qt/update_checker.py:62
 #: electrum/gui/qt/__init__.py:154 electrum/gui/qt/main_window.py:2417
 #: electrum/gui/qt/main_window.py:2486
@@ -827,7 +828,7 @@ msgstr "A vágólap üres"
 msgid "Close"
 msgstr "Bezárás"
 
-#: electrum/gui/qt/main_window.py:188
+#: electrum/gui/qt/main_window.py:187
 msgid "Co&ins"
 msgstr "&Érmék"
 
@@ -856,11 +857,11 @@ msgstr "Coldcard pénztárca"
 msgid "Color theme"
 msgstr "Színséma"
 
-#: electrum/gui/qt/main_window.py:190
+#: electrum/gui/qt/main_window.py:189
 msgid "Con&sole"
 msgstr "Ko&nzol"
 
-#: electrum/gui/qt/main_window.py:189
+#: electrum/gui/qt/main_window.py:188
 msgid "Con&tacts"
 msgstr "Névje&gyek"
 
@@ -878,11 +879,11 @@ msgid "Confirm Password:"
 msgstr "Jelszó megerősítése:"
 
 #: electrum/gui/qt/installwizard.py:429
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:996
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1012
 msgid "Confirm Seed"
 msgstr "Mag megerősítése"
 
-#: electrum/base_wizard.py:638
+#: electrum/base_wizard.py:640
 msgid "Confirm Seed Extension"
 msgstr "Mag kiterjesztés (jelszó) megerősítése"
 
@@ -985,7 +986,7 @@ msgstr "Megerősítve"
 msgid "Confirmed. Signing Transaction..."
 msgstr "Megerősítve. Tranzakció aláírása folyamatban..."
 
-#: electrum/gui/qt/network_dialog.py:76
+#: electrum/gui/qt/network_dialog.py:78
 msgid "Connected node"
 msgstr "Csatlakoztatott csomópont"
 
@@ -993,12 +994,12 @@ msgstr "Csatlakoztatott csomópont"
 msgid "Connected nodes are on the same chain"
 msgstr "A csatlakoztatott csomópontok ugyanazon a láncon vannak"
 
-#: electrum/gui/qt/network_dialog.py:373
+#: electrum/gui/qt/network_dialog.py:379
 #, python-brace-format
 msgid "Connected to {0} nodes."
 msgstr "Csatlakoztatva {0} csomóponthoz."
 
-#: electrum/wallet.py:834
+#: electrum/wallet.py:871
 msgid "Connecting..."
 msgstr "Kapcsolódás folyamatban..."
 
@@ -1006,15 +1007,15 @@ msgstr "Kapcsolódás folyamatban..."
 msgid "Connections with Electrum servers"
 msgstr "Kapcsolat az Electrum szerverekkel"
 
-#: electrum/network.py:189 electrum/network.py:197 electrum/network.py:205
+#: electrum/network.py:190 electrum/network.py:198 electrum/network.py:206
 msgid "Consider trying to connect to a different server, or updating Electrum."
 msgstr "Érdemes lehet egy másik szerverhez csatlakozni, vagy frissíteni az Electrumot."
 
-#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:590
+#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:589
 msgid "Contacts"
 msgstr "Névjegyek"
 
-#: electrum/gui/qt/util.py:171 electrum/gui/qt/qrcodewidget.py:119
+#: electrum/gui/qt/util.py:174 electrum/gui/qt/qrcodewidget.py:119
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:124
 msgid "Copy"
 msgstr "Másolás"
@@ -1023,7 +1024,7 @@ msgstr "Másolás"
 msgid "Copy URI"
 msgstr "URI másolása"
 
-#: electrum/gui/qt/util.py:176
+#: electrum/gui/qt/util.py:179
 msgid "Copy and Close"
 msgstr "Másolás és bezárás"
 
@@ -1031,13 +1032,13 @@ msgstr "Másolás és bezárás"
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
 msgstr "Illeszd be a címzett Bitcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
 
-#: electrum/gui/qt/util.py:657
+#: electrum/gui/qt/util.py:660
 msgid "Copy to clipboard"
 msgstr "Másolás vágólapra"
 
 #: electrum/gui/qt/utxo_list.py:134 electrum/gui/qt/address_list.py:205
-#: electrum/gui/qt/contact_list.py:89 electrum/gui/qt/request_list.py:160
-#: electrum/gui/qt/history_list.py:590 electrum/gui/qt/invoice_list.py:115
+#: electrum/gui/qt/contact_list.py:88 electrum/gui/qt/request_list.py:160
+#: electrum/gui/qt/history_list.py:589 electrum/gui/qt/invoice_list.py:115
 msgid "Copy {}"
 msgstr "{} másolása"
 
@@ -1067,7 +1068,7 @@ msgstr "Nem sikerült aláírni az üzenetet"
 msgid "Could not sign message."
 msgstr "Nem sikerült aláírni az üzenetet."
 
-#: electrum/gui/qt/exception_window.py:108
+#: electrum/gui/qt/exception_window.py:105
 msgid "Crash report"
 msgstr "Hibajelentés"
 
@@ -1095,17 +1096,21 @@ msgstr "Új pénztárca létrehozása"
 msgid "Create or restore"
 msgstr "Létrehozás / visszaállítás"
 
-#: electrum/gui/qt/util.py:229
+#: electrum/gui/qt/util.py:232
 msgid "Critical Error"
 msgstr "Kritikus hiba"
+
+#: electrum/gui/qt/main_window.py:3432
+msgid "Current Fee"
+msgstr "Jelenlegi díj"
+
+#: electrum/gui/qt/main_window.py:3433
+msgid "Current Fee rate"
+msgstr "Jelenlegi díj árfolyam"
 
 #: electrum/gui/qt/password_dialog.py:104
 msgid "Current Password:"
 msgstr "Jelenlegi jelszó:"
-
-#: electrum/gui/qt/main_window.py:3431
-msgid "Current fee"
-msgstr "Jelenlegi díj"
 
 #: electrum/gui/qt/fee_slider.py:38
 msgid "Current rate"
@@ -1115,7 +1120,7 @@ msgstr "Aktuális árfolyam"
 msgid "Current version: {}"
 msgstr "Jelenlegi verzió: {}"
 
-#: electrum/gui/qt/history_list.py:406 electrum/gui/qt/history_list.py:433
+#: electrum/gui/qt/history_list.py:405 electrum/gui/qt/history_list.py:432
 msgid "Custom"
 msgstr "Egyéni"
 
@@ -1140,8 +1145,8 @@ msgid "Dark/Light"
 msgstr "Sötét/Világos"
 
 #: electrum/gui/text.py:111 electrum/gui/qt/request_list.py:52
-#: electrum/gui/qt/history_list.py:335 electrum/gui/stdio.py:110
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:138
+#: electrum/gui/qt/history_list.py:334 electrum/gui/stdio.py:110
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:139
 msgid "Date"
 msgstr "Dátum"
 
@@ -1153,7 +1158,7 @@ msgstr "Dátum: {}"
 msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
 msgstr "A debug naplók elmenthetőek a lemezre. Ezek hasznosak lehetnek a hibák elhárításához."
 
-#: electrum/base_wizard.py:306
+#: electrum/base_wizard.py:310
 msgid "Debug message"
 msgstr "Debug üzenet:"
 
@@ -1165,19 +1170,19 @@ msgstr "Dekódol"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: electrum/gui/qt/network_dialog.py:243
+#: electrum/gui/qt/network_dialog.py:248
 msgid "Default Servers"
 msgstr "Alapértelmezett szerverek"
 
-#: electrum/gui/qt/contact_list.py:97 electrum/gui/qt/request_list.py:163
-#: electrum/gui/qt/invoice_list.py:119 electrum/gui/qt/main_window.py:564
-#: electrum/gui/qt/main_window.py:2052
+#: electrum/gui/qt/contact_list.py:96 electrum/gui/qt/request_list.py:163
+#: electrum/gui/qt/invoice_list.py:119 electrum/gui/qt/main_window.py:563
+#: electrum/gui/qt/main_window.py:2051
 #: electrum/gui/kivy/uix/dialogs/requests.py:126
 #: electrum/gui/kivy/uix/ui_screens/status.kv:81
 msgid "Delete"
 msgstr "Törlés"
 
-#: electrum/gui/qt/main_window.py:2047
+#: electrum/gui/qt/main_window.py:2046
 #: electrum/gui/kivy/uix/dialogs/invoices.py:158
 msgid "Delete invoice?"
 msgstr "Törlöd a fizetési kérelmet?"
@@ -1200,20 +1205,20 @@ msgstr "Egység"
 
 #: electrum/gui/text.py:111 electrum/gui/text.py:181
 #: electrum/gui/qt/transaction_dialog.py:245 electrum/gui/qt/request_list.py:55
-#: electrum/gui/qt/history_list.py:336 electrum/gui/qt/invoice_list.py:51
-#: electrum/gui/qt/main_window.py:915 electrum/gui/qt/main_window.py:1192
+#: electrum/gui/qt/history_list.py:335 electrum/gui/qt/invoice_list.py:51
+#: electrum/gui/qt/main_window.py:914 electrum/gui/qt/main_window.py:1191
 #: electrum/gui/stdio.py:110 electrum/gui/kivy/uix/ui_screens/receive.kv:108
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:49
 #: electrum/gui/kivy/uix/ui_screens/send.kv:72
 msgid "Description"
 msgstr "Megjegyzés"
 
-#: electrum/gui/qt/main_window.py:1190
+#: electrum/gui/qt/main_window.py:1189
 msgid "Description of the transaction (not mandatory)."
 msgstr "Megjegyzés a tranzakcióhoz (opcionális)."
 
 #: electrum/gui/qt/utxo_list.py:124 electrum/gui/qt/address_list.py:206
-#: electrum/gui/qt/history_list.py:598 electrum/gui/qt/invoice_list.py:116
+#: electrum/gui/qt/history_list.py:597 electrum/gui/qt/invoice_list.py:116
 #: electrum/gui/kivy/uix/dialogs/addresses.py:124
 msgid "Details"
 msgstr "Részletek"
@@ -1268,7 +1273,7 @@ msgstr "Kikapcsolva"
 msgid "Disconnected"
 msgstr "Lecsatlakoztatva"
 
-#: electrum/gui/qt/main_window.py:1327
+#: electrum/gui/qt/main_window.py:1326
 msgid "Display the details of your transaction before signing it."
 msgstr "Az aláírás előtt a tranzakció részleteinek megjelenítése."
 
@@ -1276,9 +1281,9 @@ msgstr "Az aláírás előtt a tranzakció részleteinek megjelenítése."
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "Forgalmazza: Electrum Technologies GmbH"
 
-#: electrum/gui/qt/exception_window.py:72
+#: electrum/gui/qt/exception_window.py:74
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
-msgstr ""
+msgstr "Ne adj itt meg semmiféle privát információt, mivel a jelentés látható lesz a nyilvános hibajelentések listáján."
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -1316,7 +1321,7 @@ msgstr "El akarod újra indítani a varázslót?"
 msgid "Do you want to open it now?"
 msgstr "Meg akarod most nyitni?"
 
-#: electrum/gui/qt/main_window.py:1951
+#: electrum/gui/qt/main_window.py:1950
 msgid "Do you want to remove {} from your wallet?"
 msgstr "Biztosan törlöd ezt a címet ({}) a pénztárcából?"
 
@@ -1324,11 +1329,11 @@ msgstr "Biztosan törlöd ezt a címet ({}) a pénztárcából?"
 msgid "Do you want to send this report?"
 msgstr "El akarod küldeni ezt a jelentést?"
 
-#: electrum/gui/qt/main_window.py:1620
+#: electrum/gui/qt/main_window.py:1619
 msgid "Do you wish to continue?"
 msgstr "Biztosan folytatni szeretnéd?"
 
-#: electrum/gui/qt/main_window.py:487
+#: electrum/gui/qt/main_window.py:486
 msgid "Don't show this again."
 msgstr "Ne mutasd többször"
 
@@ -1356,8 +1361,8 @@ msgstr "Minden Revealer-t csak egyszer ajánlott használni."
 msgid "Edit fees manually"
 msgstr "Tranzakciós díjak manuális megadása"
 
-#: electrum/gui/qt/address_list.py:208 electrum/gui/qt/contact_list.py:95
-#: electrum/gui/qt/history_list.py:597
+#: electrum/gui/qt/address_list.py:208 electrum/gui/qt/contact_list.py:94
+#: electrum/gui/qt/history_list.py:596
 msgid "Edit {}"
 msgstr "{} szerkesztése"
 
@@ -1379,11 +1384,11 @@ msgstr "Az Electrum nem tudott megfelelően kapcsolódni az eszközhöz ({}).\n\
 msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Az Electrum távoli szerverekről kérdezi le a Bitcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
 
-#: electrum/gui/qt/network_dialog.py:300
+#: electrum/gui/qt/network_dialog.py:305
 msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr "Az Electrum egyszerre több szerverhez is csatlakozik, hogy letöltse a blokk fejléceket, és hogy megkeresse a leghosszabb blokkláncot."
 
-#: electrum/gui/qt/main_window.py:615
+#: electrum/gui/qt/main_window.py:614
 msgid "Electrum preferences"
 msgstr "Electrum beállítások"
 
@@ -1391,7 +1396,7 @@ msgstr "Electrum beállítások"
 msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
 msgstr "Az Electrum egyszerre egy szerverről kérdezi le a tranzakciók listáját. A szerver által visszaadott listát ezután összehasonlítja más szerverek listáival, \"Egyszerű Fizetés Ellenőrzés\" (Simple Payment Verification / SPV) használatával."
 
-#: electrum/gui/qt/network_dialog.py:309
+#: electrum/gui/qt/network_dialog.py:314
 msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Az Electrum a pénztárca címeit elküldi egy szervernek, hogy lekérdezze a címekhez tartozó tranzakciók listáját."
 
@@ -1399,7 +1404,7 @@ msgstr "Az Electrum a pénztárca címeit elküldi egy szervernek, hogy lekérde
 msgid "Electrum wallet"
 msgstr "Electrum pénztárca"
 
-#: electrum/gui/qt/main_window.py:521
+#: electrum/gui/qt/main_window.py:520
 msgid "Electrum was unable to copy your wallet file to the specified location."
 msgstr "Az Electrum nem tudja másolni a tárcafájlodat a választott helyre."
 
@@ -1419,11 +1424,11 @@ msgstr "Az Electrum nem tudja feldolgozni a tranzakciódat"
 msgid "Electrum was unable to produce a private key-export."
 msgstr "Az Electrum nem tudja exportálni a privát kulcsot."
 
-#: electrum/gui/qt/history_list.py:659
+#: electrum/gui/qt/history_list.py:658
 msgid "Electrum was unable to produce a transaction export."
 msgstr "Az Electrum nem tudja exportálni a tranzakciót."
 
-#: electrum/gui/qt/main_window.py:656
+#: electrum/gui/qt/main_window.py:655
 msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
 msgstr ""
 
@@ -1454,7 +1459,7 @@ msgstr "Kimeneti érték kerekítése"
 msgid "Enable passphrases"
 msgstr "Jelszavak engedélyezése"
 
-#: electrum/gui/qt/main_window.py:242
+#: electrum/gui/qt/main_window.py:241
 msgid "Enable update check"
 msgstr "Frissítések keresése"
 
@@ -1498,12 +1503,12 @@ msgstr "Titkosított"
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "Az eszköz ({}) jelenleg nem támogatja a titkosítást és a dekódolást"
 
-#: electrum/plugins/trezor/trezor.py:62 electrum/plugins/keepkey/keepkey.py:33
+#: electrum/plugins/trezor/trezor.py:63 electrum/plugins/keepkey/keepkey.py:33
 #: electrum/plugins/safe_t/safe_t.py:34
 msgid "Encryption and decryption are not implemented by {}"
 msgstr "A titkosítást és a dekódolást nem támogatja az eszköz ({})"
 
-#: electrum/gui/qt/history_list.py:493
+#: electrum/gui/qt/history_list.py:492
 msgid "End"
 msgstr "Vége"
 
@@ -1534,7 +1539,7 @@ msgid "Enter Password"
 msgstr "Jelszó megadása"
 
 #: electrum/gui/qt/installwizard.py:422
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:766
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:782
 msgid "Enter Seed"
 msgstr "Mag megadása"
 
@@ -1542,7 +1547,7 @@ msgstr "Mag megadása"
 msgid "Enter Transaction Label"
 msgstr "Add meg a tranzakció címkéjét"
 
-#: electrum/gui/qt/main_window.py:512
+#: electrum/gui/qt/main_window.py:511
 msgid "Enter a filename for the copy of your wallet"
 msgstr "Adj meg egy fájlnevet a pénztárca másolatához"
 
@@ -1555,7 +1560,7 @@ msgstr "Adj meg egy címkét a készülék elnevezéséhez:"
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
 
-#: electrum/gui/qt/main_window.py:1971
+#: electrum/gui/qt/main_window.py:1970
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Írd be a Bitcoin címeket a \"Pénzküldés ide\" mezőbe."
 
@@ -1664,7 +1669,7 @@ msgstr "Add meg a PIN kódot a privát kulcs dekódolásához"
 msgid "Enter your PIN code in order to decrypt your seed"
 msgstr "Írd be a PIN kódot a mag dekódolásához"
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:234
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:233
 msgid "Enter your PIN code in order to sign this transaction"
 msgstr "A tranzakció aláírásához adja meg PIN-kódját"
 
@@ -1686,7 +1691,7 @@ msgstr "Add meg a jelenlegi PIN kódot:"
 msgid "Enter your current {} PIN:"
 msgstr "Add meg az eszköz ({}) PIN kódját:"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:656
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:672
 msgid "Enter your email address:"
 msgstr "Add meg az e-mail címed:"
 
@@ -1694,7 +1699,7 @@ msgstr "Add meg az e-mail címed:"
 msgid "Enter your password or choose another file."
 msgstr "Add meg a jelszót, vagy válassz egy másik fájlt."
 
-#: electrum/gui/qt/main_window.py:1705
+#: electrum/gui/qt/main_window.py:1704
 msgid "Enter your password to proceed"
 msgstr "Add meg a jelszót a folytatáshoz"
 
@@ -1705,7 +1710,7 @@ msgstr "Digital Bitbox törlése"
 #: electrum/plugins/trustedcoin/kivy.py:69
 #: electrum/plugins/trustedcoin/kivy.py:71
 #: electrum/plugins/trustedcoin/kivy.py:84
-#: electrum/plugins/trustedcoin/trustedcoin.py:673 electrum/gui/qt/util.py:225
+#: electrum/plugins/trustedcoin/trustedcoin.py:673 electrum/gui/qt/util.py:228
 #: electrum/gui/qt/installwizard.py:264 electrum/gui/qt/installwizard.py:268
 #: electrum/gui/qt/installwizard.py:274 electrum/gui/qt/installwizard.py:281
 #: electrum/gui/qt/__init__.py:232 electrum/gui/qt/__init__.py:244
@@ -1713,7 +1718,7 @@ msgstr "Digital Bitbox törlése"
 msgid "Error"
 msgstr "Hiba"
 
-#: electrum/gui/qt/main_window.py:1049 electrum/gui/kivy/uix/screens.py:413
+#: electrum/gui/qt/main_window.py:1048 electrum/gui/kivy/uix/screens.py:413
 msgid "Error adding payment request"
 msgstr "Hiba történt a fizetési kérelem hozzáadásakor"
 
@@ -1742,7 +1747,7 @@ msgstr "Hiba a tranzakció lekérdezése közben"
 msgid "Error opening file"
 msgstr "Hiba a fájl megnyitása közben"
 
-#: electrum/gui/qt/main_window.py:1866 electrum/gui/kivy/uix/screens.py:180
+#: electrum/gui/qt/main_window.py:1865 electrum/gui/kivy/uix/screens.py:180
 msgid "Error parsing URI"
 msgstr "Hiba az URI elemzése közben"
 
@@ -1760,7 +1765,7 @@ msgstr "Hiba a cím megjelenítése közben"
 msgid "Error synchronising labels"
 msgstr "Hiba a címkék szinkronizálása közben"
 
-#: electrum/base_wizard.py:500
+#: electrum/base_wizard.py:502
 msgid "Error: duplicate master public key"
 msgstr "Hiba: dupla nyilvános mesterkulcs"
 
@@ -1776,7 +1781,7 @@ msgstr "Nagyjából"
 msgid "Exit Electrum"
 msgstr "Electrum bezárása"
 
-#: electrum/gui/qt/history_list.py:502
+#: electrum/gui/qt/history_list.py:501
 msgid "Expenditures"
 msgstr "Kiadások"
 
@@ -1784,34 +1789,34 @@ msgstr "Kiadások"
 msgid "Expiration"
 msgstr "Lejárat"
 
-#: electrum/gui/qt/main_window.py:935
+#: electrum/gui/qt/main_window.py:934
 msgid "Expiration date of your request."
 msgstr "A kérelem lejárati ideje."
 
-#: electrum/gui/qt/util.py:51 electrum/gui/kivy/uix/dialogs/requests.py:92
+#: electrum/gui/qt/util.py:53 electrum/gui/kivy/uix/dialogs/requests.py:92
 #: electrum/gui/kivy/uix/dialogs/invoices.py:88
 msgid "Expired"
 msgstr "Lejárt"
 
-#: electrum/gui/qt/main_window.py:937
+#: electrum/gui/qt/main_window.py:936
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
 msgstr "A lejárt kérelmeket kézzel kell kitörölnöd, ha fel szeretnéd szabadítani a hozzájuk tartozó Bitcoin címeket."
 
-#: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
+#: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2033
 msgid "Expires"
 msgstr "Lejárat"
 
 #: electrum/gui/qt/transaction_dialog.py:134
-#: electrum/gui/qt/history_list.py:647 electrum/gui/qt/main_window.py:593
-#: electrum/gui/qt/main_window.py:596 electrum/gui/qt/main_window.py:2599
+#: electrum/gui/qt/history_list.py:646 electrum/gui/qt/main_window.py:592
+#: electrum/gui/qt/main_window.py:595 electrum/gui/qt/main_window.py:2599
 msgid "Export"
 msgstr "Exportálás"
 
-#: electrum/gui/qt/history_list.py:639
+#: electrum/gui/qt/history_list.py:638
 msgid "Export History"
 msgstr "Előzmények exportálása"
 
-#: electrum/gui/qt/contact_list.py:84
+#: electrum/gui/qt/contact_list.py:83
 msgid "Export file"
 msgstr "Exportálás"
 
@@ -1828,7 +1833,7 @@ msgid "Extend this seed with custom words"
 msgstr "Jelszó létrehozása a maghoz"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:732
-#: electrum/plugins/ledger/ledger.py:606 electrum/plugins/trezor/trezor.py:271
+#: electrum/plugins/ledger/ledger.py:606 electrum/plugins/trezor/trezor.py:281
 #: electrum/plugins/keepkey/keepkey.py:268
 #: electrum/plugins/safe_t/safe_t.py:264
 #: electrum/plugins/coldcard/coldcard.py:667
@@ -1857,16 +1862,16 @@ msgstr "Hiba az importálás során."
 msgid "Failed to send transaction to cosigning pool"
 msgstr "A tranzakció nem küldhető el a több-aláíró csoportba"
 
-#: electrum/gui/qt/main_window.py:2173
+#: electrum/gui/qt/main_window.py:2172
 msgid "Failed to update password"
 msgstr "Jelszó frissítése sikertelen"
 
-#: electrum/gui/qt/main_window.py:2221
+#: electrum/gui/qt/main_window.py:2220
 msgid "False"
 msgstr "Nem"
 
 #: electrum/gui/text.py:183 electrum/gui/qt/transaction_dialog.py:276
-#: electrum/gui/qt/main_window.py:1229
+#: electrum/gui/qt/main_window.py:1228
 #: electrum/gui/kivy/uix/ui_screens/send.kv:90
 msgid "Fee"
 msgstr "Tranzakciós díj"
@@ -1879,7 +1884,7 @@ msgstr "Tranzakciós díj meghatározás típusa"
 msgid "Fee for child"
 msgstr "Gyerek tranzakciós díja"
 
-#: electrum/gui/qt/main_window.py:1293
+#: electrum/gui/qt/main_window.py:1292
 msgid "Fee rounding"
 msgstr "Tranzakciós díj kerekítés"
 
@@ -1887,7 +1892,7 @@ msgstr "Tranzakciós díj kerekítés"
 msgid "Fees"
 msgstr "Díjak"
 
-#: electrum/gui/qt/address_list.py:87 electrum/gui/qt/main_window.py:3217
+#: electrum/gui/qt/address_list.py:86 electrum/gui/qt/main_window.py:3217
 msgid "Fiat"
 msgstr "Fiat"
 
@@ -1895,23 +1900,23 @@ msgstr "Fiat"
 msgid "Fiat currency"
 msgstr "Fiat pénznem"
 
-#: electrum/gui/qt/util.py:423
+#: electrum/gui/qt/util.py:426
 msgid "File"
 msgstr "Fájl"
 
-#: electrum/gui/qt/address_list.py:72
+#: electrum/gui/qt/address_list.py:71
 msgid "Filter:"
 msgstr "Szűrés:"
 
-#: electrum/gui/qt/main_window.py:3442
+#: electrum/gui/qt/main_window.py:3450
 msgid "Final"
 msgstr "Végleges"
 
-#: electrum/gui/qt/history_list.py:496
+#: electrum/gui/qt/history_list.py:495
 msgid "Final balance"
 msgstr "Végső egyenleg"
 
-#: electrum/gui/qt/main_window.py:599
+#: electrum/gui/qt/main_window.py:598
 msgid "Find"
 msgstr "Keresés"
 
@@ -1936,7 +1941,7 @@ msgstr "Az eszköz firmware-je túl régi. Kérjük frissítsd:"
 msgid "Fixed rate"
 msgstr "Fix összeg"
 
-#: electrum/gui/qt/network_dialog.py:91
+#: electrum/gui/qt/network_dialog.py:93
 msgid "Follow this branch"
 msgstr "Ennek az ágnak a követése"
 
@@ -1946,7 +1951,7 @@ msgstr "Ennek az ágnak a követése"
 msgid "For more information, visit"
 msgstr "További információért keresd fel az alábbi weblapot:"
 
-#: electrum/gui/qt/main_window.py:243
+#: electrum/gui/qt/main_window.py:242
 msgid "For security reasons we advise that you always use the latest version of Electrum."
 msgstr "Biztonsági okokból ajánlott mindig az Electrum legújabb verzióját használni."
 
@@ -1954,11 +1959,11 @@ msgstr "Biztonsági okokból ajánlott mindig az Electrum legújabb verzióját 
 msgid "Fork detected at block {}"
 msgstr "A blokklánc kettévált a(z) {}-s blokknál"
 
-#: electrum/gui/qt/util.py:399
+#: electrum/gui/qt/util.py:402
 msgid "Format"
 msgstr "Formátum"
 
-#: electrum/gui/qt/main_window.py:1973
+#: electrum/gui/qt/main_window.py:1972
 msgid "Format: address, amount"
 msgstr "Formátum: cím, összeg"
 
@@ -1986,7 +1991,7 @@ msgstr "Érmék lefagyasztása"
 msgid "French"
 msgstr "Francia"
 
-#: electrum/gui/qt/history_list.py:421 electrum/gui/qt/main_window.py:1197
+#: electrum/gui/qt/history_list.py:420 electrum/gui/qt/main_window.py:1196
 msgid "From"
 msgstr "Feladó"
 
@@ -1999,7 +2004,7 @@ msgstr "{0} társ-aláírótól"
 msgid "Full 2FA enabled. This is not supported yet."
 msgstr "A teljes kétfaktoros hitelesítés engedélyezve van. Ez még nem támogatott."
 
-#: electrum/gui/qt/address_list.py:66
+#: electrum/gui/qt/address_list.py:65
 #: electrum/gui/kivy/uix/dialogs/addresses.py:120
 msgid "Funded"
 msgstr "Pozitív egyenlegű"
@@ -2042,7 +2047,7 @@ msgstr "Nem található handler az alábbi pluginhoz:"
 msgid "Hardware Keystore"
 msgstr "Hardvereszköz"
 
-#: electrum/gui/qt/network_dialog.py:76 electrum/gui/qt/utxo_list.py:50
+#: electrum/gui/qt/network_dialog.py:78 electrum/gui/qt/utxo_list.py:50
 msgid "Height"
 msgstr "Magasság"
 
@@ -2050,7 +2055,7 @@ msgstr "Magasság"
 msgid "Hello World"
 msgstr "Hello World"
 
-#: electrum/gui/qt/util.py:108 electrum/gui/qt/util.py:135
+#: electrum/gui/qt/util.py:111 electrum/gui/qt/util.py:138
 msgid "Help"
 msgstr "Súgó"
 
@@ -2058,7 +2063,7 @@ msgstr "Súgó"
 msgid "Here is your master public key."
 msgstr "Ez a te nyilvános mesterkulcsod."
 
-#: electrum/gui/qt/main_window.py:603
+#: electrum/gui/qt/main_window.py:602
 msgid "Hide"
 msgstr "Elrejtés:"
 
@@ -2070,12 +2075,12 @@ msgstr "Privát kulcs elrejtése"
 msgid "Hide seed"
 msgstr "Mag elrejtése"
 
-#: electrum/gui/qt/main_window.py:288
+#: electrum/gui/qt/main_window.py:287
 msgid "Hide {}"
 msgstr "{} elrejtése"
 
 #: electrum/gui/text.py:71 electrum/gui/qt/address_dialog.py:87
-#: electrum/gui/qt/main_window.py:175
+#: electrum/gui/qt/main_window.py:174
 msgid "History"
 msgstr "Előzmények"
 
@@ -2087,7 +2092,7 @@ msgstr "Weboldal"
 msgid "Homescreen"
 msgstr "Kezdőképernyő"
 
-#: electrum/gui/qt/network_dialog.py:149
+#: electrum/gui/qt/network_dialog.py:151
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:19
 #: electrum/gui/kivy/uix/ui_screens/server.kv:19
 msgid "Host"
@@ -2121,7 +2126,7 @@ msgstr "Elvesztettem a Google Authenticator fiókomat"
 msgid "Identity"
 msgstr "Személyazonosság"
 
-#: electrum/gui/qt/network_dialog.py:233
+#: electrum/gui/qt/network_dialog.py:238
 msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
 msgstr "Ha az automatikus csatlakozás be van kapcsolva, akkor az Electrum mindig egy olyan szervert fog választani, amelyiknek a blokklánca a leghosszabb."
 
@@ -2129,11 +2134,11 @@ msgstr "Ha az automatikus csatlakozás be van kapcsolva, akkor az Electrum mindi
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "Ha engedélyezve van, akkor emiatt legfeljebb 100 satoshi veszhet el tranzakciónként."
 
-#: electrum/gui/qt/network_dialog.py:234
+#: electrum/gui/qt/network_dialog.py:239
 msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
 msgstr "Ha nincs engedélyezve, akkor manuálisan kell kiválasztanod egy szervert. Az Electrum figyelmeztetni fog, ha ez a szerver lemaradásban van."
 
-#: electrum/base_wizard.py:380
+#: electrum/base_wizard.py:382
 msgid "If you are not sure what this is, leave this field unchanged."
 msgstr "Ha nem tudod pontosan, hogy ez mit jelent, akkor ne módosítsd."
 
@@ -2154,7 +2159,7 @@ msgstr "Ha bejelölöd ezt a négyzetet, akkor a meg nem erősített tranzakció
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
 msgstr "Ha kikapcsolod a PIN kódos védelmet, akkor bárki, aki hozzáfér az eszközödhöz ({}), hozzá tud férni a Bitcoinjaidhoz is."
 
-#: electrum/base_wizard.py:438
+#: electrum/base_wizard.py:440
 msgid "If you do not know what this is, leave this field empty."
 msgstr "Ha nem tudod pontosan, hogy ez mit jelent, akkor hagyd üresen."
 
@@ -2163,7 +2168,7 @@ msgstr "Ha nem tudod pontosan, hogy ez mit jelent, akkor hagyd üresen."
 msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "Ha elfelejtesz egy jelszót, akkor elvesznek az abban a pénztárcában tárolt Bitcoinok is. A jelszó nem egy PIN kód. Csak akkor változtasd ezt meg, ha pontosan tudod, hogy ez mit jelent."
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:726
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:742
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
 msgstr "Ha elfelejted a PIN kódot, vagy elveszíted ezt az eszközt, akkor kizárólag a mag segítségével tudod majd visszaállítani a pénztárcád."
 
@@ -2171,7 +2176,7 @@ msgstr "Ha elfelejted a PIN kódot, vagy elveszíted ezt az eszközt, akkor kiz�
 msgid "If you have an old printer, or want optimal precision"
 msgstr "Ha a nyomtatód régi, vagy ha nagy pontosságot szeretnél,"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:620
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:636
 msgid "If you have lost your Google Authenticator account, you can request a new secret. You will need to retype your seed."
 msgstr "Ha elvesztetted a Google Authenticator fiókod, akkor lehetőséged van egy új titkos kulcsszó létrehozására. Ehhez újra be kell írnod a pénztárca magját."
 
@@ -2191,7 +2196,7 @@ msgstr "Ha elveszíted a magot, akkor a pénztárcában lévő összes pénz is 
 msgid "If you use a passphrase, make sure it is correct."
 msgstr "Ha az eszköz jelszóval védett, győződj meg róla, hogy helyesen írtad be."
 
-#: electrum/gui/qt/main_window.py:1087
+#: electrum/gui/qt/main_window.py:1086
 msgid "If you want to create new addresses, use a deterministic wallet instead."
 msgstr "Ha szeretnél további címeket létrehozni, használj egy determinisztikus pénztárcát."
 
@@ -2207,7 +2212,7 @@ msgstr "Ha a pénztárcában van még pénz, akkor bizonyosodj meg róla, hogy e
 msgid "Ignore and continue?"
 msgstr "Folytatod?"
 
-#: electrum/gui/qt/main_window.py:592 electrum/gui/qt/main_window.py:595
+#: electrum/gui/qt/main_window.py:591 electrum/gui/qt/main_window.py:594
 #: electrum/gui/qt/main_window.py:2768
 msgid "Import"
 msgstr "Importálás"
@@ -2220,11 +2225,11 @@ msgstr "Bitcoin címek importálása"
 msgid "Import Bitcoin addresses or private keys"
 msgstr "Bitcoin címek vagy privát kulcsok importálása"
 
-#: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2789
+#: electrum/gui/qt/main_window.py:576 electrum/gui/qt/main_window.py:2789
 msgid "Import addresses"
 msgstr "Címek importálása"
 
-#: electrum/gui/qt/contact_list.py:83
+#: electrum/gui/qt/contact_list.py:82
 msgid "Import file"
 msgstr "Fájl importálása"
 
@@ -2260,7 +2265,7 @@ msgstr "Megerősítődés a következő blokkban"
 msgid "Included in block: {}"
 msgstr "Az alábbi blokkban szerepel: {}"
 
-#: electrum/gui/qt/history_list.py:499
+#: electrum/gui/qt/history_list.py:498
 msgid "Income"
 msgstr "Bevétel"
 
@@ -2276,11 +2281,11 @@ msgstr "Helytelen jelszó."
 msgid "Incorrect seed"
 msgstr "Helytelen mag"
 
-#: electrum/gui/qt/history_list.py:603
+#: electrum/gui/qt/history_list.py:602
 msgid "Increase fee"
 msgstr "Tranzakciós díj növelése"
 
-#: electrum/gui/qt/main_window.py:3430
+#: electrum/gui/qt/main_window.py:3431
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Megnövelheted a tranzakciós díjat, ezáltal a tranzakciót előrébb helyezva a mempoolban."
 
@@ -2288,24 +2293,24 @@ msgstr "Megnövelheted a tranzakciós díjat, ezáltal a tranzakciót előrébb 
 msgid "Indonesian"
 msgstr "Indonéz"
 
-#: electrum/gui/qt/util.py:151
+#: electrum/gui/qt/util.py:154
 msgid "Info"
 msgstr "Info"
 
 #: electrum/plugins/trezor/qt.py:619 electrum/plugins/keepkey/qt.py:562
-#: electrum/plugins/safe_t/qt.py:492 electrum/gui/qt/util.py:233
+#: electrum/plugins/safe_t/qt.py:492 electrum/gui/qt/util.py:236
 msgid "Information"
 msgstr "Információ"
 
-#: electrum/gui/qt/history_list.py:490
+#: electrum/gui/qt/history_list.py:489
 msgid "Initial balance"
 msgstr "Kezdő egyenleg"
 
-#: electrum/plugins/ledger/qt.py:85
+#: electrum/plugins/ledger/qt.py:83
 msgid "Initialization of Ledger HW devices is currently disabled."
 msgstr "Jelenleg nincs lehetőség Ledger hardvereszközök inicializálására."
 
-#: electrum/plugins/trezor/trezor.py:205
+#: electrum/plugins/trezor/trezor.py:215
 #: electrum/plugins/keepkey/keepkey.py:209
 #: electrum/plugins/safe_t/safe_t.py:193
 msgid "Initialize Device"
@@ -2344,16 +2349,16 @@ msgstr "Utasítások:"
 msgid "Insufficient funds"
 msgstr "Nem áll rendelkezésre elegendő összeg"
 
-#: electrum/gui/qt/main_window.py:1991
+#: electrum/gui/qt/main_window.py:1990
 msgid "Invalid Address"
 msgstr "Érvénytelen cím"
 
-#: electrum/gui/text.py:347 electrum/gui/qt/main_window.py:1636
+#: electrum/gui/text.py:347 electrum/gui/qt/main_window.py:1635
 #: electrum/gui/stdio.py:178
 msgid "Invalid Amount"
 msgstr "Érvénytelen összeg"
 
-#: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
+#: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1632
 #: electrum/gui/kivy/uix/screens.py:265
 msgid "Invalid Bitcoin Address"
 msgstr "Érvénytelen Bitcoin cím"
@@ -2362,7 +2367,7 @@ msgstr "Érvénytelen Bitcoin cím"
 msgid "Invalid Bitcoin address"
 msgstr "Érvénytelen Bitcoin cím"
 
-#: electrum/wallet.py:1141 electrum/gui/qt/main_window.py:2343
+#: electrum/wallet.py:1260 electrum/gui/qt/main_window.py:2343
 #: electrum/gui/qt/main_window.py:2371
 msgid "Invalid Bitcoin address."
 msgstr "Érvénytelen Bitcoin cím."
@@ -2371,15 +2376,15 @@ msgstr "Érvénytelen Bitcoin cím."
 msgid "Invalid Fee"
 msgstr "Érvénytelen tranzakciós díj"
 
-#: electrum/util.py:906
+#: electrum/util.py:904
 msgid "Invalid JSON code."
 msgstr "Érvénytelen JSON kód."
 
-#: electrum/gui/qt/main_window.py:1613
+#: electrum/gui/qt/main_window.py:1612
 msgid "Invalid Lines found:"
 msgstr "Hibás sorok:"
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:244
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:243
 #: electrum/gui/kivy/main_window.py:940
 msgid "Invalid PIN"
 msgstr "Érvénytelen PIN"
@@ -2402,7 +2407,7 @@ msgstr "Hibás egyszer-használatos jelszó."
 msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
 msgstr "Érvénytelen xpub magic. Bizonyosodj meg róla, hogy az eszköz ({}) a megfelelő láncra van beállítva."
 
-#: electrum/gui/qt/main_window.py:2020
+#: electrum/gui/qt/main_window.py:2019
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:17
 msgid "Invoice"
 msgstr "Számla"
@@ -2411,11 +2416,11 @@ msgstr "Számla"
 msgid "Invoice saved"
 msgstr "Számla mentve"
 
-#: electrum/gui/qt/main_window.py:2044
+#: electrum/gui/qt/main_window.py:2043
 msgid "Invoice saved as "
 msgstr "Számla mentve mint "
 
-#: electrum/gui/qt/main_window.py:594 electrum/gui/qt/main_window.py:1387
+#: electrum/gui/qt/main_window.py:593 electrum/gui/qt/main_window.py:1386
 #: electrum/gui/kivy/uix/ui_screens/send.kv:101
 msgid "Invoices"
 msgstr "Számlák"
@@ -2428,7 +2433,7 @@ msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítség
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
 msgstr "Ez azt jelenti, hogy nem készíthető róla biztonsági mentés, ha egyszerűen a privát kulcsokat exportálod."
 
-#: electrum/gui/qt/main_window.py:3467
+#: electrum/gui/qt/main_window.py:3471
 msgid "It conflicts with current history."
 msgstr "Konfliktusban van a jelenlegi előzményekkel."
 
@@ -2452,7 +2457,7 @@ msgstr "KeepKey mag visszaállítás"
 msgid "KeepKey wallet"
 msgstr "KeepKey pénztárca"
 
-#: electrum/gui/qt/main_window.py:1206
+#: electrum/gui/qt/main_window.py:1205
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Bitcoin mennyiség beíródik a mezőbe."
 
@@ -2460,7 +2465,7 @@ msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető 
 msgid "Keystore"
 msgstr "Kulcstár"
 
-#: electrum/gui/qt/main_window.py:2234
+#: electrum/gui/qt/main_window.py:2233
 msgid "Keystore type"
 msgstr "Kulcstár típusa"
 
@@ -2468,7 +2473,7 @@ msgstr "Kulcstár típusa"
 msgid "Kyrgyz"
 msgstr "Kirgiz"
 
-#: electrum/gui/qt/utxo_list.py:48 electrum/gui/qt/address_list.py:91
+#: electrum/gui/qt/utxo_list.py:48 electrum/gui/qt/address_list.py:90
 msgid "Label"
 msgstr "Címke"
 
@@ -2502,7 +2507,7 @@ msgstr "Lett"
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Hagyd ezt a mezőt üresen, ha nem szeretnéd titkosítani őket."
 
-#: electrum/plugins/ledger/qt.py:55
+#: electrum/plugins/ledger/qt.py:53
 msgid "Ledger Status"
 msgstr "Ledger állapot"
 
@@ -2514,7 +2519,7 @@ msgstr "Ledger pénztárca hitelesítés"
 msgid "Ledger wallet"
 msgstr "Ledger pénztárca"
 
-#: electrum/base_wizard.py:609
+#: electrum/base_wizard.py:611
 msgid "Legacy"
 msgstr "Hagyományos"
 
@@ -2522,7 +2527,7 @@ msgstr "Hagyományos"
 msgid "Legacy 2FA"
 msgstr "Hagyományos, kétfaktoros"
 
-#: electrum/plugins/trezor/trezor.py:190
+#: electrum/plugins/trezor/trezor.py:200
 #: electrum/plugins/keepkey/keepkey.py:192
 #: electrum/plugins/safe_t/safe_t.py:176
 msgid "Let the device generate a completely new seed randomly"
@@ -2540,7 +2545,7 @@ msgstr "Licensz"
 msgid "Light"
 msgstr "Világos"
 
-#: electrum/gui/qt/main_window.py:1613
+#: electrum/gui/qt/main_window.py:1612
 msgid "Line #"
 msgstr "Sor #"
 
@@ -2560,7 +2565,7 @@ msgstr "Tranzakció betöltése"
 msgid "Loading backup..."
 msgstr "Biztonsági mentés betöltése..."
 
-#: electrum/wallet.py:80 electrum/wallet.py:394
+#: electrum/wallet.py:80 electrum/wallet.py:406
 msgid "Local"
 msgstr "Lokális"
 
@@ -2573,7 +2578,7 @@ msgid "Low fee"
 msgstr "Alacsony díj"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:733
-#: electrum/plugins/ledger/ledger.py:607 electrum/plugins/trezor/trezor.py:272
+#: electrum/plugins/ledger/ledger.py:607 electrum/plugins/trezor/trezor.py:282
 #: electrum/plugins/keepkey/keepkey.py:269
 #: electrum/plugins/safe_t/safe_t.py:265
 #: electrum/plugins/coldcard/coldcard.py:668
@@ -2584,7 +2589,7 @@ msgstr "Bizonyosodj meg róla, hogy az eszköz megfelelő módban van."
 msgid "Make sure you install it with python3"
 msgstr "Bizonyosodj meg róla, hogy python3-al telepíted"
 
-#: electrum/gui/qt/main_window.py:468
+#: electrum/gui/qt/main_window.py:467
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
 msgstr "Bizonyosodj meg róla, hogy birtokában vagy a pénztárca magjának vagy a privát kulcsoknak, mielőtt Bitcoint fogadnál."
 
@@ -2593,8 +2598,8 @@ msgid "Master Fingerprint"
 msgstr "Mester ujjlenyomat"
 
 #: electrum/gui/qt/installwizard.py:592 electrum/gui/qt/main_window.py:2255
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:889
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:893
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:905
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:909
 #: electrum/gui/kivy/uix/ui_screens/status.kv:58
 #: electrum/gui/kivy/uix/ui_screens/status.kv:61
 #: electrum/gui/kivy/main_window.py:650 electrum/gui/kivy/main_window.py:652
@@ -2609,7 +2614,7 @@ msgstr "Nyilvános mesterkulcsok"
 msgid "Matrix"
 msgstr "Mátrix"
 
-#: electrum/gui/qt/main_window.py:1218
+#: electrum/gui/qt/main_window.py:1217
 msgid "Max"
 msgstr "Maximum"
 
@@ -2617,7 +2622,7 @@ msgstr "Maximum"
 msgid "Max fee exceeded"
 msgstr "Maximum tranzakciós díj meghaladva"
 
-#: electrum/gui/qt/main_window.py:2029
+#: electrum/gui/qt/main_window.py:2028
 msgid "Memo"
 msgstr "Memo"
 
@@ -2629,7 +2634,7 @@ msgstr "Mempool"
 msgid "Mempool based: fee rate is targeting a depth in the memory pool"
 msgstr "Mempool alapú: a díj a mempool mérete alapján lesz megbecsülve"
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:141
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:142
 msgid "Mempool depth"
 msgstr "Mempool mérete"
 
@@ -2641,7 +2646,7 @@ msgstr "Üzenet"
 msgid "Method:"
 msgstr "Módszer:"
 
-#: electrum/gui/qt/main_window.py:1691 electrum/gui/kivy/uix/screens.py:300
+#: electrum/gui/qt/main_window.py:1690 electrum/gui/kivy/uix/screens.py:300
 msgid "Mining fee"
 msgstr "Bányász tranzakciós díj"
 
@@ -2649,7 +2654,7 @@ msgstr "Bányász tranzakciós díj"
 msgid "Missing libraries for {}."
 msgstr "Programkönyvtárak hiányoznak az alábbihoz: {}."
 
-#: electrum/base_crash_reporter.py:67
+#: electrum/base_crash_reporter.py:68
 msgid "Missing report URL."
 msgstr "Hiányzó jelentés URL."
 
@@ -2682,7 +2687,7 @@ msgstr "Több-aláírós pénztárca"
 msgid "NOT DEVICE PIN - see above"
 msgstr "NEM AZ ESZKÖZ PIN KÓDJA - lásd fentebb"
 
-#: electrum/gui/qt/contact_list.py:48 electrum/gui/qt/main_window.py:2206
+#: electrum/gui/qt/contact_list.py:47 electrum/gui/qt/main_window.py:2205
 msgid "Name"
 msgstr "Név"
 
@@ -2691,17 +2696,17 @@ msgstr "Név"
 msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
 msgstr "Adj meg egy címkét ennek a {} eszköznek. Ha több eszközöd is van, a címkék segítenek megkülönböztetni őket."
 
-#: electrum/gui/text.py:157 electrum/gui/qt/network_dialog.py:52
-#: electrum/gui/qt/main_window.py:2126
+#: electrum/gui/text.py:157 electrum/gui/qt/network_dialog.py:54
+#: electrum/gui/qt/main_window.py:2125
 #: electrum/gui/kivy/uix/ui_screens/network.kv:3 electrum/gui/kivy/main.kv:451
 msgid "Network"
 msgstr "Hálózat"
 
-#: electrum/interface.py:168
+#: electrum/interface.py:174
 msgid "Network request timed out."
 msgstr "Hálózati időtúllépés."
 
-#: electrum/gui/qt/util.py:58 electrum/gui/qt/exception_window.py:85
+#: electrum/gui/qt/util.py:60 electrum/gui/qt/exception_window.py:87
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
 #: electrum/gui/kivy/uix/dialogs/invoices.py:128
 msgid "Never"
@@ -2715,28 +2720,28 @@ msgstr "Ne oszd meg másokkal ezt a magot."
 msgid "Never type it on a website."
 msgstr "Soha ne írd be semmilyen weboldalra."
 
-#: electrum/gui/qt/main_window.py:951
+#: electrum/gui/qt/main_window.py:950
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:139
 msgid "New"
 msgstr "Új"
 
-#: electrum/gui/qt/main_window.py:2196 electrum/gui/qt/main_window.py:2198
+#: electrum/gui/qt/main_window.py:2195 electrum/gui/qt/main_window.py:2197
 msgid "New Contact"
 msgstr "Új névjegy"
+
+#: electrum/gui/qt/main_window.py:3434
+msgid "New Fee rate"
+msgstr "Új díj árfolyam"
 
 #: electrum/gui/qt/password_dialog.py:101
 msgid "New Password:"
 msgstr "Új jelszó:"
 
-#: electrum/gui/qt/contact_list.py:82
+#: electrum/gui/qt/contact_list.py:81
 msgid "New contact"
 msgstr "Új névjegy"
 
-#: electrum/gui/qt/main_window.py:3432
-msgid "New fee:"
-msgstr "Új tranzakciós díj:"
-
-#: electrum/gui/qt/main_window.py:707
+#: electrum/gui/qt/main_window.py:706
 msgid "New transaction: {}"
 msgstr "Új tranzakció: {}"
 
@@ -2766,11 +2771,11 @@ msgstr "Nincs leírás"
 msgid "No Wallet"
 msgstr "Nincs pénztárca"
 
-#: electrum/exchange_rate.py:608
+#: electrum/exchange_rate.py:602
 msgid "No data"
 msgstr "Nincs adat"
 
-#: electrum/gui/qt/main_window.py:651
+#: electrum/gui/qt/main_window.py:650
 msgid "No donation address for this server"
 msgstr "A szerverhez nem tartozik adomány cím"
 
@@ -2782,7 +2787,7 @@ msgstr "Nem történt hiba."
 msgid "No fork detected"
 msgstr "A blokklánc nem vált ketté"
 
-#: electrum/base_wizard.py:302
+#: electrum/base_wizard.py:301
 msgid "No hardware device detected."
 msgstr "Nem található hardvereszköz."
 
@@ -2790,19 +2795,19 @@ msgstr "Nem található hardvereszköz."
 msgid "No inputs found. (Note that inputs need to be confirmed)"
 msgstr "Nem találhatóak bemenetek, vagy a bemenetek nem megerősítettek."
 
-#: electrum/gui/qt/main_window.py:2235
+#: electrum/gui/qt/main_window.py:2234
 msgid "No keystore"
 msgstr "Nincs kulcstár"
 
-#: electrum/gui/qt/main_window.py:1040
+#: electrum/gui/qt/main_window.py:1039
 msgid "No message or amount"
 msgstr "A megjegyzést vagy a kért összeget meg kell adni"
 
-#: electrum/gui/qt/main_window.py:1085
+#: electrum/gui/qt/main_window.py:1084
 msgid "No more addresses in your wallet."
 msgstr "Elfogytak a pénztárcádból a címek."
 
-#: electrum/gui/qt/main_window.py:1625
+#: electrum/gui/qt/main_window.py:1624
 msgid "No outputs"
 msgstr "Nincs kimenet megadva"
 
@@ -2818,7 +2823,7 @@ msgstr "Nincsenek elmentett kérelmek."
 msgid "No wallet loaded."
 msgstr "Nincs pénztárca megnyitva."
 
-#: electrum/gui/qt/network_dialog.py:362 electrum/gui/qt/history_list.py:402
+#: electrum/gui/qt/network_dialog.py:368 electrum/gui/qt/history_list.py:401
 #: electrum/gui/qt/main_window.py:3125
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:120
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:121
@@ -2833,7 +2838,7 @@ msgstr "Nincs"
 msgid "Norwegian Bokmal"
 msgstr "Norvég"
 
-#: electrum/gui/qt/exception_window.py:89
+#: electrum/gui/qt/exception_window.py:91
 msgid "Not Now"
 msgstr "Most nem"
 
@@ -2841,14 +2846,14 @@ msgstr "Most nem"
 msgid "Not Verified"
 msgstr "Nem megerősített"
 
-#: electrum/gui/text.py:150 electrum/gui/qt/network_dialog.py:373
-#: electrum/gui/qt/main_window.py:850 electrum/gui/qt/main_window.py:852
+#: electrum/gui/text.py:150 electrum/gui/qt/network_dialog.py:379
+#: electrum/gui/qt/main_window.py:849 electrum/gui/qt/main_window.py:851
 #: electrum/gui/stdio.py:128 electrum/gui/kivy/uix/ui_screens/network.kv:14
 #: electrum/gui/kivy/main_window.py:975
 msgid "Not connected"
 msgstr "Nincs kapcsolat"
 
-#: electrum/gui/qt/main_window.py:1358 electrum/gui/kivy/uix/screens.py:289
+#: electrum/gui/qt/main_window.py:1357 electrum/gui/kivy/uix/screens.py:289
 msgid "Not enough funds"
 msgstr "Nem áll rendelkezésre elegendő összeg"
 
@@ -2856,11 +2861,11 @@ msgstr "Nem áll rendelkezésre elegendő összeg"
 msgid "Not enough funds on address."
 msgstr "Nem áll rendelkezésre elegendő összeg a címen."
 
-#: electrum/wallet.py:383
+#: electrum/wallet.py:395
 msgid "Not verified"
 msgstr "Nem megerősített"
 
-#: electrum/gui/qt/main_window.py:1205
+#: electrum/gui/qt/main_window.py:1204
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Ha vannak lefagyasztott címeid, akkor a maximálisan elküldhető összeg kevesebb lesz, mivel azokról nem lehet küldeni."
 
@@ -2868,7 +2873,7 @@ msgstr "Ha vannak lefagyasztott címeid, akkor a maximálisan elküldhető össz
 msgid "Note that some merchants do not accept non-final transactions until they are confirmed."
 msgstr "Ne feledd, néhány helyen nem fogadják el a nem-végleges tranzakciókat addig, amíg azok meg nem erősítődnek."
 
-#: electrum/base_wizard.py:437
+#: electrum/base_wizard.py:439
 msgid "Note that this is NOT your encryption password."
 msgstr "Figyelem: ez NEM a pénztárca fájl titkosítását feloldó jelszó."
 
@@ -2881,7 +2886,7 @@ msgstr "Ne feledd, hogy a pénzed nincs lezárva, ha ezt a szolgáltatást haszn
 msgid "Note: If you enable this setting, you will need your hardware device to open your wallet."
 msgstr "Ha engedélyezed a titkosítást, akkor szükséged lesz a hardvereszközre a pénztárca megnyitásához."
 
-#: electrum/gui/qt/main_window.py:3477
+#: electrum/gui/qt/main_window.py:3481
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "Ne feledd: ez egy offline tranzakció. Ahhoz, hogy mások is láthassák, el kell küldened."
 
@@ -2893,7 +2898,7 @@ msgstr "Nincs megadva!"
 msgid "Nothing to plot."
 msgstr "Nincs megjeleníthető adat."
 
-#: electrum/gui/qt/history_list.py:478
+#: electrum/gui/qt/history_list.py:477
 msgid "Nothing to summarize."
 msgstr "Nincs mit összefoglalni."
 
@@ -2901,7 +2906,7 @@ msgstr "Nincs mit összefoglalni."
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "A tizedesjegy után megjelenő nullák száma. Ha a beállított érték 2, az \"1.\" így fog megjelenni: \"1.00\""
 
-#: electrum/plugins/audio_modem/qt.py:67 electrum/gui/qt/util.py:183
+#: electrum/plugins/audio_modem/qt.py:67 electrum/gui/qt/util.py:186
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:64
 #: electrum/gui/kivy/uix/ui_screens/server.kv:57
 msgid "OK"
@@ -2912,20 +2917,20 @@ msgid "OR"
 msgstr "VAGY"
 
 #: electrum/gui/text.py:138 electrum/gui/qt/__init__.py:189
-#: electrum/gui/qt/main_window.py:814 electrum/gui/kivy/main_window.py:750
+#: electrum/gui/qt/main_window.py:813 electrum/gui/kivy/main_window.py:750
 msgid "Offline"
 msgstr "Offline"
 
-#: electrum/plugins/ledger/ledger.py:370 electrum/plugins/trezor/trezor.py:81
+#: electrum/plugins/ledger/ledger.py:370 electrum/plugins/trezor/trezor.py:82
 #: electrum/plugins/keepkey/keepkey.py:53 electrum/plugins/safe_t/safe_t.py:54
 msgid "Offline signing with {} is not supported for legacy inputs."
 msgstr "Ez az eszköz ({}) nem támogatja a hagyományos bemenetek offline aláírását."
 
-#: electrum/base_wizard.py:305
+#: electrum/base_wizard.py:308
 msgid "On Linux, you might have to add a new permission to your udev rules."
 msgstr "Ha Linuxot használsz, akkor lehet, hogy egy új engedélyt kell hozzáadnod az udev szabályokhoz."
 
-#: electrum/gui/qt/main_window.py:1972
+#: electrum/gui/qt/main_window.py:1971
 msgid "One output per line."
 msgstr "Soronként csak egy címet írj."
 
@@ -2958,7 +2963,7 @@ msgstr "Kalibrációs pdf megnyitása"
 msgid "Open your cosigner wallet to retrieve it."
 msgstr "A társ-aláíró pénztárcádban megtekintheted."
 
-#: electrum/gui/qt/util.py:804
+#: electrum/gui/qt/util.py:807
 msgid "Open {} file"
 msgstr "{} fájl megnyitása"
 
@@ -2971,15 +2976,15 @@ msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias bejegyzés, a használatával pénzt fogadhatsz és fizetési kérelemeket írhatsz alá."
 
 #: electrum/gui/qt/seed_dialog.py:134
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:193
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:194
 msgid "Options"
 msgstr "Opciók"
 
-#: electrum/plugins/hw_wallet/qt.py:225 electrum/base_wizard.py:340
+#: electrum/plugins/hw_wallet/qt.py:225 electrum/base_wizard.py:342
 msgid "Outdated device firmware"
 msgstr "Régi firmware-verzió"
 
-#: electrum/plugins/trezor/trezor.py:275
+#: electrum/plugins/trezor/trezor.py:285
 #: electrum/plugins/keepkey/keepkey.py:155
 #: electrum/plugins/safe_t/safe_t.py:139
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
@@ -2998,7 +3003,7 @@ msgstr "Kimeneti pont"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: electrum/gui/qt/network_dialog.py:212
+#: electrum/gui/qt/network_dialog.py:214
 msgid "Overview"
 msgstr "Áttekintés"
 
@@ -3011,7 +3016,7 @@ msgstr "PIN kódos védelem"
 msgid "PIN codes do not match"
 msgstr "A PIN kódok nem egyeznek"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1044
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1060
 msgid "PIN mismatch"
 msgstr "PIN kód eltérés"
 
@@ -3025,7 +3030,7 @@ msgstr "A PIN kódos védelem használata erősen ajánlott. A PIN kód az egyet
 msgid "PIN set"
 msgstr "PIN kód beállítva"
 
-#: electrum/gui/qt/util.py:50 electrum/gui/kivy/uix/dialogs/invoices.py:87
+#: electrum/gui/qt/util.py:52 electrum/gui/kivy/uix/dialogs/invoices.py:87
 msgid "Paid"
 msgstr "Fizetve"
 
@@ -3033,7 +3038,7 @@ msgstr "Fizetve"
 msgid "Pair"
 msgstr "Párosítás"
 
-#: electrum/wallet.py:401
+#: electrum/wallet.py:414
 msgid "Partially signed"
 msgstr "Részlegesen aláírt"
 
@@ -3055,8 +3060,8 @@ msgstr "Jelszavak"
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "Jelszavak használatával lehetőséged nyílik új, rejtett pénztárcák használatára. Minden jelszóhoz egy új pénztárca tartozik. A jelszavakban a kis- és nagybetűk meg vannak különböztetve."
 
-#: electrum/gui/qt/network_dialog.py:266 electrum/gui/qt/installwizard.py:185
-#: electrum/gui/qt/password_dialog.py:299 electrum/gui/qt/main_window.py:2120
+#: electrum/gui/qt/network_dialog.py:271 electrum/gui/qt/installwizard.py:185
+#: electrum/gui/qt/password_dialog.py:299 electrum/gui/qt/main_window.py:2119
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:47
 msgid "Password"
 msgstr "Jelszó"
@@ -3065,7 +3070,7 @@ msgstr "Jelszó"
 msgid "Password Strength"
 msgstr "Jelszó erőssége"
 
-#: electrum/gui/qt/main_window.py:2175
+#: electrum/gui/qt/main_window.py:2174
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Jelszavas védelem kikapcsolva, a pénztárca mostantól nem védett"
 
@@ -3079,7 +3084,7 @@ msgstr "A jelszónak legalább 4 karakterből kell állnia."
 msgid "Password must have less than 64 characters."
 msgstr "A jelszó maximum 64 karakter hosszú lehet."
 
-#: electrum/gui/qt/main_window.py:2175
+#: electrum/gui/qt/main_window.py:2174
 msgid "Password was updated successfully"
 msgstr "Jelszó sikeresen frissítve"
 
@@ -3099,12 +3104,12 @@ msgstr "Fizetés"
 msgid "Pay Now"
 msgstr "Fizetés Most"
 
-#: electrum/gui/text.py:180 electrum/gui/qt/contact_list.py:96
-#: electrum/gui/qt/main_window.py:1181
+#: electrum/gui/text.py:180 electrum/gui/qt/contact_list.py:95
+#: electrum/gui/qt/main_window.py:1180
 msgid "Pay to"
 msgstr "Pénzküldés ide"
 
-#: electrum/gui/qt/main_window.py:1976
+#: electrum/gui/qt/main_window.py:1975
 msgid "Pay to many"
 msgstr "Küldés több címzettnek"
 
@@ -3116,22 +3121,22 @@ msgstr "Fizetési kérelem"
 msgid "Payment received"
 msgstr "Fizetés érkezett"
 
-#: electrum/gui/qt/main_window.py:1607 electrum/gui/qt/main_window.py:1753
+#: electrum/gui/qt/main_window.py:1606 electrum/gui/qt/main_window.py:1752
 #: electrum/gui/kivy/uix/screens.py:256 electrum/gui/kivy/main_window.py:339
 msgid "Payment request has expired"
 msgstr "A fizetési kérelem lejárt"
 
-#: electrum/gui/text.py:381 electrum/gui/qt/main_window.py:1784
+#: electrum/gui/text.py:381 electrum/gui/qt/main_window.py:1783
 #: electrum/gui/stdio.py:218 electrum/gui/kivy/main_window.py:960
 msgid "Payment sent."
 msgstr "Fizetés elküldve"
 
-#: electrum/gui/qt/util.py:49 electrum/gui/kivy/uix/dialogs/requests.py:89
+#: electrum/gui/qt/util.py:51 electrum/gui/kivy/uix/dialogs/requests.py:89
 #: electrum/gui/kivy/uix/dialogs/invoices.py:85
 msgid "Pending"
 msgstr "Függőben"
 
-#: electrum/gui/qt/history_list.py:518
+#: electrum/gui/qt/history_list.py:517
 msgid "Perhaps some dependencies are missing..."
 msgstr "Valószínűleg hiányzik egy szükséges programkönyvtár..."
 
@@ -3147,7 +3152,7 @@ msgstr "Írd le nagyjából, hogy mi vezetett ehhez a hibához (nem kötelező):
 msgid "Please check your connection and credentials."
 msgstr "Kérjük ellenőrizd az internetkapcsolatot és a belépési adatokat."
 
-#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:124
+#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:127
 msgid "Please check your network connection."
 msgstr "Kérjük ellenőrizd az internetkapcsolatod."
 
@@ -3155,7 +3160,7 @@ msgstr "Kérjük ellenőrizd az internetkapcsolatod."
 msgid "Please check your {} device"
 msgstr "Kérjük ellenőrizd az eszközt ({})"
 
-#: electrum/gui/qt/history_list.py:622
+#: electrum/gui/qt/history_list.py:621
 msgid "Please confirm"
 msgstr "Megerősítés"
 
@@ -3176,7 +3181,7 @@ msgstr "Kérjük írd be a Google Authenticator kódodat:"
 msgid "Please enter your e-mail address"
 msgstr "Kérjük írd be az e-mail címed"
 
-#: electrum/gui/qt/password_dialog.py:291 electrum/gui/qt/main_window.py:1021
+#: electrum/gui/qt/password_dialog.py:291 electrum/gui/qt/main_window.py:1020
 msgid "Please enter your password"
 msgstr "Írd be a jelszavadat"
 
@@ -3196,27 +3201,27 @@ msgstr "Kérjük inicializáld a Coldcard-ot, amíg az nincs csatlakoztatva."
 msgid "Please insert your {}"
 msgstr "Kérjük dugd be a(z) {} eszközödet"
 
-#: electrum/base_wizard.py:603
+#: electrum/base_wizard.py:605
 msgid "Please note that websites and other wallets may not support these addresses yet."
 msgstr "Kérjük vedd vigyelembe, hogy néhány weboldal és pénztárca alkalmazás még nem támogatja ezeket a címeket."
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1024
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1040
 msgid "Please paste your cosigners master public key, or scan it using the camera button."
 msgstr "Kérjük illeszd be a társ-aláíród nyilvános mesterkulcsát, vagy szkenneld be a kamera gombra kattintva."
 
-#: electrum/gui/qt/main_window.py:668
+#: electrum/gui/qt/main_window.py:667
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Kérjük jelentsd a hibákat az alábbi github oldalon:<br/>"
 
-#: electrum/gui/qt/exception_window.py:106
-msgid "Please report this issue manually."
-msgstr "Kérjük jelentsd ezt a problémát manuálisan."
+#: electrum/gui/qt/exception_window.py:115
+msgid "Please report this issue manually"
+msgstr "Kérjük jelentsd ezt a hibát manuálisan"
 
 #: electrum/gui/qt/main_window.py:3249
 msgid "Please restart Electrum to activate the new GUI settings"
 msgstr "Indítsd újra az Electrumot az új GUI beállítások aktiválásához."
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:997
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1013
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
 msgstr "Kérjük írd be újra a mag szavait, hogy megbizonyosodhass arról, hogy megfelelően leírtad őket"
 
@@ -3241,15 +3246,15 @@ msgstr "Kérjük oszd meg ezt a társ-aláíróiddal."
 msgid "Please sign this transaction in order to save it"
 msgstr "Kérjük írd alá ezt a tranzakciót ahhoz, hogy el tudd menteni"
 
-#: electrum/plugins/trustedcoin/kivy.py:108 electrum/base_wizard.py:334
+#: electrum/plugins/trustedcoin/kivy.py:108 electrum/base_wizard.py:336
 msgid "Please try again."
 msgstr "Kérlek próbáld újra."
 
-#: electrum/base_wizard.py:641
+#: electrum/base_wizard.py:643
 msgid "Please type it here."
 msgstr "Kérlek írd be ide."
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:765
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:781
 msgid "Please type your seed phrase using the virtual keyboard."
 msgstr "Kérjük írd be a mag szavakat a virtuális billentyűzeten."
 
@@ -3257,7 +3262,7 @@ msgstr "Kérjük írd be a mag szavakat a virtuális billentyűzeten."
 msgid "Please use the existing requests first."
 msgstr "Kérjük, hogy először a már létező kérelmeket használd fel."
 
-#: electrum/gui/qt/util.py:291
+#: electrum/gui/qt/util.py:294
 msgid "Please wait"
 msgstr "Kérlek várj"
 
@@ -3265,7 +3270,7 @@ msgstr "Kérlek várj"
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Kérjük várj amíg az Electrum ellenőrzi az elérhető frissítéseket."
 
-#: electrum/wallet.py:826 electrum/gui/text.py:371
+#: electrum/wallet.py:863 electrum/gui/text.py:371
 #: electrum/gui/qt/installwizard.py:133 electrum/gui/stdio.py:208
 #: electrum/gui/kivy/uix/dialogs/password_dialog.py:125
 msgid "Please wait..."
@@ -3275,7 +3280,7 @@ msgstr "Kérlek várj..."
 msgid "Polish"
 msgstr "Lengyel"
 
-#: electrum/gui/qt/network_dialog.py:149
+#: electrum/gui/qt/network_dialog.py:151
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:28
 #: electrum/gui/kivy/uix/ui_screens/server.kv:31
 msgid "Port"
@@ -3289,8 +3294,8 @@ msgstr "Portugál"
 msgid "Position in mempool: {} from tip"
 msgstr "Pozíció a mempoolban: {}-ra a tetejétől"
 
-#: electrum/gui/qt/main_window.py:615 electrum/gui/qt/main_window.py:1290
-#: electrum/gui/qt/main_window.py:2123 electrum/gui/qt/main_window.py:2813
+#: electrum/gui/qt/main_window.py:614 electrum/gui/qt/main_window.py:1289
+#: electrum/gui/qt/main_window.py:2122 electrum/gui/qt/main_window.py:2813
 msgid "Preferences"
 msgstr "Beállítások"
 
@@ -3314,11 +3319,12 @@ msgstr "Kattints a \"Következő\" gombra a pénztárca megnyitásához."
 msgid "Press Enter"
 msgstr "Nyomj Enter-t"
 
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:575
 #: electrum/gui/kivy/main_window.py:625
 msgid "Press again to exit"
 msgstr "Nyomd meg mégegyszer a kilépéshez"
 
-#: electrum/gui/qt/main_window.py:1326
+#: electrum/gui/qt/main_window.py:1325
 msgid "Preview"
 msgstr "Előnézet"
 
@@ -3347,7 +3353,7 @@ msgstr "Privát kulcsok exportálva."
 msgid "Proceed at your own risk."
 msgstr "Csak saját felelősségre folytasd."
 
-#: electrum/gui/qt/main_window.py:1710
+#: electrum/gui/qt/main_window.py:1709
 msgid "Proceed?"
 msgstr "Folytatod?"
 
@@ -3371,7 +3377,7 @@ msgstr "Támogatást nyújt a Trezor hardveres pénztárcához"
 msgid "Provides support for air-gapped transaction signing."
 msgstr "Támogatást nyújt a \"légmentes\" tranzakció aláíráshoz."
 
-#: electrum/gui/qt/network_dialog.py:214
+#: electrum/gui/qt/network_dialog.py:216
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:3
 #: electrum/gui/kivy/uix/ui_screens/network.kv:27
 msgid "Proxy"
@@ -3385,11 +3391,11 @@ msgstr "Proxy beállítása"
 msgid "Proxy mode"
 msgstr "Proxy mód"
 
-#: electrum/gui/qt/network_dialog.py:289
+#: electrum/gui/qt/network_dialog.py:294
 msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
 msgstr "A proxy beállítások az összes kapcsolatra érvényesek: az Electrum szervereire, és a harmadik fél szolgáltatásaira is."
 
-#: electrum/gui/qt/network_dialog.py:264
+#: electrum/gui/qt/network_dialog.py:269
 msgid "Proxy user"
 msgstr "Proxy felhasználónév"
 
@@ -3429,7 +3435,7 @@ msgstr "Kilépés"
 msgid "REMEMBER THE PASSWORD!"
 msgstr "NE FELEJTSD EL EZT A JELSZÓT!"
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:255
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:254
 msgid "Raw Transaction"
 msgstr "Nyers tranzakció"
 
@@ -3461,7 +3467,7 @@ msgstr "Beolvasás mikrofonról"
 msgid "Ready to encrypt for revealer {}"
 msgstr "Az alábbi Revealer készen áll a titkosításra: {}"
 
-#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:177
+#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:176
 #: electrum/gui/kivy/main.kv:396
 msgid "Receive"
 msgstr "Fogadás"
@@ -3471,11 +3477,11 @@ msgstr "Fogadás"
 msgid "Received"
 msgstr "Beérkezett"
 
-#: electrum/gui/qt/address_list.py:62
+#: electrum/gui/qt/address_list.py:61
 msgid "Receiving"
 msgstr "Fogadó"
 
-#: electrum/gui/qt/main_window.py:907
+#: electrum/gui/qt/main_window.py:906
 msgid "Receiving address"
 msgstr "Fogadó cím"
 
@@ -3487,11 +3493,11 @@ msgstr "Címzett"
 msgid "Recipient not specified."
 msgstr "A címzett nem meghatározható."
 
-#: electrum/gui/qt/main_window.py:1179
+#: electrum/gui/qt/main_window.py:1178
 msgid "Recipient of the funds."
 msgstr "A pénz címzettje."
 
-#: electrum/plugins/trezor/trezor.py:191
+#: electrum/plugins/trezor/trezor.py:201
 #: electrum/plugins/keepkey/keepkey.py:193
 #: electrum/plugins/safe_t/safe_t.py:177
 msgid "Recover from a seed you have previously written down"
@@ -3501,8 +3507,8 @@ msgstr "Visszaállítás egy korábbi magból"
 msgid "Redeem Script"
 msgstr "Redeem script"
 
-#: electrum/gui/qt/history_list.py:585 electrum/gui/qt/main_window.py:1519
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:173
+#: electrum/gui/qt/history_list.py:584 electrum/gui/qt/main_window.py:1518
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:174
 msgid "Remove"
 msgstr "Törlés"
 
@@ -3510,19 +3516,19 @@ msgstr "Törlés"
 msgid "Remove from wallet"
 msgstr "Eltávolítás a tárcából"
 
-#: electrum/gui/qt/main_window.py:2001
+#: electrum/gui/qt/main_window.py:2000
 msgid "Remove {} from your list of contacts?"
 msgstr "Eltávolítod {}-t a névjegyeid közül?"
 
-#: electrum/gui/qt/exception_window.py:63
+#: electrum/gui/qt/exception_window.py:65
 msgid "Report contents"
 msgstr "Jelentés részletei"
 
-#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:126
+#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:129
 msgid "Report sent"
 msgstr "Jelentés elküldve"
 
-#: electrum/gui/qt/main_window.py:673
+#: electrum/gui/qt/main_window.py:672
 msgid "Reporting Bugs"
 msgstr "Hibák jelentése"
 
@@ -3538,7 +3544,7 @@ msgstr "Kért összeg"
 msgid "Request copied to clipboard"
 msgstr "Kérés vágólapra másolva"
 
-#: electrum/gui/qt/main_window.py:940
+#: electrum/gui/qt/main_window.py:939
 msgid "Request expires"
 msgstr "Kérés lejár"
 
@@ -3550,7 +3556,7 @@ msgstr "Fizetés kérése"
 msgid "Request rejected by server"
 msgstr "A szerver elutasította a kérelmet"
 
-#: electrum/gui/qt/main_window.py:1077
+#: electrum/gui/qt/main_window.py:1076
 msgid "Request saved successfully"
 msgstr "Kérelem sikeresen elmentve"
 
@@ -3562,7 +3568,7 @@ msgstr "Kérés elküldve."
 msgid "Request was saved."
 msgstr "Kérelem elmentve."
 
-#: electrum/gui/qt/main_window.py:920
+#: electrum/gui/qt/main_window.py:919
 msgid "Requested amount"
 msgstr "Kért összeg"
 
@@ -3571,12 +3577,12 @@ msgstr "Kért összeg"
 msgid "Requesting account info from TrustedCoin server..."
 msgstr "Fiók információ lekérdezése a TrustedCoin szerverről..."
 
-#: electrum/gui/qt/invoice_list.py:50 electrum/gui/qt/main_window.py:2023
+#: electrum/gui/qt/invoice_list.py:50 electrum/gui/qt/main_window.py:2022
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:40
 msgid "Requestor"
 msgstr "Kérelmező"
 
-#: electrum/gui/qt/main_window.py:965
+#: electrum/gui/qt/main_window.py:964
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:119
 msgid "Requests"
 msgstr "Kérelmek"
@@ -3651,8 +3657,8 @@ msgid "Safe-T mini wallet"
 msgstr "Safe-T mini pénztárca"
 
 #: electrum/gui/qt/transaction_dialog.py:125
-#: electrum/gui/qt/qrcodewidget.py:123 electrum/gui/qt/main_window.py:948
-#: electrum/gui/qt/main_window.py:2045
+#: electrum/gui/qt/qrcodewidget.py:123 electrum/gui/qt/main_window.py:947
+#: electrum/gui/qt/main_window.py:2044
 msgid "Save"
 msgstr "Mentés"
 
@@ -3664,7 +3670,7 @@ msgstr "PSBT mentése"
 msgid "Save as BIP70 file"
 msgstr "BIP70 fájlként mentés"
 
-#: electrum/gui/qt/main_window.py:2039
+#: electrum/gui/qt/main_window.py:2038
 msgid "Save invoice to file"
 msgstr "Számla mentése fájlként"
 
@@ -3684,11 +3690,11 @@ msgstr "Olvasd be ezt a QR kódot a Ledger telefonos alkalmazással, hogy páros
 msgid "Scrambled words"
 msgstr "Összekevert szavak"
 
-#: electrum/gui/qt/main_window.py:2229 electrum/gui/qt/main_window.py:2318
+#: electrum/gui/qt/main_window.py:2228 electrum/gui/qt/main_window.py:2318
 msgid "Script type"
 msgstr "Script típusa"
 
-#: electrum/base_wizard.py:402
+#: electrum/base_wizard.py:404
 msgid "Script type and Derivation path"
 msgstr "Script típusa és generálási útvonal"
 
@@ -3696,7 +3702,7 @@ msgstr "Script típusa és generálási útvonal"
 msgid "Security Card Challenge"
 msgstr "Biztonsági kártya kérdés"
 
-#: electrum/gui/qt/seed_dialog.py:229 electrum/gui/qt/main_window.py:2124
+#: electrum/gui/qt/seed_dialog.py:229 electrum/gui/qt/main_window.py:2123
 #: electrum/gui/kivy/main_window.py:1081
 msgid "Seed"
 msgstr "Mag"
@@ -3709,15 +3715,15 @@ msgstr "Mag beírva"
 msgid "Seed Type"
 msgstr "Mag típusa"
 
-#: electrum/gui/qt/main_window.py:2231
+#: electrum/gui/qt/main_window.py:2230
 msgid "Seed available"
 msgstr "Mag elérhető"
 
-#: electrum/base_wizard.py:431
+#: electrum/base_wizard.py:433
 msgid "Seed extension"
 msgstr "Mag jelszó megadása"
 
-#: electrum/base_wizard.py:608
+#: electrum/base_wizard.py:610
 msgid "Segwit"
 msgstr "Segwit"
 
@@ -3725,15 +3731,15 @@ msgstr "Segwit"
 msgid "Segwit 2FA"
 msgstr "Segwit, kétfaktoros"
 
-#: electrum/base_wizard.py:602
+#: electrum/base_wizard.py:604
 msgid "Segwit wallets use bech32 addresses, defined in BIP173."
 msgstr "A Segwit pénztárcák bech32 típusú címeket használnak (BIP173 által definiált)."
 
-#: electrum/base_wizard.py:322
+#: electrum/base_wizard.py:324
 msgid "Select a device"
 msgstr "Válassz egy eszközt"
 
-#: electrum/gui/qt/history_list.py:456
+#: electrum/gui/qt/history_list.py:455
 msgid "Select date"
 msgstr "Dátum kiválasztása"
 
@@ -3741,11 +3747,11 @@ msgstr "Dátum kiválasztása"
 msgid "Select file to export your private keys to"
 msgstr "Melyik fájlba exportálja a privát kulcsokat"
 
-#: electrum/gui/qt/history_list.py:643
+#: electrum/gui/qt/history_list.py:642
 msgid "Select file to export your wallet transactions to"
 msgstr "Pénztárca tranzakcióinak exportálása ebbe a fájlba"
 
-#: electrum/gui/qt/util.py:818
+#: electrum/gui/qt/util.py:821
 msgid "Select file to save your {}"
 msgstr "{} mentése"
 
@@ -3753,7 +3759,7 @@ msgstr "{} mentése"
 msgid "Select recovery type:"
 msgstr "Válaszd ki a visszaállítás típusát:"
 
-#: electrum/gui/qt/network_dialog.py:224
+#: electrum/gui/qt/network_dialog.py:229
 msgid "Select server automatically"
 msgstr "Szerver automatikus kiválasztása"
 
@@ -3765,7 +3771,7 @@ msgstr "Szerver kiválasztása manuálisan"
 msgid "Select where to save the PSBT file"
 msgstr "Válaszd ki a PSBT fájlmentési helyét"
 
-#: electrum/gui/qt/main_window.py:1073
+#: electrum/gui/qt/main_window.py:1072
 msgid "Select where to save your payment request"
 msgstr "Fizetési kérelem mentése"
 
@@ -3790,12 +3796,12 @@ msgstr "Szerver automatikus kiválasztása"
 msgid "Select your transaction file"
 msgstr "Válassz egy tranzakciós fájlt"
 
-#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:176
-#: electrum/gui/qt/main_window.py:1328 electrum/gui/kivy/main.kv:388
+#: electrum/gui/text.py:71 electrum/gui/qt/main_window.py:175
+#: electrum/gui/qt/main_window.py:1327 electrum/gui/kivy/main.kv:388
 msgid "Send"
 msgstr "Küldés"
 
-#: electrum/gui/qt/exception_window.py:80
+#: electrum/gui/qt/exception_window.py:82
 msgid "Send Bug Report"
 msgstr "Hibajelentés küldése"
 
@@ -3823,6 +3829,10 @@ msgstr "Küldés e-mailben"
 msgid "Sending"
 msgstr "Küldés"
 
+#: electrum/gui/qt/exception_window.py:121
+msgid "Sending crash report..."
+msgstr "Hibajelentés küldése..."
+
 #: electrum/plugins/cosigner_pool/qt.py:192
 msgid "Sending transaction to cosigning pool..."
 msgstr "Tranzakció küldése a több-aláíró csoportba..."
@@ -3831,8 +3841,8 @@ msgstr "Tranzakció küldése a több-aláíró csoportba..."
 msgid "Sent"
 msgstr "Elküldve"
 
-#: electrum/gui/qt/network_dialog.py:213 electrum/gui/qt/network_dialog.py:239
-#: electrum/gui/qt/network_dialog.py:310
+#: electrum/gui/qt/network_dialog.py:215 electrum/gui/qt/network_dialog.py:244
+#: electrum/gui/qt/network_dialog.py:315
 #: electrum/gui/kivy/uix/ui_screens/server.kv:3
 #: electrum/gui/kivy/uix/ui_screens/network.kv:21
 msgid "Server"
@@ -3842,7 +3852,7 @@ msgstr "Szerver"
 msgid "Server hosting your email account"
 msgstr "Az e-mail fiók szervere"
 
-#: electrum/gui/qt/main_window.py:830 electrum/gui/kivy/main_window.py:760
+#: electrum/gui/qt/main_window.py:829 electrum/gui/kivy/main_window.py:760
 msgid "Server is lagging ({} blocks)"
 msgstr "A szerver le van maradva ({} blokkal)"
 
@@ -3850,11 +3860,11 @@ msgstr "A szerver le van maradva ({} blokkal)"
 msgid "Server not reachable."
 msgstr "A szerver nem elérhető."
 
-#: electrum/gui/qt/network_dialog.py:243
+#: electrum/gui/qt/network_dialog.py:248
 msgid "Server peers"
 msgstr "Elérhető szerverek"
 
-#: electrum/network.py:872
+#: electrum/network.py:879
 msgid "Server returned unexpected transaction ID."
 msgstr "A szerver egy nem várt tranzakció azonosítót adott vissza."
 
@@ -3895,7 +3905,7 @@ msgstr "Bitcoin kérelem megosztása"
 msgid "Should this transaction be replaceable?"
 msgstr "Lecserélhető legyen a tranzakció?"
 
-#: electrum/gui/qt/main_window.py:603
+#: electrum/gui/qt/main_window.py:602
 #: electrum/gui/kivy/uix/dialogs/requests.py:126
 msgid "Show"
 msgstr "Megjelenítés:"
@@ -3933,7 +3943,7 @@ msgstr "Árfolyam megjelenítése az előzményeknél"
 msgid "Show on Coldcard"
 msgstr "Megjelenítés a Coldcard-on"
 
-#: electrum/plugins/ledger/qt.py:34
+#: electrum/plugins/ledger/qt.py:32
 msgid "Show on Ledger"
 msgstr "Megjelenítés a Ledger-en"
 
@@ -3943,7 +3953,7 @@ msgstr "Megjelenítés a Ledger-en"
 msgid "Show on {}"
 msgstr "Megjelenítés az eszközön ({})"
 
-#: electrum/gui/qt/exception_window.py:60
+#: electrum/gui/qt/exception_window.py:62
 msgid "Show report contents"
 msgstr "Jelentés részleteinek megtekintése"
 
@@ -3951,7 +3961,7 @@ msgstr "Jelentés részleteinek megtekintése"
 msgid "Show seed"
 msgstr "Mag megjelenítése"
 
-#: electrum/gui/qt/main_window.py:288
+#: electrum/gui/qt/main_window.py:287
 msgid "Show {}"
 msgstr "{} megjelenítése"
 
@@ -3966,7 +3976,7 @@ msgstr "Cím megjelenítése..."
 
 #: electrum/gui/qt/transaction_dialog.py:119
 #: electrum/gui/qt/main_window.py:2409
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:170
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:171
 msgid "Sign"
 msgstr "Aláírás"
 
@@ -3978,7 +3988,7 @@ msgstr "Üzenet aláírása/megerősítése"
 msgid "Sign/verify message"
 msgstr "Üzenet aláírása/megerősítése"
 
-#: electrum/gui/qt/main_window.py:2031 electrum/gui/qt/main_window.py:2403
+#: electrum/gui/qt/main_window.py:2030 electrum/gui/qt/main_window.py:2403
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:43
 msgid "Signature"
 msgstr "Aláírás"
@@ -3987,7 +3997,7 @@ msgstr "Aláírás"
 msgid "Signature verified"
 msgstr "Aláírás megerősítve"
 
-#: electrum/wallet.py:397
+#: electrum/wallet.py:410
 msgid "Signed"
 msgstr "Aláírva"
 
@@ -3995,7 +4005,7 @@ msgstr "Aláírva"
 msgid "Signed invoices are saved automatically when you scan them."
 msgstr "Az aláírt számlák automatikusan elmentődnek amikor beolvasod őket."
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:237
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:236
 msgid "Signing"
 msgstr "Aláírás"
 
@@ -4008,7 +4018,7 @@ msgid "Signing message ..."
 msgstr "Üzenet aláírása folyamatban..."
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:635
-#: electrum/gui/qt/main_window.py:1743
+#: electrum/gui/qt/main_window.py:1742
 msgid "Signing transaction..."
 msgstr "Tranzakció aláírása folyamatban..."
 
@@ -4068,11 +4078,11 @@ msgstr "Csak olyan bemenetek elköltése, amik legalább egy megerősítéssel r
 msgid "Standard wallet"
 msgstr "Általános pénztárca"
 
-#: electrum/gui/qt/history_list.py:487
+#: electrum/gui/qt/history_list.py:486
 msgid "Start"
 msgstr "Kezdet"
 
-#: electrum/gui/qt/main_window.py:659
+#: electrum/gui/qt/main_window.py:658
 msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
 msgstr ""
 
@@ -4080,7 +4090,7 @@ msgstr ""
 msgid "Static"
 msgstr "Statikus"
 
-#: electrum/gui/qt/network_dialog.py:304 electrum/gui/qt/request_list.py:57
+#: electrum/gui/qt/network_dialog.py:309 electrum/gui/qt/request_list.py:57
 #: electrum/gui/qt/invoice_list.py:53
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:34
 #: electrum/gui/kivy/uix/ui_screens/network.kv:15
@@ -4097,12 +4107,12 @@ msgstr "Állapot:"
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr "{}./24. lépés. Írd be a mag szavakat, ahogy az eszköz ({}) írja:"
 
-#: electrum/gui/qt/main_window.py:2176 electrum/gui/qt/main_window.py:3249
-#: electrum/gui/qt/main_window.py:3479
+#: electrum/gui/qt/main_window.py:2175 electrum/gui/qt/main_window.py:3249
+#: electrum/gui/qt/main_window.py:3483
 msgid "Success"
 msgstr "Sikeres"
 
-#: electrum/gui/qt/history_list.py:483
+#: electrum/gui/qt/history_list.py:482
 msgid "Summary"
 msgstr "Összefoglalás"
 
@@ -4130,7 +4140,7 @@ msgstr "Begyűjtés"
 msgid "Sweep private keys"
 msgstr "Privát kulcsok begyűjtése"
 
-#: electrum/gui/text.py:141 electrum/gui/qt/main_window.py:827
+#: electrum/gui/text.py:141 electrum/gui/qt/main_window.py:826
 #: electrum/gui/stdio.py:119 electrum/gui/kivy/main_window.py:758
 msgid "Synchronizing..."
 msgstr "Szinkronizálás..."
@@ -4147,19 +4157,19 @@ msgstr "Cél"
 msgid "Terms of Service"
 msgstr "Szolgáltatási feltételek"
 
-#: electrum/gui/qt/main_window.py:493
+#: electrum/gui/qt/main_window.py:492
 msgid "Testnet"
 msgstr "Testnet"
 
-#: electrum/gui/qt/main_window.py:484
+#: electrum/gui/qt/main_window.py:483
 msgid "Testnet coins are worthless."
 msgstr "A Testnet-en lévő Bitcoinok értéktelenek."
 
-#: electrum/gui/qt/main_window.py:485
+#: electrum/gui/qt/main_window.py:484
 msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
 msgstr "A Testnet egy külön Bitcoin hálózat, amit tesztelésre használnak."
 
-#: electrum/gui/qt/util.py:661
+#: electrum/gui/qt/util.py:664
 msgid "Text copied to clipboard"
 msgstr "Szöveg vágólapra másolva"
 
@@ -4188,29 +4198,29 @@ msgstr "A Digital Bitbox már tartalmaz egy magot. Válassz egy lehetőséget:"
 msgid "The PIN cannot be longer than 9 characters."
 msgstr "A PIN kód nem lehet hosszabb 9 karakternél."
 
-#: electrum/gui/qt/main_window.py:1227
+#: electrum/gui/qt/main_window.py:1226
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "A tranzakciós díj összege a küldő által választható. Minél alacsonyabb, annál később kerül feldolgozásra a tranzakció."
 
-#: electrum/gui/qt/main_window.py:1204
+#: electrum/gui/qt/main_window.py:1203
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
 msgstr "Az összeg piros színű lesz, ha nincs elég pénz a pénztárcában."
 
-#: electrum/gui/qt/main_window.py:938
+#: electrum/gui/qt/main_window.py:937
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
 msgstr "A kérelemhez tartozó Bitcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
 
-#: electrum/gui/qt/main_window.py:1191
+#: electrum/gui/qt/main_window.py:1190
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "A megjegyzés nem lesz elküldve el a címzett számára. A saját tárcádban fog tárolódni és az 'Előzmények' fülön jelenik meg."
 
-#: electrum/plugins/trezor/trezor.py:233 electrum/plugins/trezor/qt.py:199
+#: electrum/plugins/trezor/trezor.py:243 electrum/plugins/trezor/qt.py:199
 #: electrum/plugins/keepkey/keepkey.py:231
 #: electrum/plugins/safe_t/safe_t.py:224
 msgid "The device was disconnected."
 msgstr "Az eszköz nincs csatlakoztatva."
 
-#: electrum/gui/qt/main_window.py:1701 electrum/gui/kivy/uix/screens.py:309
+#: electrum/gui/qt/main_window.py:1700 electrum/gui/kivy/uix/screens.py:309
 msgid "The fee for this transaction seems unusually high."
 msgstr "A tranzakció díja szokatlanul magasnak tűnik."
 
@@ -4240,6 +4250,10 @@ msgstr "Az alábbi szolgáltatók érhetőek el:"
 msgid "The following inputs could not be imported"
 msgstr "Az alábbi bemenetek nem lettek importálva"
 
+#: electrum/wallet.py:912
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr "Az új díj árfolyamnak nagyobbnak kell lennie a réginél."
+
 #: electrum/plugins/trustedcoin/trustedcoin.py:85
 msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
 msgstr "A következő lépésben a pénztárca magja lesz legenerálva. Ez a mag NEM lesz elmentve a számítógépre, hanem egy papírra kell felírnod. Ahhoz, hogy biztonságban legyél a rosszindulatú programok ellen, érdemes lehet ezt egy offline számítógépen csinálni, és a pénztárcát ezután egy online számítógépre átmásolni."
@@ -4248,27 +4262,27 @@ msgstr "A következő lépésben a pénztárca magja lesz legenerálva. Ez a mag
 msgid "The operation is undefined. Not just in Electrum, but in general."
 msgstr "Ez a művelet nincs definiálva. Nem csak az Electrumban, hanem egyáltalán."
 
-#: electrum/network.py:196
+#: electrum/network.py:197
 msgid "The server returned an error when broadcasting the transaction."
 msgstr "A szerver hibát jelzett a tranzakció elküldése közben."
 
-#: electrum/network.py:213
+#: electrum/network.py:214
 msgid "The server returned an error."
 msgstr "A szerver hibát adott vissza."
 
-#: electrum/network.py:188
+#: electrum/network.py:189
 msgid "The server returned an unexpected transaction ID when broadcasting the transaction."
 msgstr "A szerver egy nem várt tranzakció azonosítót adott vissza a tranzakció elküldése során."
 
-#: electrum/network.py:891
+#: electrum/network.py:898
 msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
 msgstr "A tranzakció el lett utasítva, mert több OP_RETURN kimenetet is tartalmaz."
 
-#: electrum/network.py:885
+#: electrum/network.py:892
 msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr "A tranzakció el lett utasítva, mert túl nagy (a mérete bájtokban)."
 
-#: electrum/base_wizard.py:601
+#: electrum/base_wizard.py:603
 msgid "The type of addresses used by your wallet will depend on your seed."
 msgstr "A pénztárcád által használt címek típusa a magtól fognak függeni."
 
@@ -4279,7 +4293,7 @@ msgstr "A(z) \"{}\" pénztárca fájl több fiókot is tartalmaz, ami az Electru
 "Szeretnéd szétválasztani ezt a pénztárca fájlt több fájlra?"
 
 #: electrum/plugins/trustedcoin/qt.py:295
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:643
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:659
 msgid "Then, enter your Google Authenticator code:"
 msgstr "Majd írd be a Google Authenticator kódodat:"
 
@@ -4287,7 +4301,7 @@ msgstr "Majd írd be a Google Authenticator kódodat:"
 msgid "There is a new update available"
 msgstr "Új frissítés elérhető"
 
-#: electrum/gui/qt/exception_window.py:104
+#: electrum/gui/qt/exception_window.py:113
 msgid "There was a problem with the automatic reporting:"
 msgstr "Hiba történt az automatikus hibajelentés közben:"
 
@@ -4295,11 +4309,11 @@ msgstr "Hiba történt az automatikus hibajelentés közben:"
 msgid "Therefore, two-factor authentication is disabled."
 msgstr "Emiatt a kétfaktoros hitelesítés ki van kapcsolva."
 
-#: electrum/gui/qt/main_window.py:1159
+#: electrum/gui/qt/main_window.py:1158
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Ez a cím már használva volt. Az anonimitásod növelése érdekében ne használd ezt a címet többször."
 
-#: electrum/gui/qt/network_dialog.py:301
+#: electrum/gui/qt/network_dialog.py:306
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "Ennek a blokkláncnak a segítségével történik a szerver által küldött tranzakciók ellenőrzése."
 
@@ -4337,11 +4351,11 @@ msgstr "Ez a funkció csak akkor elérhető, ha az eszközön ({}) p2pkh kulcst�
 msgid "This function is only available for standard wallets when using {}."
 msgstr "Ez a funkció csak akkor elérhető, ha az eszközön ({}) általános pénztárcát használsz."
 
-#: electrum/gui/qt/main_window.py:936
+#: electrum/gui/qt/main_window.py:935
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Ezt az információt látni fogja a fogadó fél, ha egy aláírt fizetési kérelmet küldesz neki."
 
-#: electrum/wallet.py:349 electrum/gui/qt/main_window.py:2574
+#: electrum/wallet.py:361 electrum/gui/qt/main_window.py:2574
 msgid "This is a watching-only wallet"
 msgstr "Ez egy figyelő-tárca"
 
@@ -4357,7 +4371,7 @@ msgstr "Ez egy figyelő-tárca, nem tartalmaz privát kulcsokat."
 msgid "This is discouraged."
 msgstr "Ez nem ajánlott."
 
-#: electrum/gui/qt/network_dialog.py:315
+#: electrum/gui/qt/network_dialog.py:320
 msgid "This is the height of your local copy of the blockchain."
 msgstr "A blokklánc helyi másolatának a magassága."
 
@@ -4365,7 +4379,7 @@ msgstr "A blokklánc helyi másolatának a magassága."
 msgid "This may result in higher transactions fees."
 msgstr "Ez magasabb tranzakciós díjakhoz vezethet."
 
-#: electrum/gui/qt/main_window.py:467
+#: electrum/gui/qt/main_window.py:466
 msgid "This means you will not be able to spend Bitcoins with it."
 msgstr "Ez azt jelenti, hogy nem tudsz vele Bitcoint küldeni."
 
@@ -4373,7 +4387,7 @@ msgstr "Ez azt jelenti, hogy nem tudsz vele Bitcoint küldeni."
 msgid "This might improve your privacy somewhat."
 msgstr "Ez valamennyire növelheti az anonimitásod."
 
-#: electrum/gui/qt/main_window.py:1021
+#: electrum/gui/qt/main_window.py:1020
 msgid "This payment request will be signed."
 msgstr "Ez a fizetési kérelem alá lesz írva."
 
@@ -4405,12 +4419,12 @@ msgstr "Ez a beállítás a Küldés fület, valamint az összes egyenleggel kap
 msgid "This transaction is not saved. Close anyway?"
 msgstr "Ez a tranzakció nincs elmentve. Biztosan bezárod?"
 
-#: electrum/gui/qt/main_window.py:1675
+#: electrum/gui/qt/main_window.py:1674
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server"
 msgstr "A tranzakciónak egy magasabb díjat kell megadni, különben a szerver nem fogja továbbítani"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:761
-#: electrum/plugins/ledger/ledger.py:613 electrum/plugins/trezor/trezor.py:290
+#: electrum/plugins/ledger/ledger.py:613 electrum/plugins/trezor/trezor.py:300
 #: electrum/plugins/keepkey/keepkey.py:279
 #: electrum/plugins/safe_t/safe_t.py:275
 #: electrum/plugins/coldcard/coldcard.py:675
@@ -4425,7 +4439,7 @@ msgstr "Ez a verzió maximum {} karakter támogat."
 msgid "This wallet has no seed"
 msgstr "Ennek a pénztárcának nincs magja"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:619
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:635
 msgid "This wallet is already registered with TrustedCoin. To finalize wallet creation, please enter your Google Authenticator Code."
 msgstr "Ez a pénztárca már regisztrálva lett a TrustedCoin-nál. Ahhoz, hogy befejeződjön a pénztárca létrehozása, kérlek írd be a Google Authenticator-od által jelzett kódot."
 
@@ -4437,7 +4451,7 @@ msgstr "Ezt a pénztárcát a TrustedCoin kétfaktoros hitelesítése védi."
 msgid "This wallet is watching-only"
 msgstr "Ez egy figyelő-tárca"
 
-#: electrum/gui/qt/main_window.py:466
+#: electrum/gui/qt/main_window.py:465
 msgid "This wallet is watching-only."
 msgstr "Ez egy figyelő-tárca."
 
@@ -4449,7 +4463,7 @@ msgstr "Ez a pénztárca magból lett visszállítva, és két privát mesterkul
 msgid "This will save fees."
 msgstr "Ezzel spórolhatsz a tranzakciós díjakon."
 
-#: electrum/base_wizard.py:604
+#: electrum/base_wizard.py:606
 msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
 msgstr "Emiatt érdemes lehet egy hagyományos pénztárcát is létrehozni, hogy az átállási időszak alatt is mindenhonnan tudj Bitcoint fogadni."
 
@@ -4457,7 +4471,7 @@ msgstr "Emiatt érdemes lehet egy hagyományos pénztárcát is létrehozni, hog
 msgid "Time based: fee rate is based on average confirmation time estimates"
 msgstr "Időalapú: a díj az átlagos megerősítésig tartó időtől függ"
 
-#: electrum/gui/qt/history_list.py:422
+#: electrum/gui/qt/history_list.py:421
 msgid "To"
 msgstr "Címzett"
 
@@ -4503,15 +4517,15 @@ msgstr "Ha szeretnél segíteni nekünk a hiba kijavításában, elküldhetsz eg
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Kérlek írd be ide újra a magot, hogy megbizonyosodhass róla, hogy megfelelően leírtad."
 
-#: electrum/gui/qt/main_window.py:1288
+#: electrum/gui/qt/main_window.py:1287
 msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
 msgstr "Az anonimitásod növelése érdekében az Electrum megpróbálja a visszajáró összeget úgy alakítani, hogy annak a pontossága hasonló legyen a többi kimenethez."
 
-#: electrum/base_wizard.py:303
+#: electrum/base_wizard.py:302
 msgid "To trigger a rescan, press 'Next'."
 msgstr "Kattints a \"Következő\" gombra, ha szeretnéd ismét ellenőrizni."
 
-#: electrum/base_wizard.py:333
+#: electrum/base_wizard.py:335
 msgid "To try to fix this, we will now re-pair with your device."
 msgstr "Ennek kijavítása érdekében most megpróbáljuk újra párosítani az eszközt."
 
@@ -4541,7 +4555,7 @@ msgstr "Teljes méret"
 msgid "Transaction"
 msgstr "Tranzakció"
 
-#: electrum/gui/qt/history_list.py:569 electrum/gui/qt/main_window.py:2559
+#: electrum/gui/qt/history_list.py:568 electrum/gui/qt/main_window.py:2559
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:66
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:69
 msgid "Transaction ID"
@@ -4555,15 +4569,15 @@ msgstr "Tranzakció azonosító:"
 msgid "Transaction accepted by mobile phone. Waiting for confirmation."
 msgstr "A mobiltelefon elfogadta a tranzakciót. Várakozás a megerősítésre."
 
-#: electrum/gui/qt/main_window.py:3476
+#: electrum/gui/qt/main_window.py:3480
 msgid "Transaction added to wallet history."
 msgstr "Tranzakció hozzáadva a pénztárca előzményeihez."
 
-#: electrum/network.py:890
+#: electrum/network.py:897
 msgid "Transaction could not be broadcast due to dust outputs."
 msgstr "A tranzakciót nem lehetett elküldeni a por kimenetek miatt."
 
-#: electrum/gui/qt/main_window.py:3466
+#: electrum/gui/qt/main_window.py:3470
 msgid "Transaction could not be saved."
 msgstr "A tranzakció nem menthető el."
 
@@ -4580,11 +4594,11 @@ msgid "Transaction is unrelated to this wallet."
 msgstr "A tranzakció nem tartozik ehhez a pénztárcához."
 
 #: electrum/gui/qt/transaction_dialog.py:270
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:148
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:149
 msgid "Transaction unrelated to your wallet"
 msgstr "A tranzakció nem tartozik a pénztárcádhoz"
 
-#: electrum/network.py:884
+#: electrum/network.py:891
 msgid "Transaction uses non-standard version."
 msgstr "A tranzakció egy nem szabványos verziót használ."
 
@@ -4608,7 +4622,7 @@ msgstr "Trezor mátrix visszaállítás"
 msgid "Trezor wallet"
 msgstr "Trezor pénztárca"
 
-#: electrum/gui/qt/main_window.py:2221
+#: electrum/gui/qt/main_window.py:2220
 msgid "True"
 msgstr "Igen"
 
@@ -4632,11 +4646,11 @@ msgstr "A TrustedCoin a tranzakciók aláírásáért egy alacsony díjat számo
 msgid "Try to connect again?"
 msgstr "Szeretnél újra megpróbálni csatlakozni?"
 
-#: electrum/gui/qt/main_window.py:671
+#: electrum/gui/qt/main_window.py:670
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Ne csak azt írd le, hogy mi maga a hiba, hanem próbáld meg azt is leírni, hogy az hogyan fordult elő."
 
-#: electrum/gui/qt/main_window.py:1676
+#: electrum/gui/qt/main_window.py:1675
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Próbáld meg növelni a díjat, vagy válassz egy szervert aminek alacsonyabb a minimum továbbítási díja."
 
@@ -4656,11 +4670,11 @@ msgstr "A kétfaktoros hitelesítést a TrustedCoin szolgáltatja. Több-aláír
 msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
 msgstr "A kétfaktoros hitelesítést a TrustedCoin szolgáltatja. A használatához szükséged lesz egy külön eszközre, amire a Google Authenticator (hitelesítő) alkalmazás telepítve van."
 
-#: electrum/gui/qt/address_list.py:94
+#: electrum/gui/qt/address_list.py:93
 msgid "Tx"
 msgstr "Tx"
 
-#: electrum/gui/qt/address_list.py:89
+#: electrum/gui/qt/address_list.py:88
 msgid "Type"
 msgstr "Típus"
 
@@ -4678,7 +4692,7 @@ msgid "Unable to connect to mail server:\n"
 msgstr "Hiba történt a levelezőszerverhez való csatlakozás során:\n"
 " {}"
 
-#: electrum/gui/qt/main_window.py:521
+#: electrum/gui/qt/main_window.py:520
 msgid "Unable to create backup"
 msgstr "Nem lehetett létrehozni a biztonsági mentést"
 
@@ -4686,7 +4700,7 @@ msgstr "Nem lehetett létrehozni a biztonsági mentést"
 msgid "Unable to create csv"
 msgstr "Nem lehet csv-t létrehozni"
 
-#: electrum/gui/qt/history_list.py:660
+#: electrum/gui/qt/history_list.py:659
 msgid "Unable to export history"
 msgstr "Nem sikerült exportálni az előzményeket"
 
@@ -4694,11 +4708,11 @@ msgstr "Nem sikerült exportálni az előzményeket"
 msgid "Unable to read file or no transaction found"
 msgstr "A fájl nem olvasható vagy a tranzakció nem található"
 
-#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:124
+#: electrum/gui/kivy/uix/dialogs/crash_reporter.py:127
 msgid "Unable to send report"
 msgstr "Nem lehet elküldeni a hibajelentést"
 
-#: electrum/wallet.py:77 electrum/wallet.py:385
+#: electrum/wallet.py:77 electrum/wallet.py:397
 #: electrum/gui/kivy/uix/ui_screens/status.kv:41
 msgid "Unconfirmed"
 msgstr "Nem megerősített"
@@ -4741,11 +4755,11 @@ msgstr "Érmék kiolvasztása"
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#: electrum/network.py:1011
+#: electrum/network.py:1018
 msgid "Unknown error"
 msgstr "Ismeretlen hiba"
 
-#: electrum/network.py:204
+#: electrum/network.py:205
 msgid "Unknown error when broadcasting the transaction."
 msgstr "Ismeretlen hiba a tranzakció küldése közben."
 
@@ -4753,11 +4767,11 @@ msgstr "Ismeretlen hiba a tranzakció küldése közben."
 msgid "Unmatured"
 msgstr "Unmatured"
 
-#: electrum/gui/qt/history_list.py:507
+#: electrum/gui/qt/history_list.py:506
 msgid "Unrealized gains"
 msgstr "Nem realizált nyereség"
 
-#: electrum/wallet.py:401
+#: electrum/wallet.py:414
 msgid "Unsigned"
 msgstr "Nincs aláírva"
 
@@ -4765,7 +4779,7 @@ msgstr "Nincs aláírva"
 msgid "Unsupported password hash version"
 msgstr "Nem támogatott jelszó ellenőrzőösszeg verzió"
 
-#: electrum/gui/qt/address_list.py:66
+#: electrum/gui/qt/address_list.py:65
 #: electrum/gui/kivy/uix/dialogs/addresses.py:120
 msgid "Unused"
 msgstr "Nem használt"
@@ -4778,7 +4792,7 @@ msgstr "Frissítések keresése"
 msgid "Update check failed"
 msgstr "Frissítések keresése sikertelen"
 
-#: electrum/gui/qt/main_window.py:252
+#: electrum/gui/qt/main_window.py:251
 msgid "Update to Electrum {} is available"
 msgstr "Frissítés elérhető az Electrum {} verzióra"
 
@@ -4804,7 +4818,7 @@ msgstr "Használat"
 msgid "Use Replace-By-Fee"
 msgstr "Replace-By-Fee használata"
 
-#: electrum/gui/qt/network_dialog.py:282
+#: electrum/gui/qt/network_dialog.py:287
 msgid "Use Tor Proxy"
 msgstr "Tor proxy használata"
 
@@ -4816,7 +4830,7 @@ msgstr "Hardvereszköz használata"
 msgid "Use a master key"
 msgstr "Mesterkulcs használata"
 
-#: electrum/gui/qt/network_dialog.py:88 electrum/gui/qt/network_dialog.py:159
+#: electrum/gui/qt/network_dialog.py:90 electrum/gui/qt/network_dialog.py:161
 msgid "Use as server"
 msgstr "Használd szerverként"
 
@@ -4828,7 +4842,7 @@ msgstr "Külön címek használata a visszajáróhoz"
 msgid "Use multiple change addresses"
 msgstr "Több visszajáró cím használata"
 
-#: electrum/gui/qt/network_dialog.py:253
+#: electrum/gui/qt/network_dialog.py:258
 msgid "Use proxy"
 msgstr "Proxy használata"
 
@@ -4836,7 +4850,7 @@ msgstr "Proxy használata"
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
 msgstr "A \"setconfig\" használatával beállíthatod az \"ssl_chain\"-t és az \"ssl_privkey\"-t."
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1019
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1035
 msgid "Use the camera button to scan a QR code."
 msgstr "Használd a kamera gombot QR kód beolvasásához."
 
@@ -4852,7 +4866,7 @@ msgstr "Itt tudod megváltoztatni a jelszavad."
 msgid "Use this dialog to toggle encryption."
 msgstr "Itt tudod ki/be kapcsolni a titkosítást."
 
-#: electrum/gui/qt/address_list.py:66
+#: electrum/gui/qt/address_list.py:65
 #: electrum/gui/kivy/uix/dialogs/addresses.py:120
 msgid "Used"
 msgstr "Felhasznált"
@@ -4861,7 +4875,7 @@ msgstr "Felhasznált"
 msgid "Username"
 msgstr "Felhasználónév"
 
-#: electrum/gui/qt/main_window.py:661
+#: electrum/gui/qt/main_window.py:660
 msgid "Uses icons from the Icons8 icon pack (icons8.com)."
 msgstr "Ikonok az Icons8 ikon csomagból (icons8.com)."
 
@@ -4869,7 +4883,7 @@ msgstr "Ikonok az Icons8 ikon csomagból (icons8.com)."
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
 msgstr "A tranzakciókból visszajáró összeg egy új címre lesz küldve. Ez megnehezítheti más embereknek, hogy lekövessék a tranzakcióidat."
 
-#: electrum/gui/qt/history_list.py:330
+#: electrum/gui/qt/history_list.py:329
 msgid "Value"
 msgstr "Érték"
 
@@ -4905,7 +4919,7 @@ msgstr "Győződj meg róla, hogy a kábel csatlakoztatva van, és hogy más alk
 msgid "Verifying..."
 msgstr "Hitelesítés..."
 
-#: electrum/gui/qt/main_window.py:655
+#: electrum/gui/qt/main_window.py:654
 #: electrum/gui/kivy/uix/ui_screens/about.kv:13
 msgid "Version"
 msgstr "Verzió"
@@ -4918,12 +4932,12 @@ msgstr "Video eszköz"
 msgid "Vietnamese"
 msgstr "Vietnámi"
 
-#: electrum/gui/qt/history_list.py:609
+#: electrum/gui/qt/history_list.py:608
 msgid "View invoice"
 msgstr "Számla megtekintése"
 
-#: electrum/gui/qt/address_list.py:219 electrum/gui/qt/contact_list.py:100
-#: electrum/gui/qt/history_list.py:611
+#: electrum/gui/qt/address_list.py:219 electrum/gui/qt/contact_list.py:99
+#: electrum/gui/qt/history_list.py:610
 msgid "View on block explorer"
 msgstr "Megtekintés a blokk-felfedezőn"
 
@@ -4939,7 +4953,7 @@ msgstr "FIGYELEM: Az ÖSSZES privát kulcsod titkos."
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "FIGYELEM: Ez egy több-aláírós pénztárca."
 
-#: electrum/gui/qt/main_window.py:1618
+#: electrum/gui/qt/main_window.py:1617
 msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
 msgstr "FIGYELEM: a(z) \"{}\" álnév nem hitelesíthető egy további biztonsági ellenőrzéssel (DNSSEC), emiatt lehet, hogy nem helyes."
 
@@ -4959,7 +4973,7 @@ msgstr "Várakozás a hitelesítésre a mobiltelefonon"
 msgid "Wallet"
 msgstr "Pénztárca"
 
-#: electrum/gui/qt/main_window.py:2214
+#: electrum/gui/qt/main_window.py:2213
 msgid "Wallet Information"
 msgstr "Pénztárca információ"
 
@@ -4967,7 +4981,7 @@ msgstr "Pénztárca információ"
 msgid "Wallet Name"
 msgstr "Pénztárca neve"
 
-#: electrum/gui/qt/main_window.py:519
+#: electrum/gui/qt/main_window.py:518
 msgid "Wallet backup created"
 msgstr "Biztonsági mentés létrehozva"
 
@@ -4983,7 +4997,7 @@ msgstr "A pénztárca fájl sérült. Kérjük, állítsd vissza a pénztárcát
 msgid "Wallet file not found: {}"
 msgstr "Nem található a pénztárca fájl: {}"
 
-#: electrum/gui/qt/main_window.py:2225
+#: electrum/gui/qt/main_window.py:2224
 msgid "Wallet name"
 msgstr "Pénztárca neve"
 
@@ -4995,7 +5009,7 @@ msgstr "Pénztárca fogadó címe"
 msgid "Wallet removed: {}"
 msgstr "Pénztárca eltávolítva: {}"
 
-#: electrum/gui/qt/main_window.py:2227
+#: electrum/gui/qt/main_window.py:2226
 msgid "Wallet type"
 msgstr "Pénztárca típusa"
 
@@ -5012,11 +5026,11 @@ msgid "Wallets"
 msgstr "Pénztárcák"
 
 #: electrum/plugins/revealer/qt.py:133 electrum/plugins/revealer/qt.py:186
-#: electrum/plugins/revealer/qt.py:219 electrum/gui/qt/util.py:221
+#: electrum/plugins/revealer/qt.py:219 electrum/gui/qt/util.py:224
 #: electrum/gui/qt/transaction_dialog.py:172
 #: electrum/gui/qt/transaction_dialog.py:282
 #: electrum/gui/qt/installwizard.py:42 electrum/gui/qt/seed_dialog.py:73
-#: electrum/gui/qt/main_window.py:1701 electrum/gui/kivy/uix/screens.py:309
+#: electrum/gui/qt/main_window.py:1700 electrum/gui/kivy/uix/screens.py:309
 msgid "Warning"
 msgstr "Figyelem"
 
@@ -5024,7 +5038,7 @@ msgstr "Figyelem"
 msgid "Warning!"
 msgstr "Figyelem!"
 
-#: electrum/gui/qt/main_window.py:1091
+#: electrum/gui/qt/main_window.py:1090
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
@@ -5036,7 +5050,7 @@ msgstr "Figyelem: A következő cím nem lesz visszaállítva automatikusan, ha 
 msgid "Warning: do not use this if it makes you pick a weaker password."
 msgstr "Figyelem: ne használd ezt, ha emiatt egy gyengébb jelszót választanál."
 
-#: electrum/gui/qt/main_window.py:470
+#: electrum/gui/qt/main_window.py:469
 msgid "Watch-only wallet"
 msgstr "Figyelő-tárca"
 
@@ -5044,13 +5058,17 @@ msgstr "Figyelő-tárca"
 msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
 msgstr "Nem garantáljuk, hogy az Electrum későbbi verzióiban is lesz lehetőség BIP39-es magok importálására."
 
-#: electrum/base_wizard.py:331
+#: electrum/base_wizard.py:333
 msgid "We encountered an error while connecting to your device:"
 msgstr "Hiba történt az eszközhöz csatlakozás során:"
 
 #: electrum/base_wizard.py:128
 msgid "What kind of wallet do you want to create?"
 msgstr "Milyen típusú pénztárcát szeretnél készíteni?"
+
+#: electrum/base_wizard.py:306
+msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
+msgstr "Esetleg az is segíthet, ha az Electrumot rendszergazdaként futtatod."
 
 #: electrum/plugins/trezor/qt.py:600 electrum/plugins/keepkey/qt.py:543
 #: electrum/plugins/safe_t/qt.py:473
@@ -5066,7 +5084,7 @@ msgstr "Az összes adat törlése az eszközről. A firmware változatlan marad.
 msgid "Within {} blocks"
 msgstr "Megerősítődés {} blokkon belül"
 
-#: electrum/gui/qt/main_window.py:244
+#: electrum/gui/qt/main_window.py:243
 msgid "Would you like to be notified when there is a newer version of Electrum available?"
 msgstr "Szeretnél egy értesítést kapni, ha elérhető az Electrum egy újabb verziója?"
 
@@ -5084,7 +5102,7 @@ msgstr "Naplók fájlba mentése"
 msgid "Wrong PIN"
 msgstr "Hibás PIN kód"
 
-#: electrum/base_wizard.py:488 electrum/base_wizard.py:496
+#: electrum/base_wizard.py:490 electrum/base_wizard.py:498
 msgid "Wrong key type"
 msgstr "Hibás kulcs típus"
 
@@ -5101,12 +5119,12 @@ msgstr "Igen"
 msgid "You are already on the latest version of Electrum."
 msgstr "Az Electrum legújabb verzióját használod."
 
-#: electrum/gui/qt/network_dialog.py:381
+#: electrum/gui/qt/network_dialog.py:387
 #: electrum/gui/kivy/uix/ui_screens/network.kv:54
 msgid "You are following branch"
 msgstr "Az alábbi ágat követed:"
 
-#: electrum/gui/qt/main_window.py:483
+#: electrum/gui/qt/main_window.py:482
 msgid "You are in testnet mode."
 msgstr "Testnet módban vagy."
 
@@ -5122,11 +5140,11 @@ msgstr "Offline vagy."
 msgid "You are using Electrum in offline mode; restart Electrum if you want to get connected"
 msgstr "Az Electrum offline módban van; indítsd újra ha csatlakozni szeretnél"
 
-#: electrum/gui/qt/main_window.py:1086
+#: electrum/gui/qt/main_window.py:1085
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
 msgstr "Egy nem-determinisztikus pénztárcát használsz, ami nem tud automatikusan új címeket generálni."
 
-#: electrum/gui/qt/main_window.py:1290
+#: electrum/gui/qt/main_window.py:1289
 msgid "You can disable this setting in '{}'."
 msgstr "Ezt a beállítást a \"{}\" menüben kapcsolhatod ki."
 
@@ -5134,7 +5152,7 @@ msgstr "Ezt a beállítást a \"{}\" menüben kapcsolhatod ki."
 msgid "You can download the new version from {}."
 msgstr "Az új verziót innen tudod letölteni: {}."
 
-#: electrum/base_wizard.py:379
+#: electrum/base_wizard.py:381
 msgid "You can override the suggested derivation path."
 msgstr "Felülírhatod az ajánlott generálási útvonalat."
 
@@ -5142,7 +5160,7 @@ msgstr "Felülírhatod az ajánlott generálási útvonalat."
 msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
 msgstr "Beállíthatsz egy kezdőképernyőt az eszközön, ha személyre szeretnéd szabni. Egy {} x {} méretű, fekete-fehér képet kell kiválasztanod."
 
-#: electrum/gui/qt/main_window.py:1685
+#: electrum/gui/qt/main_window.py:1684
 msgid "You can't broadcast a transaction without a live network connection."
 msgstr "Nem lehet elküldeni a tranzakciót internetkapcsolat nélkül."
 
@@ -5150,7 +5168,7 @@ msgstr "Nem lehet elküldeni a tranzakciót internetkapcsolat nélkül."
 msgid "You cannot access your coins or a backup without the password."
 msgstr "A jelszó nélkül nem fogsz tudni hozzáférni a pénzedhez."
 
-#: electrum/gui/qt/main_window.py:657
+#: electrum/gui/qt/main_window.py:656
 msgid "You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper."
 msgstr "Nincs szükség biztonsági mentéseket készíteni, mert a pénztárcád visszaállítható egy titkos kifejezésből, amit megjegyezhetsz, vagy leírhatod egy papírra."
 
@@ -5162,15 +5180,15 @@ msgstr "A jelszó elején/végén extra szóköz karakterek vannak, vagy a jelsz
 msgid "You may also save unsigned requests or contact addresses using the save button."
 msgstr "Elmenthetsz aláíratlan számlákat vagy névjegy címeket a mentés gombbal."
 
-#: electrum/gui/qt/main_window.py:1180
+#: electrum/gui/qt/main_window.py:1179
 msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
 msgstr "Írj be egy Bitcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Bitcoin címére továbbít)"
 
-#: electrum/base_wizard.py:433
+#: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."
 msgstr "Kiegészítheted a magot további szavakkal, ami egy jelszóként viselkedik."
 
-#: electrum/gui/qt/main_window.py:1974
+#: electrum/gui/qt/main_window.py:1973
 msgid "You may load a CSV file using the file icon."
 msgstr "Megnyithatsz egy CSV fájlt is, a Fájl olvasása gombra kattintva."
 
@@ -5192,7 +5210,7 @@ msgstr "Minden jelszóhoz külön Electrum pénztárcát kell létrehoznod, mive
 msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
 msgstr "Erősen ajánlott a PIN kódos védelem engedélyezése. A PIN kód az egyetlen dolog ami megvédi az eszközt, ha az elveszik, vagy ha ellopják."
 
-#: electrum/plugins/trezor/trezor.py:223 electrum/plugins/safe_t/safe_t.py:213
+#: electrum/plugins/trezor/trezor.py:233 electrum/plugins/safe_t/safe_t.py:213
 msgid "You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n\n"
 "So please enter the words carefully!"
 msgstr "24 szót kell majd megadnod, akkor is, ha a mag nem 24 szóból áll. Ha egy szót hibásan adsz meg, nem javíthatod ki, hanem az egész folyamatot előlről kell kezdened.\n\n"
@@ -5240,7 +5258,7 @@ msgstr "A címkék szinkronizálása sikeres."
 msgid "Your seed extension is"
 msgstr "A maghoz tartozó jelszó"
 
-#: electrum/base_wizard.py:434 electrum/base_wizard.py:640
+#: electrum/base_wizard.py:436 electrum/base_wizard.py:642
 msgid "Your seed extension must be saved together with your seed."
 msgstr "Ez a jelszó szorosan a maghoz tartozik! Ha ezt a lehetőséget használod, akkor a magból kizárólag akkor tudod visszaállítani a pénztárcád, ha ezt a jelszót is ismered!"
 
@@ -5248,7 +5266,7 @@ msgstr "Ez a jelszó szorosan a maghoz tartozik! Ha ezt a lehetőséget használ
 msgid "Your seed is important!"
 msgstr "A mag nagyon fontos!"
 
-#: electrum/gui/qt/network_dialog.py:381
+#: electrum/gui/qt/network_dialog.py:387
 #: electrum/gui/kivy/uix/ui_screens/network.kv:54
 msgid "Your server is on branch"
 msgstr "A szerver az alábbi ágon van:"
@@ -5281,7 +5299,7 @@ msgstr "A pénztárca visszaállításához szükséges mag:"
 msgid "Your wallet has {} prepaid transactions."
 msgstr "A pénztárcádban még {} előre-kifizetett tranzakció van."
 
-#: electrum/gui/qt/history_list.py:662
+#: electrum/gui/qt/history_list.py:661
 msgid "Your wallet history has been successfully exported."
 msgstr "A pénztárca előzményei sikeresen exportálva lettek."
 
@@ -5293,12 +5311,12 @@ msgstr "A pénztárcád nincs védve."
 msgid "Your wallet is password protected and encrypted."
 msgstr "A pénztárcád jelszóval védett és titkosított."
 
-#: electrum/gui/qt/util.py:827
+#: electrum/gui/qt/util.py:830
 #, python-brace-format
 msgid "Your {0} were exported to '{1}'"
 msgstr "A(z) {0} exportálva lettek ide: {1}"
 
-#: electrum/gui/qt/util.py:812
+#: electrum/gui/qt/util.py:815
 msgid "Your {} were successfully imported"
 msgstr "A(z) {} sikeresen importálva lettek"
 
@@ -5350,7 +5368,7 @@ msgstr "[r] - saját nyugta címek mutatása"
 msgid "[s] - send stored payment order"
 msgstr "[s] - eltárolt fizetési kérelem elküldése"
 
-#: electrum/wallet.py:1430
+#: electrum/wallet.py:1549
 msgid "address already in wallet"
 msgstr "cím már benne van a pénztárcában"
 
@@ -5358,11 +5376,11 @@ msgstr "cím már benne van a pénztárcában"
 msgid "and you will have the possibility, while they are unconfirmed, to replace them with transactions that pay higher fees."
 msgstr "ezáltal amíg a tranzakció nem erősítődik meg, lehetőséged lesz azt kicserélni egy másik, nagyobb tranzakciós díjat fizetőre."
 
-#: electrum/gui/qt/main_window.py:1362
+#: electrum/gui/qt/main_window.py:1361
 msgid "are frozen"
 msgstr "le van fagyasztva"
 
-#: electrum/gui/qt/network_dialog.py:370 electrum/gui/qt/network_dialog.py:382
+#: electrum/gui/qt/network_dialog.py:376 electrum/gui/qt/network_dialog.py:388
 msgid "blocks"
 msgstr "blokk"
 
@@ -5370,7 +5388,7 @@ msgstr "blokk"
 msgid "change"
 msgstr "visszajáró"
 
-#: electrum/gui/qt/contact_list.py:68 electrum/gui/qt/contact_list.py:71
+#: electrum/gui/qt/contact_list.py:67 electrum/gui/qt/contact_list.py:70
 msgid "contacts"
 msgstr "névjegyek"
 
@@ -5378,23 +5396,27 @@ msgstr "névjegyek"
 msgid "cosigner"
 msgstr "társ-aláíró"
 
-#: electrum/wallet.py:895
+#: electrum/wallet.py:1014
 msgid "could not find suitable outputs"
 msgstr "nem található alkalmas kimenet"
+
+#: electrum/wallet.py:909
+msgid "current fee unknown"
+msgstr "a jelenlegi díj ismeretlen"
 
 #: electrum/gui/qt/transaction_dialog.py:282
 msgid "high fee"
 msgstr "magas díj"
 
-#: electrum/plugin.py:558 electrum/base_wizard.py:316
+#: electrum/plugin.py:558 electrum/base_wizard.py:318
 msgid "initialized"
 msgstr "inicializálva"
 
-#: electrum/wallet.py:1427
+#: electrum/wallet.py:1546
 msgid "invalid address"
 msgstr "érvénytelen cím"
 
-#: electrum/wallet.py:1507
+#: electrum/wallet.py:1626
 msgid "invalid private key"
 msgstr "érvénytelen privát kulcs"
 
@@ -5402,7 +5424,7 @@ msgstr "érvénytelen privát kulcs"
 msgid "invoices"
 msgstr "számlák"
 
-#: electrum/gui/qt/util.py:405
+#: electrum/gui/qt/util.py:408
 msgid "json"
 msgstr "json"
 
@@ -5414,7 +5436,7 @@ msgstr "címkék"
 msgid "more information at <a href=\"https://revealer.cc/faq\">https://revealer.cc/faq</a>"
 msgstr "További információért keresd fel a <a href=\"https://revealer.cc/faq\">https://revealer.cc/faq</a> weblapot."
 
-#: electrum/wallet.py:1510
+#: electrum/wallet.py:1629
 msgid "not implemented type"
 msgstr "ismeretlen típus"
 
@@ -5422,7 +5444,7 @@ msgstr "ismeretlen típus"
 msgid "or type an existing revealer code below and click 'next':"
 msgstr "vagy írj be ide egy már létező Revealer kódot, és kattints a \"Következő\" gombra:"
 
-#: electrum/gui/qt/main_window.py:1815
+#: electrum/gui/qt/main_window.py:1814
 msgid "please wait..."
 msgstr "kérlek várj..."
 
@@ -5430,7 +5452,7 @@ msgstr "kérlek várj..."
 msgid "print the calibration pdf and follow the instructions "
 msgstr "akkor nyomtasd ki a kalibrációs pdf-et, és kövesd az utasításait. "
 
-#: electrum/gui/qt/main_window.py:850
+#: electrum/gui/qt/main_window.py:849
 msgid "proxy enabled"
 msgstr "proxy engedélyezve"
 
@@ -5446,7 +5468,7 @@ msgstr "titkos biztonsági mentés készítő eszköz"
 msgid "seed"
 msgstr "mag"
 
-#: electrum/wallet.py:864
+#: electrum/wallet.py:904
 msgid "transaction is final"
 msgstr "a tranzakció végleges"
 
@@ -5454,25 +5476,25 @@ msgstr "a tranzakció végleges"
 msgid "type a custom alphanumerical secret below:"
 msgstr "írj be egy alfanumerikus szöveget:"
 
-#: electrum/wallet.py:636 electrum/gui/qt/transaction_dialog.py:276
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:160
+#: electrum/wallet.py:656 electrum/gui/qt/transaction_dialog.py:276
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:161
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:162
 msgid "unknown"
 msgstr "ismeretlen"
 
-#: electrum/commands.py:915
+#: electrum/commands.py:914
 msgid "unknown parser {!r} (choices: {})"
 msgstr "ismeretlen elemző {!r} (lehetőségek: {})"
 
-#: electrum/gui/qt/main_window.py:455
+#: electrum/gui/qt/main_window.py:454
 msgid "watching only"
 msgstr "figyelő-tárca"
 
-#: electrum/gui/qt/main_window.py:2220
+#: electrum/gui/qt/main_window.py:2219
 msgid "watching-only"
 msgstr "figyelő-tárca"
 
-#: electrum/plugin.py:558 electrum/base_wizard.py:316
+#: electrum/plugin.py:558 electrum/base_wizard.py:318
 msgid "wiped"
 msgstr "törölve"
 
@@ -5494,7 +5516,7 @@ msgstr "{:d} szó"
 msgid "{} Settings"
 msgstr "{} beállításai"
 
-#: electrum/wallet.py:381
+#: electrum/wallet.py:393
 msgid "{} confirmations"
 msgstr "{} megerősítés"
 
@@ -5506,7 +5528,7 @@ msgstr "kapcsolódva {} szerverhez."
 msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
 msgstr "létrehozva a(z) {}_{} Revealerhez, és elmentve PNG és PDF formátumban: "
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:142
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:143
 msgid "{} from tip"
 msgstr "{} a tetejétől"
 
@@ -5518,7 +5540,7 @@ msgstr "Az alábbi tranzakcióra érvényes a GreenAddress instant megerősíté
 msgid "{} is not covered by GreenAddress instant confirmation"
 msgstr "Az alábbi tranzakcióra nem érvényes a GreenAddress instant megerősítés: {}"
 
-#: electrum/gui/qt/main_window.py:700
+#: electrum/gui/qt/main_window.py:699
 msgid "{} new transactions: Total amount received in the new transactions {}"
 msgstr "{} új tranzakció: Beérkező összeg az új tranzakciókban: {}"
 
